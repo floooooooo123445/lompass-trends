@@ -19,6 +19,9 @@
 //   node erzeuge.mjs --pruefe -      prüft eine Datei von stdin, ohne Netz,
 //                                    und schreibt das Ergebnis als JSON
 //                                    (`null` für eine Datei, die wie keine ist)
+//   node erzeuge.mjs --creator -     liest `{ plattform, antwort }` von stdin
+//                                    und schreibt den Creator, den der Job aus
+//                                    dieser oEmbed-Antwort nimmt (ohne Netz)
 //
 // **Die Regeln sind eine Kopie** von `src/domain/trends-datei.ts` in der App.
 // Der Test `src/domain/__tests__/trends-datei-vorlage.test.ts` im Hauptrepo
@@ -49,9 +52,6 @@ const GRENZEN = {
 
 const MONAT = /^\d{4}-(0[1-9]|1[0-2])$/;
 const KENNUNG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-const YOUTUBE_KENNUNG = /^[A-Za-z0-9_-]{11}$/;
-const TIKTOK_KENNUNG = /^\d{1,25}$/;
-const INSTAGRAM_KENNUNG = /^[A-Za-z0-9_-]{1,40}$/;
 const CREATOR_MAX = 60;
 const VIDEO_PLATTFORMEN = Object.keys(GRENZEN.videoHosts);
 
@@ -91,26 +91,21 @@ function httpsTeile(adresse) {
   return { host: treffer[1].toLowerCase(), rest: treffer[2] ?? '/' };
 }
 
-function kennungVon(plattform, feld, host, rest) {
-  const gegeben = typeof feld === 'string' ? feld.trim() : null;
+// Schluss-Prüfung Runde 25 (R2, R3): die Kennung immer aus der Adresse, nie
+// aus dem Feld `id`; ohne Videopfad kein Video — wie `kennungVon` in der App.
+function kennungVon(plattform, host, rest) {
   if (plattform === 'youtube') {
-    if (gegeben !== null && YOUTUBE_KENNUNG.test(gegeben)) {
-      return gegeben;
-    }
     const kandidat =
       host === 'youtu.be'
         ? /^\/([A-Za-z0-9_-]{11})(?:[/?#]|$)/.exec(rest)?.[1]
-        : (/[?&]v=([A-Za-z0-9_-]{11})(?:[&#]|$)/.exec(rest)?.[1] ??
+        : (/^\/watch\?(?:[^#]*?&)?v=([A-Za-z0-9_-]{11})(?:[&#]|$)/.exec(rest)?.[1] ??
           /^\/(?:shorts|embed|live)\/([A-Za-z0-9_-]{11})(?:[/?#]|$)/.exec(rest)?.[1]);
     return kandidat ?? null;
   }
   if (plattform === 'tiktok') {
-    if (gegeben !== null && TIKTOK_KENNUNG.test(gegeben)) {
-      return gegeben;
-    }
-    return /\/video\/(\d{1,25})(?:[/?#]|$)/.exec(rest)?.[1] ?? null;
+    return /^\/(?:@[^/?#]+\/)?video\/(\d{1,25})(?:[/?#]|$)/.exec(rest)?.[1] ?? null;
   }
-  return gegeben !== null && INSTAGRAM_KENNUNG.test(gegeben) ? gegeben : null;
+  return /^\/(?:[A-Za-z0-9._]{1,30}\/)?(?:reel|p)\/([A-Za-z0-9_-]{1,40})(?:[/?#]|$)/.exec(rest)?.[1] ?? null;
 }
 
 function videoAus(wert) {
@@ -122,10 +117,14 @@ function videoAus(wert) {
   if (teile === null || !GRENZEN.videoHosts[plattform].includes(teile.host)) {
     return null;
   }
+  const id = kennungVon(plattform, teile.host, teile.rest);
+  if (id === null) {
+    return null;
+  }
   return {
     plattform,
     url: wert.url.trim(),
-    id: kennungVon(plattform, wert.id, teile.host, teile.rest),
+    id,
     creator: text(wert.creator, CREATOR_MAX),
   };
 }
@@ -289,21 +288,41 @@ function jsonAus(text) {
   return JSON.parse(text.slice(anfang, ende + 1));
 }
 
-/** Fragt oEmbed nach einem Video — `true`, wenn es öffentlich antwortet. Instagram bleibt ungeprüft. */
-async function lebt(video) {
+/**
+ * Der Creator aus einer oEmbed-Antwort (Schluss-Prüfung Runde 25, R1, harte
+ * Regel 1): TikTok `author_unique_id`, sonst `author_name`; YouTube
+ * `author_name`; Instagram wird nicht gefragt und bekommt keinen. Den Namen
+ * aus der Antwort des Modells übernimmt der Job nicht mehr — er stand ungeprüft
+ * unter einem echten Video.
+ */
+function creatorAusOembed(plattform, daten) {
+  if (plattform === 'instagram' || !istObjekt(daten)) {
+    return null;
+  }
+  const roh =
+    (plattform === 'tiktok' ? text(daten.author_unique_id, CREATOR_MAX) : null) ??
+    text(daten.author_name, CREATOR_MAX);
+  return roh === null ? null : text(roh.replace(/^@+/, ''), CREATOR_MAX);
+}
+
+/**
+ * Fragt oEmbed nach einem Video — `lebt`, wenn es öffentlich antwortet, und
+ * der Creator aus der Antwort. Instagram bleibt ungeprüft und ohne Creator.
+ */
+async function pruefeVideo(video) {
   if (video.plattform === 'instagram') {
-    return true;
+    return { lebt: true, creator: null };
   }
   const basis = video.plattform === 'tiktok' ? TIKTOK_OEMBED : YOUTUBE_OEMBED;
   try {
     const antwort = await fetch(`${basis}${encodeURIComponent(video.url)}`, { headers: { 'user-agent': NAME } });
     if (!antwort.ok) {
-      return false;
+      return { lebt: false, creator: null };
     }
     const daten = await antwort.json();
-    return istObjekt(daten);
+    return { lebt: istObjekt(daten), creator: creatorAusOembed(video.plattform, daten) };
   } catch {
-    return false;
+    return { lebt: false, creator: null };
   } finally {
     // Eine Anfrage je Sekunde — höflich wie der Abruf der App.
     await schlafe(1000);
@@ -315,8 +334,9 @@ async function nurLebendeVideos(trends) {
   for (const trend of trends) {
     const videos = [];
     for (const video of trend.videos) {
-      if (await lebt(video)) {
-        videos.push(video);
+      const pruefung = await pruefeVideo(video);
+      if (pruefung.lebt) {
+        videos.push({ ...video, creator: pruefung.creator });
       }
     }
     geprueft.push({ ...trend, videos });
@@ -370,7 +390,16 @@ async function pruefeStdin() {
   process.stdout.write(JSON.stringify(pruefeDatei(json)));
 }
 
-const ablauf = process.argv[2] === '--pruefe' ? pruefeStdin() : lauf();
+// Runde 25 (R1): liest `{ plattform, antwort }` von stdin und schreibt den
+// Creator, den der Job aus dieser oEmbed-Antwort nähme — ohne Netz, für den
+// Test im Hauptrepo.
+async function creatorStdin() {
+  const { plattform, antwort } = JSON.parse(readFileSync(0, 'utf8'));
+  process.stdout.write(JSON.stringify(creatorAusOembed(plattform, antwort)));
+}
+
+const ablauf =
+  process.argv[2] === '--pruefe' ? pruefeStdin() : process.argv[2] === '--creator' ? creatorStdin() : lauf();
 ablauf.catch((fehler) => {
   console.error(fehler instanceof Error ? fehler.message : fehler);
   process.exit(1);
