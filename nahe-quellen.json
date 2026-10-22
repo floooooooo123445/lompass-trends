@@ -7,6 +7,8 @@
     "herausgeber": "Stadt Karlsruhe",
     "nachweis": "https://transparenz.karlsruhe.de/dataset/292066ff-78df-46b9-a35a-05d89e30156f",
     "ort": "Karlsruhe",
-    "seite": "https://kalender.karlsruhe.de/db/termine/"
+    "seite": "https://kalender.karlsruhe.de/db/termine/",
+    "beginnAus": "pubDate",
+    "ortAus": "kopf"
   }
 ]

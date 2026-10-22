@@ -49,7 +49,13 @@ nächsten zuerst, höchstens 300. Keine KI, kein Schlüssel, kein Secret.
 eine https-Adresse), `lizenz` (wörtlich, wie der Herausgeber sie nennt),
 dazu `herausgeber`, `nachweis` (die Seite, auf der die Lizenz steht), `ort`
 (der Ort eines Termins, wenn die Quelle keinen nennt) und `seite` (die Seite
-für einen Termin ohne eigene Adresse). Eine Quelle ohne Lizenz, ohne https
+für einen Termin ohne eigene Adresse). Bei `art: rss` gilt `pubDate` nur als
+Beginn, wenn die Quelle `"beginnAus": "pubDate"` trägt (sonst ist es der Tag
+der Meldung, und nur `ev:startdate` zählt); Mitternacht heißt dort „ohne
+Uhrzeit". `"ortAus": "kopf"` nimmt den Ort aus dem fetten Kopf der Meldung
+(„<Zeit> - <Ort> - ", Kalender der Stadt Karlsruhe). Online-Termine fallen.
+Von einer iCal-Serie zählt nur der erste Termin (`RRULE` liest der Job
+nicht). Eine Quelle ohne Lizenz, ohne https
 oder auf einer Plattform (TikTok, Instagram, Facebook, X, YouTube, Threads)
 liest der Job nicht. Eine Stadt ohne Quelle mit klarer Lizenz steht nicht in
 der Liste.

@@ -18,7 +18,14 @@
 // 3. liest daraus je Termin Titel, Ort, Beginn (Ortszeit Europe/Berlin),
 //    Kategorie und die Adresse, auf der der Termin steht. **Kein Bild:** Die
 //    Lizenz einer Quelle gilt ihren Daten; für die Bilder darin sagt sie
-//    nichts, also steht `bild: null`;
+//    nichts, also steht `bild: null`. Was nur online stattfindet, fällt
+//    (JSON-LD `OnlineEventAttendanceMode`, sonst der Ort oder der Text).
+//    Bei RSS gilt `pubDate` nur dann als Beginn, wenn die Quelle es mit
+//    `"beginnAus": "pubDate"` sagt (sonst ist es der Tag der Meldung, und
+//    nur `ev:startdate` zählt); Mitternacht heißt dann „ohne Uhrzeit".
+//    `"ortAus": "kopf"` nimmt den Ort aus dem fetten Kopf der Meldung
+//    („<Zeit> - <Ort> - ", Kalender der Stadt Karlsruhe). Von einer
+//    iCal-Serie zählt nur `DTSTART` (`RRULE` liest der Job nicht);
 // 4. schreibt je Stadt `nahe/<stadt>.json` im Format, das die App liest
 //    (`src/data/naheDatei.ts`, `pruefeNaheDatei`): `{ stadt, stand, quellen,
 //    termine }`, ab heute, die nächsten zuerst, höchstens 300. `quellen` nennt
@@ -289,6 +296,35 @@ export function glatt(roh) {
   return entschluesselt(einmal.replace(/<[^>]*>/g, ' ')).replace(/\s+/g, ' ').trim();
 }
 
+/**
+ * Ein Titel ohne die Vermerke der Quelle: „-- GEÄNDERTES DATUM --" fällt, ein
+ * hängendes „ ." am Ende auch, und nach „)" steht vor einem Wort ein
+ * Leerzeichen. Bleibt nichts, gilt der Titel, wie er war.
+ */
+export function titelOhneVermerk(titel) {
+  const sauber = titel
+    .replace(/\s*--\s*[^-]+?\s*--\s*/g, ' ')
+    .replace(/\)(?=\p{L})/gu, ') ')
+    .replace(/\s+[.,;:]+$/, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return sauber === '' ? titel : sauber;
+}
+
+/**
+ * Ob ein Termin nur online stattfindet — nach dem, was die Quelle als Ort oder
+ * im Text sagt („Online-Veranstaltung", „findet online statt",
+ * „Online-Vortrag", „Webinar"). Steht dabei „vor Ort", „Präsenz" oder
+ * „hybrid", zählt er als Termin vor Ort.
+ */
+export function nurOnline(...texte) {
+  const alle = texte.filter((wert) => typeof wert === 'string').join(' ');
+  if (/vor ort|präsenz|praesenz|hybrid/i.test(alle)) return false;
+  return /(^|[^\p{L}])(online[- ]?(veranstaltung|vortrag|vorträge|seminar|workshop|kurs|lesung|sprechstunde|treffen|event|format)|findet online statt|nur online|webinar|livestream)([^\p{L}]|$)/iu.test(
+    alle,
+  );
+}
+
 /** Höchstens `max` Zeichen — zu lang wird am Wort gekürzt, mit „…". */
 export function gekuerzt(wert, max) {
   if (wert.length <= max) return wert;
@@ -395,8 +431,11 @@ export function liesIcal(text, quelle) {
     const klasse = (e.CLASS?.wert ?? 'PUBLIC').trim().toUpperCase();
     if (status === 'CANCELLED' || klasse !== 'PUBLIC') return [];
     const titel = glatt(icalWert(e.SUMMARY?.wert ?? ''));
+    // Nur DTSTART: Eine Serie (RRULE, RDATE) steht mit ihrem ersten Termin da.
     const beginn = e.DTSTART === undefined ? null : beginnAusIcal(e.DTSTART.wert, e.DTSTART.parameter);
-    const ort = glatt(icalWert(e.LOCATION?.wert ?? '')) || (quelle.ort ?? '');
+    const genannterOrt = glatt(icalWert(e.LOCATION?.wert ?? ''));
+    if (nurOnline(titel, genannterOrt, glatt(icalWert(e.DESCRIPTION?.wert ?? '')))) return [];
+    const ort = mitStadt(genannterOrt, quelle.ort) || (quelle.ort ?? '');
     const adresse = httpsAdresse(e.URL?.wert?.trim()) ?? httpsAdresse(quelle.seite);
     if (titel === '' || beginn === null || ort === '' || adresse === null) return [];
     const woerter = [...icalWert(e.CATEGORIES?.wert ?? '').split(','), ...pfadWoerter(adresse === quelle.seite ? '' : adresse)];
@@ -413,13 +452,49 @@ function rssFelder(eintrag, name) {
   return [...eintrag.matchAll(new RegExp(`<${name}\\b[^>]*>([\\s\\S]*?)</${name}>`, 'gi'))].map((treffer) => glatt(treffer[1]));
 }
 
+/**
+ * Der Ort aus dem fetten Kopf einer Meldung — der Kalender der Stadt Karlsruhe
+ * schreibt `<b>18 bis 19.30 Uhr - OrgelFabrikSalon - </b>` vor den Text, ohne
+ * Uhrzeit nur `<b>Messe Karlsruhe - </b>`. Die Uhrzeit fällt, „ - " im Ort
+ * wird „, ". Ohne Kopf oder ohne Ort darin: leer.
+ */
+export function ortAusKopf(eintrag) {
+  const roh = rssFeld(eintrag, 'content:encoded').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
+  const html = /&lt;b&gt;/i.test(roh) ? entschluesselt(roh) : roh;
+  const fett = /<b\b[^>]*>([\s\S]*?)<\/b>/i.exec(html);
+  if (fett === null) return '';
+  return glatt(fett[1])
+    .replace(/\s*-\s*$/, '')
+    .replace(/^\d{1,2}(?:[.:]\d{2})?(?:\s+bis\s+\d{1,2}(?:[.:]\d{2})?)?\s+Uhr(?:\s+-\s+|$)/i, '')
+    .replace(/\s+-\s+/g, ', ')
+    .trim();
+}
+
+/** Mitternacht als „ohne Uhrzeit" — so schreibt ein Kalender einen Tag ohne Zeit in `pubDate`. */
+function ohneMitternacht(beginn) {
+  return beginn !== null && beginn.endsWith('T00:00') ? beginn.slice(0, 10) : beginn;
+}
+
+/** Der Ort mit der Stadt der Quelle dahinter, wenn er sie nicht schon nennt („OrgelFabrikSalon, Karlsruhe"). */
+function mitStadt(ort, stadt) {
+  if (ort === '' || typeof stadt !== 'string' || stadt === '') return ort;
+  return ort.toLocaleLowerCase('de-DE').includes(stadt.toLocaleLowerCase('de-DE')) ? ort : `${ort}, ${stadt}`;
+}
+
 export function liesRss(text, quelle) {
   const eintraege = text.match(/<item\b[\s\S]*?<\/item>/gi) ?? [];
   return eintraege.flatMap((eintrag) => {
     const titel = glatt(rssFeld(eintrag, 'title'));
     const start = glatt(rssFeld(eintrag, 'ev:startdate'));
-    const beginn = start !== '' ? beginnAusIso(start) : beginnAusRfc822(glatt(rssFeld(eintrag, 'pubDate')));
-    const ort = glatt(rssFeld(eintrag, 'ev:location')) || (quelle.ort ?? '');
+    const beginn =
+      start !== ''
+        ? beginnAusIso(start)
+        : quelle.beginnAus === 'pubDate'
+          ? ohneMitternacht(beginnAusRfc822(glatt(rssFeld(eintrag, 'pubDate'))))
+          : null;
+    const genannterOrt = glatt(rssFeld(eintrag, 'ev:location')) || (quelle.ortAus === 'kopf' ? ortAusKopf(eintrag) : '');
+    if (nurOnline(titel, genannterOrt, glatt(rssFeld(eintrag, 'description')))) return [];
+    const ort = mitStadt(genannterOrt, quelle.ort) || (quelle.ort ?? '');
     const adresse = httpsAdresse(glatt(rssFeld(eintrag, 'link'))) ?? httpsAdresse(quelle.seite);
     if (titel === '' || beginn === null || ort === '' || adresse === null) return [];
     const woerter = [...rssFelder(eintrag, 'category'), ...rssFelder(eintrag, 'ev:type'), ...pfadWoerter(adresse)];
@@ -469,12 +544,15 @@ function sammleEreignisse(knoten, ablage) {
   if (istEreignis(knoten)) ablage.push(knoten);
 }
 
+/**
+ * Nur, was eine Seite in `<script type="application/ld+json">` über sich
+ * selbst ausweist (Vermerk 505 an Regel 7) — eine Antwort, die selbst JSON
+ * ist (eine Sammel-Schnittstelle), liest der Job nicht.
+ */
 export function liesJsonLd(text, quelle) {
-  const bloecke = /^\s*[[{]/.test(text)
-    ? [text]
-    : [...text.matchAll(/<script\b[^>]*type\s*=\s*["']?application\/ld\+json["']?[^>]*>([\s\S]*?)<\/script>/gi)].map(
-        (treffer) => treffer[1],
-      );
+  const bloecke = [...text.matchAll(/<script\b[^>]*type\s*=\s*["']?application\/ld\+json["']?[^>]*>([\s\S]*?)<\/script>/gi)].map(
+    (treffer) => treffer[1],
+  );
   const ereignisse = [];
   for (const block of bloecke) {
     try {
@@ -498,17 +576,23 @@ export function liesJsonLd(text, quelle) {
 
 const LESER = { ical: liesIcal, rss: liesRss, jsonld: liesJsonLd };
 
-/** Ein Titel, der selbst sagt, dass der Termin nicht stattfindet („-- ENTFÄLLT --"). */
-const ABGESAGT = /(^|[^\p{L}])(entfällt|entfaellt|abgesagt|fällt aus|faellt aus|cancelled|canceled)([^\p{L}]|$)/iu;
+/**
+ * Ein Titel, der selbst sagt, dass der Termin nicht stattfindet („-- ENTFÄLLT --",
+ * „(Vorstellungsausfall)").
+ */
+const ABGESAGT =
+  /(^|[^\p{L}])(entfällt|entfaellt|abgesagt|fällt aus|faellt aus|fällt leider aus|faellt leider aus|ausfall|vorstellungsausfall|storniert|cancelled|canceled)([^\p{L}]|$)/iu;
 
 /**
- * Die Termine einer Antwort: gelesen, ab heute, ohne abgesagte, doppelte
- * zusammengelegt, nach Beginn (ohne Uhrzeit zuerst).
+ * Die Termine einer Antwort: gelesen, ab heute, ohne abgesagte, Titel ohne
+ * Vermerke der Quelle, doppelte zusammengelegt, nach Beginn (ohne Uhrzeit
+ * zuerst).
  */
 export function termineAus(art, antwort, quelle, heute) {
   const gesehen = new Set();
   return LESER[art](antwort, quelle)
     .filter((eintrag) => eintrag.beginn.slice(0, 10) >= heute && !ABGESAGT.test(eintrag.titel))
+    .map((eintrag) => ({ ...eintrag, titel: titelOhneVermerk(eintrag.titel) }))
     .filter((eintrag) => {
       const schluessel = `${eintrag.titel.toLocaleLowerCase('de-DE')}|${eintrag.beginn}|${eintrag.ort.toLocaleLowerCase('de-DE')}`;
       if (gesehen.has(schluessel)) return false;
@@ -672,7 +756,7 @@ async function robotsFuer(url) {
 const ANNAHME = {
   ical: 'text/calendar, */*;q=0.1',
   rss: 'application/rss+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.1',
-  jsonld: 'application/ld+json, text/html;q=0.9, */*;q=0.1',
+  jsonld: 'text/html, */*;q=0.1',
 };
 
 /** Genau die Adresse einer Quelle — oder ein Fehler mit Grund. */
