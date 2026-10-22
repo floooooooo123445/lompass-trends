@@ -37,3 +37,38 @@ Actions → „Trends des Monats" → „Run workflow".
 
 Ohne Commit im Repo schaltet GitHub einen Zeitplan nach 60 Tagen ab; der
 monatliche Commit der Datei hält ihn wach.
+
+## In der Nähe (seit Stufe 598)
+
+Täglich um 03:29 UTC liest `nahe.mjs` die Quellen aus `nahe-quellen.json`
+und schreibt je Stadt `nahe/<stadt>.json` — die Termine ab heute, die
+nächsten zuerst, höchstens 300. Keine KI, kein Schlüssel, kein Secret.
+
+**Die Quellenliste** nennt je Quelle `stadt` (die Kennung wie in der App:
+„Nürnberg" → `nuernberg`), `art` (`ical`, `rss` oder `jsonld`), `url` (genau
+eine https-Adresse), `lizenz` (wörtlich, wie der Herausgeber sie nennt),
+dazu `herausgeber`, `nachweis` (die Seite, auf der die Lizenz steht), `ort`
+(der Ort eines Termins, wenn die Quelle keinen nennt) und `seite` (die Seite
+für einen Termin ohne eigene Adresse). Eine Quelle ohne Lizenz, ohne https
+oder auf einer Plattform (TikTok, Instagram, Facebook, X, YouTube, Threads)
+liest der Job nicht. Eine Stadt ohne Quelle mit klarer Lizenz steht nicht in
+der Liste.
+
+**Der Abruf** ist höflich: Name `lompass-trends/1.0`, `robots.txt`, eine
+Anfrage je Sekunde und Gegenstelle, ohne Login, ohne Kekse, eine Weiterleitung
+nur auf derselben Gegenstelle. Er holt nur die Adresse der Liste und folgt
+keinem Link daraus. Bilder übernimmt er nicht (`bild: null`): Die Lizenz
+einer Quelle gilt ihren Daten, nicht den Bildern darin.
+
+**Die Datei** liest die App ohne Schlüssel:
+`https://raw.githubusercontent.com/floooooooo123445/lompass-trends/main/nahe/<stadt>.json`.
+Sie trägt `stadt`, `stand`, `quellen` (Herausgeber, Lizenz, Nachweis) und
+`termine` (Titel, Ort, Beginn in Ortszeit, Kategorie, Adresse der Quelle).
+Findet der Job für eine Stadt nichts, bleibt ihre alte Datei.
+
+**Am Rechner:** `node nahe.mjs --stadt karlsruhe` (eine Stadt), `--ziel
+<ordner>` (anderswohin schreiben). Ohne Netz: `--pruefe -`, `--quellen -` und
+`--lies -` lesen von stdin (für die Tests im Hauptrepo).
+
+**Einrichten:** nichts außer „Read and write permissions" (wie für die
+Trends). Actions → „In der Nähe" → „Run workflow" für den ersten Lauf.

@@ -1,0 +1,48 @@
+# Stufe 598 — „In der Nähe": je Stadt eine Datei mit Terminen (Vorlage für das
+# öffentliche Repo `lompass-trends`; harte Regel 6, Vermerk 505; harte Regel 7,
+# Vermerk 505). Läuft täglich um 03:29 UTC — neben der vollen Stunde, weil
+# Läufe zur vollen Stunde unter Last verzögert oder verworfen werden können —
+# und auf Knopfdruck („Run workflow"). Ohne Schlüssel, ohne KI: `nahe.mjs`
+# liest nur die Quellen aus `nahe-quellen.json`.
+name: In der Nähe
+
+on:
+  schedule:
+    - cron: '29 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: in-der-naehe
+  cancel-in-progress: false
+
+jobs:
+  erzeugen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Keine Abhängigkeit: Node bringt `fetch` mit. Fällt eine Quelle aus,
+      # bleibt die alte Datei ihrer Stadt stehen.
+      - name: Termine lesen
+        run: node nahe.mjs
+
+      - name: Dateien committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nahe/
+          if git diff --cached --quiet; then
+            echo "Keine Änderung."
+            exit 0
+          fi
+          git commit -m "In der Nähe $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
