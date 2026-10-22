@@ -10,115 +10,11 @@
   ],
   "termine": [
     {
-      "titel": "NEU: Unser exotisches Universum",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-22T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/neu_unser_exotisches_universum-15",
-      "bild": null
-    },
-    {
       "titel": "„Arrangierte Welten“",
       "ort": "Karlsruhe",
       "beginn": "2026-10-22T19:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/arrangierte_welten",
-      "bild": null
-    },
-    {
-      "titel": "Flesh And Fuel",
-      "ort": "Filmtheater Schauburg, Marienstraße 16, 76137 Karlsruhe",
-      "beginn": "2026-10-22T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/flesh_and_fuel",
-      "bild": null
-    },
-    {
-      "titel": "Book Club",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-22T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/book_club_geandertes_datum_",
-      "bild": null
-    },
-    {
-      "titel": "Lesung und Gespräch: Christina Clemm \"Ein ungehaltenes Plädoyer\"",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-22T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lesung_und_gesprach_christina_clemm",
-      "bild": null
-    },
-    {
-      "titel": "Das Mädchen aus der Streichholzfabrik (Wiederaufnahme)",
-      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
-      "beginn": "2026-10-22T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/das_madchen_aus_der_streichholzfabrik_wiederaufnahme",
-      "bild": null
-    },
-    {
-      "titel": "Rigoletto",
-      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
-      "beginn": "2026-10-22T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/rigoletto-6",
-      "bild": null
-    },
-    {
-      "titel": "Legende der versunkenen Stadt",
-      "ort": "OrgelFabrikSalon, Karlsruhe",
-      "beginn": "2026-10-22T19:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/legende_der_versunkenen_stadt",
-      "bild": null
-    },
-    {
-      "titel": "Bücher, Bücher, Bücher - Literarische Herbstauslese mit Dorothée Grütering",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-22T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/bucher_bucher_bucher_literarische_herbstauslese-3",
-      "bild": null
-    },
-    {
-      "titel": "Oskar und die Dame in Rosa",
-      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
-      "beginn": "2026-10-22T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/oskar_und_die_dame_in_rosa",
-      "bild": null
-    },
-    {
-      "titel": "DENKWERKSTATT: Auf der Suche nach dem Glück",
-      "ort": "Café NUN, Karlsruhe",
-      "beginn": "2026-10-22T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/denkwerkstatt_auf_der_suche_nach_dem_gluck",
-      "bild": null
-    },
-    {
-      "titel": "ALICE KÖFER",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-10-22T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/alice_kofer",
-      "bild": null
-    },
-    {
-      "titel": "Between Goodbyes",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-22T20:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/between_goodbyes",
-      "bild": null
-    },
-    {
-      "titel": "Das Phantom des Universums",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-22T21:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/das_phantom_des_universums-8",
       "bild": null
     },
     {
@@ -2407,6 +2303,110 @@
       "beginn": "2026-11-01T18:30",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/murzarella_bauchgesange_ab_in_die_zweite_runde-1",
+      "bild": null
+    },
+    {
+      "titel": "Von der Erde zum Universum",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-01T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/von_der_erde_zum_universum-44",
+      "bild": null
+    },
+    {
+      "titel": "SVEN REGENER",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-01T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sven_regener",
+      "bild": null
+    },
+    {
+      "titel": "Projektmanagement",
+      "ort": "Badische Landesbibliothek, Karlsruhe",
+      "beginn": "2026-11-02T17:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/projektmanagement",
+      "bild": null
+    },
+    {
+      "titel": "Pilzberatung 2026",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-02T17:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/pilzberatung2026n-1",
+      "bild": null
+    },
+    {
+      "titel": "Badisches Staatstheater - neu entdeckt, tiefer geblickt, intensiv im Austausch",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-02T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/badisches_staatstheater_neu_entdeckt",
+      "bild": null
+    },
+    {
+      "titel": "LACHtSCHWESTERN",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-02T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/lachtschwestern-1",
+      "bild": null
+    },
+    {
+      "titel": "Sprechstunde: Einfach digital!",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-03T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sprechstunde_einfach_digital-59",
+      "bild": null
+    },
+    {
+      "titel": "Buchclub „Über den Buchrand hinaus“",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-03T17:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/buchclub_uber_den_buchrand_hinaus",
+      "bild": null
+    },
+    {
+      "titel": "Theaterlabor für alle",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-03T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/theaterlabor_fur_alle-11",
+      "bild": null
+    },
+    {
+      "titel": "Checkpoint Karlsruhe | 03.11.2026",
+      "ort": "ZeSIA, Zentrum für sexuelle Gesundheit, Identität und Aufklärung Karlsruhe",
+      "beginn": "2026-11-03T18:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/checkpoint_karlsruhe03112026n",
+      "bild": null
+    },
+    {
+      "titel": "Vortrag: Im Dunkel der Unterwasserhöhlen des Yucatans – auf den Spuren der nächsten Verwandten der Insekten",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-03T18:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vortrag_im_dunkel_der_unterwasserhohlen",
+      "bild": null
+    },
+    {
+      "titel": "Brand und Katastrophe – Zündeln und Löschen in Baden 1700–1900",
+      "ort": "Badische Landesbibliothek, Karlsruhe",
+      "beginn": "2026-11-03T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen-1",
+      "bild": null
+    },
+    {
+      "titel": "Brand und Katastrophe – Zündeln und Löschen in Baden 1700-1900",
+      "ort": "Badische Landesbibliothek, Karlsruhe",
+      "beginn": "2026-11-04",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen",
       "bild": null
     }
   ]
