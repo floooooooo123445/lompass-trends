@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-10-22",
+  "stand": "2026-10-23",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -9,30 +9,6 @@
     }
   ],
   "termine": [
-    {
-      "titel": "„Arrangierte Welten“",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-22T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/arrangierte_welten",
-      "bild": null
-    },
-    {
-      "titel": "Out Of The Box",
-      "ort": "Kinemathek Karlsruhe",
-      "beginn": "2026-10-22T21:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/out_of_the_box",
-      "bild": null
-    },
-    {
-      "titel": "Frauen.Chancen.Zukunft - Karlsruher Frauenwirtschaftstage",
-      "ort": "IHK Haus der Wirtschaft, Karlsruhe",
-      "beginn": "2026-10-23T09:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/frauenchancenzukunft_karlsruher_frauenwirtschaftstage",
-      "bild": null
-    },
     {
       "titel": "Elternabend",
       "ort": "Kammertheater Karlsruhe",
@@ -2407,6 +2383,30 @@
       "beginn": "2026-11-04",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen",
+      "bild": null
+    },
+    {
+      "titel": "Orientierungslos im Bücherdschungel?",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-04T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/orientierungslos_im_bucherdschungel-2",
+      "bild": null
+    },
+    {
+      "titel": "Onleihe Sprechstunde",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-04T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/onleihe_sprechstunde-125",
+      "bild": null
+    },
+    {
+      "titel": "Orgelpunkt",
+      "ort": "Kleine Kirche Karlsruhe",
+      "beginn": "2026-11-04T12:15",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/orgelpunkt-7",
       "bild": null
     }
   ]
