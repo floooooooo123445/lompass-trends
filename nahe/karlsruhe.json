@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-10-24",
+  "stand": "2026-10-25",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -9,294 +9,6 @@
     }
   ],
   "termine": [
-    {
-      "titel": "offerta Karlsruhe 2026",
-      "ort": "Messe Karlsruhe",
-      "beginn": "2026-10-24",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/offerta_karlsruhe2026n",
-      "bild": null
-    },
-    {
-      "titel": "offerta | Alles; was Du brauchst!",
-      "ort": "Messe Karlsruhe, Messe gesamt",
-      "beginn": "2026-10-24T10:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/offerta_alles_was_du_brauchst",
-      "bild": null
-    },
-    {
-      "titel": "Einweihung \"Druidenwäldchen\" in Knielingen",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T11:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/einweihung_druidenwaldchen_in_knielingen",
-      "bild": null
-    },
-    {
-      "titel": "Die Wichteltür (ab 3)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/die_wichteltur_ab3n-20",
-      "bild": null
-    },
-    {
-      "titel": "Der Heimatlose",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T12:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_heimatlose",
-      "bild": null
-    },
-    {
-      "titel": "Stups, die kleine Sternschnuppe",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T13:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/stups_die_kleine_sternschnuppe-57",
-      "bild": null
-    },
-    {
-      "titel": "Das neue Staatstheater – Baustellenführung durch Modul 1",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T13:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/das_neue_staatstheater_baustellenfuhrung_durch_modul1n-2",
-      "bild": null
-    },
-    {
-      "titel": "Hinterhöfe in der Südweststadt",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T14:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/hinterhofe_in_der_sudweststadt-15",
-      "bild": null
-    },
-    {
-      "titel": "Die Wichteltür (ab 3)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T14:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/die_wichteltur_ab3n-21",
-      "bild": null
-    },
-    {
-      "titel": "Visite guidée en Français | Führung",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T14:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/visite_guidee_en_francais_fuhrung",
-      "bild": null
-    },
-    {
-      "titel": "Maspalomas",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T15:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/maspalomas",
-      "bild": null
-    },
-    {
-      "titel": "LESUNG Cally Stronk „Die Straßengäng – Eine Pfote wäscht die andere“",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lesung_cally_stronk_die_straengang_eine",
-      "bild": null
-    },
-    {
-      "titel": "Out Of The Box",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T16:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/out_of_the_box-1",
-      "bild": null
-    },
-    {
-      "titel": "Everyone´s Sorry Nowadays",
-      "ort": "Filmtheater Schauburg, Marienstraße 16, 76137 Karlsruhe",
-      "beginn": "2026-10-24T16:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/everyone_s_sorry_nowadays",
-      "bild": null
-    },
-    {
-      "titel": "Zeitreise - Vom Urknall zum Menschen",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T17:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/zeitreise_vom_urknall_zum_menschen-94",
-      "bild": null
-    },
-    {
-      "titel": "Das Leben lieben!",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T17:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/das_leben_lieben",
-      "bild": null
-    },
-    {
-      "titel": "Immer wieder gerne gehört",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T17:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/immer_wieder_gerne_gehort",
-      "bild": null
-    },
-    {
-      "titel": "Black Burns Fast",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T17:15",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/black_burns_fast",
-      "bild": null
-    },
-    {
-      "titel": "Knielingen feiert 1250 Jahre",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/knielingen_feiert_1250_jahre",
-      "bild": null
-    },
-    {
-      "titel": "NEU: \"Black Marble\" - Die Erde bei Nacht",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/neu_black_marble_die_erde_bei_nacht-8",
-      "bild": null
-    },
-    {
-      "titel": "The Wreckers (Nur noch wenige Male)",
-      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
-      "beginn": "2026-10-24T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/the_wreckers_nur_noch_wenige_male",
-      "bild": null
-    },
-    {
-      "titel": "Das Chorkonzert mit Party!",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/das_chorkonzert_mit_party",
-      "bild": null
-    },
-    {
-      "titel": "Das Prinzip Hoffnung (Vorstellungsänderung)",
-      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
-      "beginn": "2026-10-24T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/das_prinzip_hoffnung_vorstellungsanderung",
-      "bild": null
-    },
-    {
-      "titel": "Beyond Words",
-      "ort": "Kinemathek Karlsruhe",
-      "beginn": "2026-10-24T19:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/beyond_words",
-      "bild": null
-    },
-    {
-      "titel": "Disco Queen - Im Fieber der 70er",
-      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
-      "beginn": "2026-10-24T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/disco_queen_im_fieber_der_70er-67",
-      "bild": null
-    },
-    {
-      "titel": "Die Zehn & Die Schrillmänner",
-      "ort": "Kulturhaus MIKADO, Karlsruhe",
-      "beginn": "2026-10-24T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/die_zehn_die_schrillmanner-1",
-      "bild": null
-    },
-    {
-      "titel": "A Capella Konzert",
-      "ort": "Kulturhaus Mikado e.V., Karlsruhe",
-      "beginn": "2026-10-24T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/a_capella_konzert",
-      "bild": null
-    },
-    {
-      "titel": "Karlsunruhe: Feintonfilter + Zweifel",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/karlsunruhe_feintonfilter_zweifel",
-      "bild": null
-    },
-    {
-      "titel": "Miri In The Green",
-      "ort": "Kulturzentrum Tempel, Scenario-Halle, Karlsruhe",
-      "beginn": "2026-10-24T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/miri_in_the_green-2",
-      "bild": null
-    },
-    {
-      "titel": "HATTLER",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-10-24T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/hattler",
-      "bild": null
-    },
-    {
-      "titel": "Em Karle sei Dande",
-      "ort": "Badisch Bühn Mundarttheater, Karlsruhe",
-      "beginn": "2026-10-24T20:15",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/em_karle_sei_dande-6",
-      "bild": null
-    },
-    {
-      "titel": "Thilo Seibel — Deutschland überleben!",
-      "ort": "Kabarett in der Orgelfabrik, die Spiegelfechter, Karlsruhe",
-      "beginn": "2026-10-24T20:15",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/thilo_seibel_deutschland_uberleben",
-      "bild": null
-    },
-    {
-      "titel": "Konzert: Sophie Chassée",
-      "ort": "Café NUN, Karlsruhe",
-      "beginn": "2026-10-24T20:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/konzert_sophie_chassee",
-      "bild": null
-    },
-    {
-      "titel": "Pink Floyd - The DARK SIDE of the MOON",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T21:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/pink_floyd_the_dark_side_of_the_moon-56",
-      "bild": null
-    },
-    {
-      "titel": "90ER VS. 2000ER PARTY",
-      "ort": "Substage Karlsruhe e.V.",
-      "beginn": "2026-10-24T21:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/90er_vs_2000er_party-1",
-      "bild": null
-    },
-    {
-      "titel": "Die Blutgräfin",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-24T21:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/die_blutgrafin",
-      "bild": null
-    },
     {
       "titel": "Science Camp \"Klima & Umwelt\"",
       "ort": "Karlsruhe",
@@ -1162,11 +874,11 @@
       "bild": null
     },
     {
-      "titel": "Moskitos",
+      "titel": "Moskitos (Nur noch wenige Male)",
       "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
       "beginn": "2026-10-29T19:30",
       "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/moskitos",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/moskitos_nur_noch_wenige_male",
       "bild": null
     },
     {
@@ -1263,14 +975,6 @@
       "beginn": "2026-10-30T14:00",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruher_herbstmess-1",
-      "bild": null
-    },
-    {
-      "titel": "Captain Schnuppes Weltraumreise",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-30T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/captain_schnuppes_weltraumreise-50",
       "bild": null
     },
     {
@@ -2407,6 +2111,302 @@
       "beginn": "2026-11-06T19:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/macbeth_premiere",
+      "bild": null
+    },
+    {
+      "titel": "Wolfgang Rempfer",
+      "ort": "Galerie Kunstfachwerk N6, Karlsruhe",
+      "beginn": "2026-11-06T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/wolfgang_rempfer",
+      "bild": null
+    },
+    {
+      "titel": "Klangwerk (Jamsession) | Café NUN",
+      "ort": "Café NUN, Karlsruhe",
+      "beginn": "2026-11-06T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/klangwerk_jamsession_cafe_nun-8",
+      "bild": null
+    },
+    {
+      "titel": "Helges Leben",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-06T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/helges_leben-2",
+      "bild": null
+    },
+    {
+      "titel": "Cinderella",
+      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
+      "beginn": "2026-11-06T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/cinderella",
+      "bild": null
+    },
+    {
+      "titel": "Karlsruhe Konzerte - Weltstars & Internationale Spitzenorchester",
+      "ort": "Konzerthaus Karlsruhe",
+      "beginn": "2026-11-06T19:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/karlsruhe_konzerte_weltstars_internationale-1",
+      "bild": null
+    },
+    {
+      "titel": "12 tote Hühner",
+      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
+      "beginn": "2026-11-06T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/12_tote_huhner",
+      "bild": null
+    },
+    {
+      "titel": "Trio Sfera . VERSCHWIEGENE LIEDER . Album Release",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-06T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/trio_sfera_verschwiegene_lieder_album_release",
+      "bild": null
+    },
+    {
+      "titel": "Compagnie Leïla Ka (FR) “Maldonne”",
+      "ort": "Tollhaus Karlsruhe",
+      "beginn": "2026-11-06T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/compagnie_leila_ka_fr_maldonne",
+      "bild": null
+    },
+    {
+      "titel": "RSxT feat. WEBSTER",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-06T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/rsxt_feat_webster",
+      "bild": null
+    },
+    {
+      "titel": "COMPAGNIE LEÏLA KA",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-06T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/compagnie_leila_ka",
+      "bild": null
+    },
+    {
+      "titel": "ITCHY",
+      "ort": "Substage Karlsruhe e.V.",
+      "beginn": "2026-11-06T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/itchy",
+      "bild": null
+    },
+    {
+      "titel": "In annere Umschdänd",
+      "ort": "Badisch Bühn Mundarttheater, Karlsruhe",
+      "beginn": "2026-11-06T20:15",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/in_annere_umschdand-13",
+      "bild": null
+    },
+    {
+      "titel": "Karlsruhes Impro-Theater › Show Liebesgeschichten",
+      "ort": "Kabarett in der Orgelfabrik, die Spiegelfechter, Karlsruhe",
+      "beginn": "2026-11-06T20:15",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karlsruhes_impro_theater_show_liebesgeschichten",
+      "bild": null
+    },
+    {
+      "titel": "Henrik Freischlader Band",
+      "ort": "Jubez, Jugend- und Begegnungszentrum, Karlsruhe",
+      "beginn": "2026-11-06T20:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/henrik_freischlader_band",
+      "bild": null
+    },
+    {
+      "titel": "Aurel Mertz - live",
+      "ort": "Staatliche Hochschule für Gestaltung Karlsruhe",
+      "beginn": "2026-11-06T21:15",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/aurel_mertz_live",
+      "bild": null
+    },
+    {
+      "titel": "City-Flohmarkt",
+      "ort": "Stephanplatz, Karlsruhe",
+      "beginn": "2026-11-07T08:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/city_flohmarkt-17",
+      "bild": null
+    },
+    {
+      "titel": "Schnupperworkshop Theaterspielen für Kinder von 6-8 Jahren",
+      "ort": "Imagine, Schauspielschule für Kinder und Jugendliche, Karlsruhe",
+      "beginn": "2026-11-07T09:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur-3",
+      "bild": null
+    },
+    {
+      "titel": "Schulung: Kulturzeit – Menschen mit Demenz und ihren Beleitenden Teilhabe ermöglichen",
+      "ort": "Naturkundemuseum KA, Karlsruhe",
+      "beginn": "2026-11-07T10:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/schulung_kulturzeit_menschen_mit_demenz-2",
+      "bild": null
+    },
+    {
+      "titel": "Der Karlsruher Hauptfriedhof - Grabmale und ihre Symbolik",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T14:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_karlsruher_hauptfriedhof_grabmale_und_ihre_symbolik-1",
+      "bild": null
+    },
+    {
+      "titel": "Entdeckungsreise durch das Büchermagazin",
+      "ort": "Badische Landesbibliothek, Karlsruhe",
+      "beginn": "2026-11-07T14:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/entdeckungsreise_durch_das_buchermagazin-1",
+      "bild": null
+    },
+    {
+      "titel": "Auf den Spuren des Kolonialismus in Karlsruhe",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T15:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/auf_den_spuren_des_kolonialismus_in_karlsruhe-7",
+      "bild": null
+    },
+    {
+      "titel": "Geschichten aus dem Wiener Wald",
+      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
+      "beginn": "2026-11-07T18:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/geschichten_aus_dem_wiener_wald-1",
+      "bild": null
+    },
+    {
+      "titel": "Statements (Zum letzten Mal)",
+      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
+      "beginn": "2026-11-07T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/statements_zum_letzten_mal",
+      "bild": null
+    },
+    {
+      "titel": "Schmelz, Perlage & Bodensatz",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/schmelz_perlage_bodensatz",
+      "bild": null
+    },
+    {
+      "titel": "nebeL",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/nebel-1",
+      "bild": null
+    },
+    {
+      "titel": "Lange Nacht der kurzen Stücke",
+      "ort": "Kulturzentrum Tempel / Scenario Halle, Karlsruhe",
+      "beginn": "2026-11-07T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/lange_nacht_der_kurzen_stucke-2",
+      "bild": null
+    },
+    {
+      "titel": "Helges Leben",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/helges_leben-3",
+      "bild": null
+    },
+    {
+      "titel": "12 tote Hühner",
+      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
+      "beginn": "2026-11-07T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/12_tote_huhner-1",
+      "bild": null
+    },
+    {
+      "titel": "17. Europäisches Filmfestival der Generationen",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T19:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-9",
+      "bild": null
+    },
+    {
+      "titel": "Tolyqyn",
+      "ort": "Kulturhaus MIKADO, Karlsruhe",
+      "beginn": "2026-11-07T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/tolyqyn",
+      "bild": null
+    },
+    {
+      "titel": "Volleyball Pokalspiel",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T20:00",
+      "kategorie": "sport",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/volleyball_pokalspiel",
+      "bild": null
+    },
+    {
+      "titel": "Der Götz von Obertsrot singt Nick Cave",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/der_gotz_von_obertsrot_singt_nick_cave",
+      "bild": null
+    },
+    {
+      "titel": "MILOW",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-07T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/milow",
+      "bild": null
+    },
+    {
+      "titel": "In annere Umschdänd",
+      "ort": "Badisch Bühn Mundarttheater, Karlsruhe",
+      "beginn": "2026-11-07T20:15",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/in_annere_umschdand-45",
+      "bild": null
+    },
+    {
+      "titel": "Robo & Julia - KI-Komödie mit Kurzschluss -Kabarett A- Z (Corinne Walter & Frank Zollner)",
+      "ort": "Kabarett in der Orgelfabrik, die Spiegelfechter, Karlsruhe",
+      "beginn": "2026-11-07T20:15",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/robo_julia_ki_komodie_mit_kurzschluss",
+      "bild": null
+    },
+    {
+      "titel": "Konzert: Sean Pratt (Country/Folk) | Café NUN Karlsruhe",
+      "ort": "Café NUN, Karlsruhe",
+      "beginn": "2026-11-07T20:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/konzert_sean_pratt_countryfolk_cafe_nun_karlsruhe",
+      "bild": null
+    },
+    {
+      "titel": "80ER PARTY",
+      "ort": "Substage Karlsruhe e.V.",
+      "beginn": "2026-11-07T21:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/80er_party-1",
       "bild": null
     }
   ]
