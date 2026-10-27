@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-10-26",
+  "stand": "2026-10-27",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -10,115 +10,11 @@
   ],
   "termine": [
     {
-      "titel": "Theaterworkshop: Ferien in Fantasia!",
-      "ort": "Imagine, Schauspielschule für Kinder und Jugendliche, Karlsruhe",
-      "beginn": "2026-10-26T09:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/theaterworkshop_ferien_in_fantasia-9",
-      "bild": null
-    },
-    {
-      "titel": "Podcast-Workshop für Jugendliche (16 -21 J.)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-26T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/podcast_workshop_fur_jugendliche_16_21_j",
-      "bild": null
-    },
-    {
-      "titel": "HERBSTFERIEN Schauspielworkshop \"Improvisation\" für Jugendliche von 13-16 Jahren",
-      "ort": "Imagine, Schauspielschule für Kinder und Jugendliche, Karlsruhe",
-      "beginn": "2026-10-26T14:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/herbstferien_schauspielworkshop_improvisation-1",
-      "bild": null
-    },
-    {
-      "titel": "Lese-Insel",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-26T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lese_insel-2",
-      "bild": null
-    },
-    {
-      "titel": "VORLESEZEIT in der Waldstadt",
-      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Waldstadt",
-      "beginn": "2026-10-26T15:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_der_waldstadt-22",
-      "bild": null
-    },
-    {
-      "titel": "Krimi-Buchclub",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-26T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/krimi_buchclub-4",
-      "bild": null
-    },
-    {
-      "titel": "Frau Grashalm kommt: „Zu Besuch bei Pettersson & Findus“",
-      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Mühlburg",
-      "beginn": "2026-10-26T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/frau_grashalm_kommt_zu_besuch_bei_pettersson_findus",
-      "bild": null
-    },
-    {
-      "titel": "Pilzberatung 2026",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-10-26T17:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/pilzberatung2026n",
-      "bild": null
-    },
-    {
-      "titel": "Lektürekurs Hebräisch (5 Termine)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-26T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lekturekurs_hebraisch_5_termine",
-      "bild": null
-    },
-    {
-      "titel": "Stadt Amazonen",
-      "ort": "Kammertheater Karlsruhe",
-      "beginn": "2026-10-26T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/stadt_amazonen",
-      "bild": null
-    },
-    {
       "titel": "Theaterstück \"Die Lauten\"",
       "ort": "Konzerthaus / Kongresszentrum Karlsruhe",
       "beginn": "2026-10-27",
       "kategorie": "konzert",
       "quelle": "https://kalender.karlsruhe.de/db/termine/musik/theaterstuck_die_lauten",
-      "bild": null
-    },
-    {
-      "titel": "stabil mobil",
-      "ort": "Messe Karlsruhe",
-      "beginn": "2026-10-27T10:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/stabil_mobil-1",
-      "bild": null
-    },
-    {
-      "titel": "Ferien-Inseln",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-27T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/ferien_inseln",
-      "bild": null
-    },
-    {
-      "titel": "Sprechstunde: Einfach digital!",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-27T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sprechstunde_einfach_digital",
       "bild": null
     },
     {
@@ -183,6 +79,14 @@
       "beginn": "2026-10-27T18:30",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/checkpoint_karlsruhe27102026n",
+      "bild": null
+    },
+    {
+      "titel": "Das musikalische Planetarium",
+      "ort": "Hochschule für Musik, Velte-Saal, Karlsruhe",
+      "beginn": "2026-10-27T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/das_musikalische_planetarium",
       "bild": null
     },
     {
@@ -434,6 +338,14 @@
       "bild": null
     },
     {
+      "titel": "Wolkenwandern: Inklusives Theater",
+      "ort": "Karlsruhe",
+      "beginn": "2026-10-29T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/wolkenwandern_inklusives_theater",
+      "bild": null
+    },
+    {
       "titel": "Polaris & das Rätsel der Polarnacht",
       "ort": "Karlsruhe",
       "beginn": "2026-10-29T15:00",
@@ -471,6 +383,14 @@
       "beginn": "2026-10-29T16:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_mit_basteln_in_der_kinder_jugendbibliothek-10",
+      "bild": null
+    },
+    {
+      "titel": "Freundeskreis Persönlich",
+      "ort": "Hochschule für Musik Karlsruhe, CampusOne, MUT",
+      "beginn": "2026-10-29T16:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/freundeskreis_personlich",
       "bild": null
     },
     {
@@ -650,6 +570,14 @@
       "bild": null
     },
     {
+      "titel": "Bouncing Bears: Hardgroove, Bounce, Trance",
+      "ort": "Karlsruhe",
+      "beginn": "2026-10-30T16:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/bouncing_bears_hardgroove_bounce_trance",
+      "bild": null
+    },
+    {
       "titel": "HALLOWEEN: Spielenachmittag",
       "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "beginn": "2026-10-30T16:00",
@@ -695,6 +623,14 @@
       "beginn": "2026-10-30T18:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/familienalbumkarlsruhe-1",
+      "bild": null
+    },
+    {
+      "titel": "Materia Prima – New Energy. Old Powers?",
+      "ort": "Kinemathek Karlsruhe",
+      "beginn": "2026-10-30T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/materia_prima_new_energy_old_powers",
       "bild": null
     },
     {
@@ -1226,6 +1162,14 @@
       "bild": null
     },
     {
+      "titel": "Die Zauberflöte (Premiere)",
+      "ort": "Hochschule für Musik Karlsruhe, CampusOne, Wolfgang-Rihm-Forum",
+      "beginn": "2026-11-01T16:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/die_zauberflote_premiere",
+      "bild": null
+    },
+    {
       "titel": "Tears In Heaven - Songs und ihre Geschichten",
       "ort": "Karlsruhe",
       "beginn": "2026-11-01T16:30",
@@ -1314,6 +1258,14 @@
       "bild": null
     },
     {
+      "titel": "Fabrik Quartet",
+      "ort": "Hochschule für Musik Karlsruhe, CampusOne, MUT",
+      "beginn": "2026-11-02T10:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/fabrik_quartet",
+      "bild": null
+    },
+    {
       "titel": "Projektmanagement",
       "ort": "Badische Landesbibliothek, Karlsruhe",
       "beginn": "2026-11-02T17:00",
@@ -1330,11 +1282,27 @@
       "bild": null
     },
     {
+      "titel": "Veganer Mitbringen-Abend",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-02T18:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/veganer_mitbringen_abend",
+      "bild": null
+    },
+    {
       "titel": "Badisches Staatstheater - neu entdeckt, tiefer geblickt, intensiv im Austausch",
       "ort": "Karlsruhe",
       "beginn": "2026-11-02T18:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/badisches_staatstheater_neu_entdeckt",
+      "bild": null
+    },
+    {
+      "titel": "PRIMA Abend Klavier",
+      "ort": "Hochschule für Musik, Velte-Saal, Karlsruhe",
+      "beginn": "2026-11-02T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/prima_abend_klavier",
       "bild": null
     },
     {
@@ -1351,6 +1319,14 @@
       "beginn": "2026-11-03T10:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sprechstunde_einfach_digital-59",
+      "bild": null
+    },
+    {
+      "titel": "Genova-Dimitrov",
+      "ort": "Hochschule für Musik, Velte-Saal, Karlsruhe",
+      "beginn": "2026-11-03T11:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/genova_dimitrov",
       "bild": null
     },
     {
@@ -1575,6 +1551,14 @@
       "beginn": "2026-11-05T10:30",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/einfach_singen_ein_angebot_fur_menschen-7",
+      "bild": null
+    },
+    {
+      "titel": "Wolkenwandern: Inklusives Theater",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-05T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/wolkenwandern_inklusives_theater-1",
       "bild": null
     },
     {
@@ -1935,6 +1919,14 @@
       "beginn": "2026-11-07T15:00",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/auf_den_spuren_des_kolonialismus_in_karlsruhe-7",
+      "bild": null
+    },
+    {
+      "titel": "Die Grabkapelle im Kerzenschein erleben",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/die_grabkapelle_im_kerzenschein_erleben",
       "bild": null
     },
     {
@@ -2311,6 +2303,110 @@
       "beginn": "2026-11-09T09:30",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/mahnwache_zum_9_november1938n",
+      "bild": null
+    },
+    {
+      "titel": "Tobias Vogelmann",
+      "ort": "Hochschule für Musik, Genuit-Saal, Karlsruhe",
+      "beginn": "2026-11-09T10:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/tobias_vogelmann",
+      "bild": null
+    },
+    {
+      "titel": "VORLESEZEIT in der Waldstadt",
+      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Waldstadt",
+      "beginn": "2026-11-09T15:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_der_waldstadt-23",
+      "bild": null
+    },
+    {
+      "titel": "Pilzberatung 2026",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-09T17:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/pilzberatung2026n-2",
+      "bild": null
+    },
+    {
+      "titel": "Die Lebensweisen - eine Generation steuert auf die Rente zu",
+      "ort": "Kulturküche Karlsruhe",
+      "beginn": "2026-11-09T17:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/die_lebensweisen_eine_generation_steuert-2",
+      "bild": null
+    },
+    {
+      "titel": "familienalbum.karlsruhe",
+      "ort": "Badisches Staatstheater, INSEL, Karlsruhe",
+      "beginn": "2026-11-09T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/familienalbumkarlsruhe-2",
+      "bild": null
+    },
+    {
+      "titel": "Gedenkkonzert: „Ich bin der Welt abhanden gekommen ...“",
+      "ort": "Kleine Kirche Karlsruhe",
+      "beginn": "2026-11-09T18:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/gedenkkonzert_ich_bin_der_welt_abhanden_gekommen",
+      "bild": null
+    },
+    {
+      "titel": "Labs Talk About",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-09T18:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/labs_talk_about-4",
+      "bild": null
+    },
+    {
+      "titel": "Tschaikowsky - Genie und Wahnsinn (TheaterFilm)",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-09T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/tschaikowsky_genie_und_wahnsinn_theaterfilm",
+      "bild": null
+    },
+    {
+      "titel": "Tom Gerhardt",
+      "ort": "Kammertheater Karlsruhe",
+      "beginn": "2026-11-09T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/tom_gerhardt",
+      "bild": null
+    },
+    {
+      "titel": "2. Sinfoniekonzert",
+      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
+      "beginn": "2026-11-09T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/2_sinfoniekonzert-1",
+      "bild": null
+    },
+    {
+      "titel": "Singer Club Feierabendchor",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-09T19:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/singer_club_feierabendchor-29",
+      "bild": null
+    },
+    {
+      "titel": "In memoriam",
+      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
+      "beginn": "2026-11-09T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/in_memoriam-1",
+      "bild": null
+    },
+    {
+      "titel": "familienalbum.karlsruhe",
+      "ort": "Badisches Staatstheater, INSEL, Karlsruhe",
+      "beginn": "2026-11-10T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/familienalbumkarlsruhe-3",
       "bild": null
     }
   ]
