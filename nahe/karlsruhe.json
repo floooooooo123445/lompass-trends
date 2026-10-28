@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-10-27",
+  "stand": "2026-10-28",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -9,158 +9,6 @@
     }
   ],
   "termine": [
-    {
-      "titel": "Theaterstück \"Die Lauten\"",
-      "ort": "Konzerthaus / Kongresszentrum Karlsruhe",
-      "beginn": "2026-10-27",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/theaterstuck_die_lauten",
-      "bild": null
-    },
-    {
-      "titel": "Vom kleinen Maulwurf, der wissen wollte, wer ihm auf den Kopf gemacht hat (ab 3)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-27T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/vom_kleinen_maulwurf_der_wissen_wollte-62",
-      "bild": null
-    },
-    {
-      "titel": "Vorlesezeit mit Basteln in Grötzingen",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-27T14:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_mit_basteln_in_grotzingen",
-      "bild": null
-    },
-    {
-      "titel": "Experimente (5–7 Jahre): Wasser",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-10-27T14:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/experimente_57_jahre_wasser",
-      "bild": null
-    },
-    {
-      "titel": "Experimente (5–7 Jahre): Wasser",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-10-27T15:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/experimente_57_jahre_wasser-1",
-      "bild": null
-    },
-    {
-      "titel": "Nils Karlsson Däumling (Wiederaufnahme)",
-      "ort": "Badisches Staatstheater, INSEL, Karlsruhe",
-      "beginn": "2026-10-27T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/nils_karlsson_daumling_wiederaufnahme",
-      "bild": null
-    },
-    {
-      "titel": "VORLESEZEIT in Durlach",
-      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Durlach",
-      "beginn": "2026-10-27T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_durlach-10",
-      "bild": null
-    },
-    {
-      "titel": "NEU: Stella Nova",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-27T17:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/neu_stella_nova-9",
-      "bild": null
-    },
-    {
-      "titel": "Checkpoint Karlsruhe | 27.10.2026",
-      "ort": "ZeSIA, Zentrum für sexuelle Gesundheit, Identität und Aufklärung Karlsruhe",
-      "beginn": "2026-10-27T18:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/checkpoint_karlsruhe27102026n",
-      "bild": null
-    },
-    {
-      "titel": "Das musikalische Planetarium",
-      "ort": "Hochschule für Musik, Velte-Saal, Karlsruhe",
-      "beginn": "2026-10-27T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/das_musikalische_planetarium",
-      "bild": null
-    },
-    {
-      "titel": "Pink Floyd - The DARK SIDE of the MOON",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-27T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/pink_floyd_the_dark_side_of_the_moon-57",
-      "bild": null
-    },
-    {
-      "titel": "European Outdoor Film Tour 26/27 - EOFT",
-      "ort": "Filmtheater Schauburg, Karlsruhe",
-      "beginn": "2026-10-27T20:00",
-      "kategorie": "sport",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/european_outdoor_film_tour_2627_eoft",
-      "bild": null
-    },
-    {
-      "titel": "Atelierluft macht frei!",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/atelierluft_macht_frei",
-      "bild": null
-    },
-    {
-      "titel": "Ferien-Inseln",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/ferien_inseln-1",
-      "bild": null
-    },
-    {
-      "titel": "Trickfilm-Workshop",
-      "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
-      "beginn": "2026-10-28T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/trickfilm_workshop-2",
-      "bild": null
-    },
-    {
-      "titel": "Das Duckietown am MobiLab in Karlsruhe",
-      "ort": "Kronenplatz, Karlsruhe",
-      "beginn": "2026-10-28T10:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/das_duckietown_am_mobilab_in_karlsruhe",
-      "bild": null
-    },
-    {
-      "titel": "Die Olchis (ab 5)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/die_olchis_ab5n-29",
-      "bild": null
-    },
-    {
-      "titel": "Onleihe Sprechstunde",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/onleihe_sprechstunde-124",
-      "bild": null
-    },
-    {
-      "titel": "Wandern für Seniorinnen und Senioren",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T10:15",
-      "kategorie": "sport",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/wandern_fur_seniorinnen_und_senioren-16",
-      "bild": null
-    },
     {
       "titel": "Lesepatenschaften in Karlsruhe",
       "ort": "Karlsruhe",
@@ -1930,6 +1778,14 @@
       "bild": null
     },
     {
+      "titel": "Peace and Love",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T18:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/peace_and_love",
+      "bild": null
+    },
+    {
       "titel": "Geschichten aus dem Wiener Wald",
       "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
       "beginn": "2026-11-07T18:30",
@@ -2407,6 +2263,150 @@
       "beginn": "2026-11-10T10:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/familienalbumkarlsruhe-3",
+      "bild": null
+    },
+    {
+      "titel": "Leggiamo i giornali",
+      "ort": "Centro = Schul- und Kulturzentrum der Deutsch-Italienischen Gesellschaft e.V. Karlsruhe",
+      "beginn": "2026-11-10T10:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/leggiamo_i_giornali-22",
+      "bild": null
+    },
+    {
+      "titel": "Sprechstunde: Einfach digital!",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-10T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sprechstunde_einfach_digital-56",
+      "bild": null
+    },
+    {
+      "titel": "Lesung Antje Herden \"Die weißen Sneaker oder mein fast perfektes Leben\"",
+      "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
+      "beginn": "2026-11-10T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lesung_antje_herden_die_weien_sneaker",
+      "bild": null
+    },
+    {
+      "titel": "Experimente (5–7 Jahre): Schmecken und Riechen",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-10T14:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/experimente_57_jahre_schmecken_und_riechen",
+      "bild": null
+    },
+    {
+      "titel": "17. Europäisches Filmfestival der Generationen",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-10T14:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-10",
+      "bild": null
+    },
+    {
+      "titel": "Workshop (8-10 Jahre): Spuren der Urmenschen – mehr als nur Knochen",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-10T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/workshop_8_10_jahre_spuren_der_urmenschen",
+      "bild": null
+    },
+    {
+      "titel": "Vorstellungsreihe: Soziale Hilfen in Karlsruhe",
+      "ort": "Kulturküche Karlsruhe",
+      "beginn": "2026-11-10T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorstellungsreihe_soziale_hilfen_in_karlsruhe-3",
+      "bild": null
+    },
+    {
+      "titel": "Experimente (5–7 Jahre): Schmecken und Riechen",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-10T15:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/experimente_57_jahre_schmecken_und_riechen-1",
+      "bild": null
+    },
+    {
+      "titel": "VORLESEZEIT in Durlach",
+      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Durlach",
+      "beginn": "2026-11-10T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_durlach-8",
+      "bild": null
+    },
+    {
+      "titel": "VORLESEZEIT in Mühlburg",
+      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Mühlburg",
+      "beginn": "2026-11-10T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_muhlburg-15",
+      "bild": null
+    },
+    {
+      "titel": "Kuppeln im Dialog",
+      "ort": "Badische Landesbibliothek, Karlsruhe",
+      "beginn": "2026-11-10T17:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/architektur/kuppeln_im_dialog-2",
+      "bild": null
+    },
+    {
+      "titel": "Sprechen & Zuhören in Daxlanden",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-10T18:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/sprechen_zuhoren_in_daxlanden",
+      "bild": null
+    },
+    {
+      "titel": "Checkpoint Karlsruhe | 10.11.2026",
+      "ort": "ZeSIA, Zentrum für sexuelle Gesundheit, Identität und Aufklärung Karlsruhe",
+      "beginn": "2026-11-10T18:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/checkpoint_karlsruhe10112026n",
+      "bild": null
+    },
+    {
+      "titel": "Lesung mit Robert Menasse",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-10T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lesung_mit_robert_menasse",
+      "bild": null
+    },
+    {
+      "titel": "Karlsruher Klangwelten: Die Komponistinnen Luise Adolpha Le Beau und Clara Faisst",
+      "ort": "Badische Landesbibliothek, Karlsruhe",
+      "beginn": "2026-11-10T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/karlsruher_klangwelten_die_komponistinnen",
+      "bild": null
+    },
+    {
+      "titel": "Tanz à la carte",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-10T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/tanz_a_la_carte-1",
+      "bild": null
+    },
+    {
+      "titel": "Macbeth",
+      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
+      "beginn": "2026-11-10T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/macbeth",
+      "bild": null
+    },
+    {
+      "titel": "EFFEKTE-Reihe im November: Wenn KI Medizin und Gesundheit neu gestaltet",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-10T19:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/effekte_reihe_im_november_wenn_ki_medizin",
       "bild": null
     }
   ]
