@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-10-28",
+  "stand": "2026-10-29",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -9,118 +9,6 @@
     }
   ],
   "termine": [
-    {
-      "titel": "Lesepatenschaften in Karlsruhe",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T12:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lesepatenschaften_in_karlsruhe",
-      "bild": null
-    },
-    {
-      "titel": "Quentins Artenquiz",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-10-28T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/quentins_artenquiz-1",
-      "bild": null
-    },
-    {
-      "titel": "Lesepatenschaften in Karlsruhe",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lesepatenschaften_in_karlsruhe-1",
-      "bild": null
-    },
-    {
-      "titel": "Storytime",
-      "ort": "Stadtbibliothek Karlsruhe, Amerikanische Bibliothek",
-      "beginn": "2026-10-28T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/storytime-25",
-      "bild": null
-    },
-    {
-      "titel": "VORLESEZEIT in der Kinder- & Jugendbibliothek",
-      "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
-      "beginn": "2026-10-28T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_der_kinder_jugendbibliothek-56",
-      "bild": null
-    },
-    {
-      "titel": "Was passiert, wenn man nicht mehr selbst entscheiden kann?",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T16:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/was_passiert_wenn_man_nicht_mehr_selbst",
-      "bild": null
-    },
-    {
-      "titel": "Halloweenparty",
-      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Durlach",
-      "beginn": "2026-10-28T16:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/halloweenparty_ausgebucht_",
-      "bild": null
-    },
-    {
-      "titel": "Von der Erde zum Universum",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T17:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/von_der_erde_zum_universum-42",
-      "bild": null
-    },
-    {
-      "titel": "Texterkennung mit Transkribus für Einsteiger",
-      "ort": "Badische Landesbibliothek, Karlsruhe",
-      "beginn": "2026-10-28T17:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/texterkennung_mit_transkribus_fur_einsteiger-2",
-      "bild": null
-    },
-    {
-      "titel": "Zeitreise - Vom Urknall zum Menschen",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/zeitreise_vom_urknall_zum_menschen-95",
-      "bild": null
-    },
-    {
-      "titel": "Debritz (Wiederaufnahme)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/debritz_wiederaufnahme",
-      "bild": null
-    },
-    {
-      "titel": "Jazz Session",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-28T19:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/jazz_session-6",
-      "bild": null
-    },
-    {
-      "titel": "music makes friends – Eine jugendliche Konzertreihe",
-      "ort": "Kleine Kirche Karlsruhe",
-      "beginn": "2026-10-28T19:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/music_makes_friends_eine_jugendliche_konzertreihe",
-      "bild": null
-    },
-    {
-      "titel": "MAREIKE FALLWICKL",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-10-28T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/mareike_fallwickl",
-      "bild": null
-    },
     {
       "titel": "True Collins 2026",
       "ort": "Konzerthaus / Kongresszentrum Karlsruhe",
@@ -135,22 +23,6 @@
       "beginn": "2026-10-29T09:30",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/kleine_kunstler_im_wald",
-      "bild": null
-    },
-    {
-      "titel": "Demenz",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-29T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/demenz",
-      "bild": null
-    },
-    {
-      "titel": "Der Grüffelo (ab 4)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-10-29T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/der_gruffelo_ab4n-64",
       "bild": null
     },
     {
@@ -335,6 +207,14 @@
       "beginn": "2026-10-29T20:00",
       "kategorie": "konzert",
       "quelle": "https://kalender.karlsruhe.de/db/termine/musik/huun_huur_tu",
+      "bild": null
+    },
+    {
+      "titel": "Kosmos extrem",
+      "ort": "Karlsruhe",
+      "beginn": "2026-10-29T21:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/kosmos_extrem-20",
       "bild": null
     },
     {
@@ -1322,6 +1202,14 @@
       "bild": null
     },
     {
+      "titel": "Feierliche Eröffnungsveranstaltung",
+      "ort": "Jüdische Kultusgemeinde Karlsruhe K.d.ö.R.",
+      "beginn": "2026-11-04T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/feierliche_eroffnungsveranstaltung",
+      "bild": null
+    },
+    {
       "titel": "17. Europäisches Filmfestival der Generationen",
       "ort": "Karlsruhe",
       "beginn": "2026-11-04T19:00",
@@ -1359,6 +1247,14 @@
       "beginn": "2026-11-04T19:30",
       "kategorie": "konzert",
       "quelle": "https://kalender.karlsruhe.de/db/termine/musik/mit_rilke_durch_das_jahr_ich_finde_dich_in_allen_dingen",
+      "bild": null
+    },
+    {
+      "titel": "Durchatmen. Loslassen. Ankommen.",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-04T20:00",
+      "kategorie": "sport",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/durchatmen_loslassen_ankommen",
       "bild": null
     },
     {
@@ -1570,6 +1466,14 @@
       "bild": null
     },
     {
+      "titel": "Deine berufliche Zukunft",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-06T15:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/deine_berufliche_zukunft",
+      "bild": null
+    },
+    {
       "titel": "Perspektivenwechsel: Stadtführung zu Wohnungslosigkeit in Karlsruhe",
       "ort": "Karlsruhe",
       "beginn": "2026-11-06T15:30",
@@ -1770,11 +1674,11 @@
       "bild": null
     },
     {
-      "titel": "Die Grabkapelle im Kerzenschein erleben",
+      "titel": "Martinsumzug mit Lagerfeuer, Ross & Reiter",
       "ort": "Karlsruhe",
       "beginn": "2026-11-07T17:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/die_grabkapelle_im_kerzenschein_erleben",
+      "kategorie": "sport",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/martinsumzug_mit_lagerfeuer_ross_reiter",
       "bild": null
     },
     {
@@ -2186,6 +2090,14 @@
       "bild": null
     },
     {
+      "titel": "RegioCOP31 Karlsruhe",
+      "ort": "Verschiedene Orte, Karlsruhe",
+      "beginn": "2026-11-09T17:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/regiocop31_karlsruhe",
+      "bild": null
+    },
+    {
       "titel": "Die Lebensweisen - eine Generation steuert auf die Rente zu",
       "ort": "Kulturküche Karlsruhe",
       "beginn": "2026-11-09T17:30",
@@ -2407,6 +2319,94 @@
       "beginn": "2026-11-10T19:30",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/effekte_reihe_im_november_wenn_ki_medizin",
+      "bild": null
+    },
+    {
+      "titel": "Wandern für Seniorinnen und Senioren",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-11T09:00",
+      "kategorie": "sport",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/wandern_fur_seniorinnen_und_senioren-17",
+      "bild": null
+    },
+    {
+      "titel": "Onleihe Sprechstunde",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-11T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/onleihe_sprechstunde-126",
+      "bild": null
+    },
+    {
+      "titel": "SoundCheck",
+      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
+      "beginn": "2026-11-11T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/soundcheck",
+      "bild": null
+    },
+    {
+      "titel": "Improvisations-Workshop mit Rudi Fischerlehner",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-11T11:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/improvisations_workshop_mit_rudi_fischerlehner",
+      "bild": null
+    },
+    {
+      "titel": "Rathaussturm in Durlach",
+      "ort": "Bürgersaal Rathaus Durlach, Karlsruhe",
+      "beginn": "2026-11-11T11:11",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/rathaussturm_in_durlach-1",
+      "bild": null
+    },
+    {
+      "titel": "Orgelpunkt",
+      "ort": "Kleine Kirche Karlsruhe",
+      "beginn": "2026-11-11T12:15",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/orgelpunkt-8",
+      "bild": null
+    },
+    {
+      "titel": "Brain Energy - Gut vorbereitet fürs nächste Referat",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-11T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/brain_energy_gut_vorbereitet_furs_nachste_referat-1",
+      "bild": null
+    },
+    {
+      "titel": "Klimaschutz zum Beruf machen: Was kannst du bewegen!",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-11T15:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/klimaschutz_zum_beruf_machen_was_kannst_du_bewegen",
+      "bild": null
+    },
+    {
+      "titel": "Kurs (12-19 Jahre): Reptilien",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-11T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kurs_12_19_jahre_reptilien",
+      "bild": null
+    },
+    {
+      "titel": "Workshop (6-7 Jahre): Spuren der Urmenschen – mehr als nur Knochen",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-11T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/workshop_6_7_jahre_spuren_der_urmenschen",
+      "bild": null
+    },
+    {
+      "titel": "Kunsthäppchen „Wenn die Welt aus den Fugen gerät – Kunst und psychische Krisen“",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-11T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kunsthappchen_wenn_die_welt_aus_den",
       "bild": null
     }
   ]
