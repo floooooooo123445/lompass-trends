@@ -316,22 +316,27 @@ const ANTHROPIC = 'https://api.anthropic.com/v1/messages';
 const TIKTOK_OEMBED = 'https://www.tiktok.com/oembed?url=';
 const YOUTUBE_OEMBED = 'https://www.youtube.com/oembed?format=json&url=';
 const MODELL = process.env.TRENDS_MODELL || 'claude-sonnet-5-5';
-const SUCHEN_MAX = Number(process.env.TRENDS_SUCHEN_MAX || 20);
+// Runde 39 (01.11.2026): 20 Suchen reichten nicht — die Probe kam mit leeren
+// Listen zurück („Mein Suchlimit war nach wenigen Abfragen aufgebraucht").
+const SUCHEN_MAX = Number(process.env.TRENDS_SUCHEN_MAX || 40);
 const NAME = 'lompass-trends (monatlicher Job; github.com/floooooooo123445/lompass-trends)';
 
 function auftrag(monat) {
-  return `Du beobachtest TikTok und Instagram und beschreibst, was dort in diesem Monat (${monat}) läuft. Du beobachtest, du berätst nicht.
-You observe TikTok and Instagram and describe what is trending there this month (${monat}). You observe, you do not advise.
+  // Runde 39: Der Lauf ist am 1. des Monats — „dieser Monat" hatte da noch keine
+  // Artikel. Gefragt wird deshalb nach den letzten vier Wochen; `monat` bleibt
+  // der Monat der Datei.
+  return `Du beobachtest TikTok und Instagram und beschreibst, was dort in den letzten vier Wochen (bis Anfang ${monat}) gelaufen ist und noch läuft. Du beobachtest, du berätst nicht.
+You observe TikTok and Instagram and describe what has been trending there in the last four weeks (up to the start of ${monat}) and still is. You observe, you do not advise.
 
 Aufgabe / Task:
-- Je Plattform (TikTok, Instagram) 5 bis 10 Trends dieses Monats. For each platform (TikTok, Instagram) 5 to 10 trends of this month.
+- Je Plattform (TikTok, Instagram) 3 bis 8 Trends der letzten vier Wochen; lieber weniger, dafür belegt. For each platform (TikTok, Instagram) 3 to 8 trends of the last four weeks; fewer but sourced is better.
 - Zuerst Deutschland, Österreich und die Schweiz (DACH); andere Länder nur, wenn der Trend dort nachweislich angekommen ist. Germany, Austria and Switzerland (DACH) first; other countries only if the trend has demonstrably arrived there.
 - Nur Trends, über die ein Medium berichtet (Zeitung, Sender, Nachrichtenseite, Fachportal); kein Marketing-Blog, kein Trend-Tool, keine KI-Seite. Only trends a news outlet reports on (newspaper, broadcaster, news site, trade portal); no marketing blog, no trend tool, no AI site.
-- Je Trend / per trend: "id" (Kleinbuchstaben, Ziffern, Bindestriche / lowercase, digits, hyphens), "bereich" (genau einer von / exactly one of: ${GRENZEN.bereiche.join(', ')}), "titel" {"de","en"} (höchstens / at most ${GRENZEN.titelMax} Zeichen/characters), "beschreibung" {"de","en"} (ein Satz, höchstens / one sentence, at most ${GRENZEN.beschreibungMax} Zeichen/characters), "quelle" (Pflicht: die https-Adresse des Artikels, in dem du ihn gelesen hast / required: the https address of the article you read it in), "quelleName" (Pflicht: der Name des Mediums, höchstens ${GRENZEN.quelleNameMax} Zeichen / required: the outlet's name, at most ${GRENZEN.quelleNameMax} characters), "quelleDatum" (Pflicht: das Erscheinungsdatum des Artikels, JJJJ-MM-TT / required: the article's publication date, YYYY-MM-DD), "videos": 3 bis 8 öffentliche Videos / 3 to 8 public videos, je / each {"plattform": "youtube"|"tiktok"|"instagram", "url", "id", "creator"}.
+- Je Trend / per trend: "id" (Kleinbuchstaben, Ziffern, Bindestriche / lowercase, digits, hyphens), "bereich" (genau einer von / exactly one of: ${GRENZEN.bereiche.join(', ')}), "titel" {"de","en"} (höchstens / at most ${GRENZEN.titelMax} Zeichen/characters), "beschreibung" {"de","en"} (ein Satz, höchstens / one sentence, at most ${GRENZEN.beschreibungMax} Zeichen/characters), "quelle" (Pflicht: die https-Adresse des Artikels, in dem du ihn gelesen hast / required: the https address of the article you read it in), "quelleName" (Pflicht: der Name des Mediums, höchstens ${GRENZEN.quelleNameMax} Zeichen / required: the outlet's name, at most ${GRENZEN.quelleNameMax} characters), "quelleDatum" (Pflicht: das Erscheinungsdatum des Artikels, JJJJ-MM-TT / required: the article's publication date, YYYY-MM-DD), "videos": 1 bis 5 öffentliche Videos / 1 to 5 public videos, je / each {"plattform": "youtube"|"tiktok"|"instagram", "url", "id", "creator"}.
 - Nimm bevorzugt YouTube-Videos (Shorts), dazu TikTok-Videos; Instagram-Links nur, wenn es nichts anderes gibt. Prefer YouTube videos (Shorts), add TikTok videos; Instagram links only if nothing else exists.
 - Nur Adressen, die du wirklich gefunden hast. Erfinde niemals eine Adresse, eine Quelle oder ein Datum. Only addresses you actually found. Never invent an address, a source or a date.
 - Kein Rat, kein Marketing, keine Aussage über Personen außer dem Namen des Creators. No advice, no marketing, nothing about people except the creator's name.
-- Dazu 3 bis ${GRENZEN.playlistsMax} öffentliche Playlists, die in diesem Monat viel gehört werden (Apple Music oder Spotify), je {"titel" (ihr Name beim Anbieter, höchstens ${GRENZEN.playlistTitelMax} Zeichen), "anbieter": "applemusic"|"spotify", "url" (die Adresse der Playlist: https://music.apple.com/<land>/playlist/… oder https://open.spotify.com/playlist/…), "bild" (die https-Adresse ihres Titelbilds, wenn du sie gefunden hast, sonst null)}. Also 3 to ${GRENZEN.playlistsMax} public playlists that are widely played this month (Apple Music or Spotify), each as above. Nur Adressen, die du wirklich gefunden hast / only addresses you actually found.
+- Dazu 3 bis ${GRENZEN.playlistsMax} öffentliche Playlists, die gerade viel gehört werden (Apple Music oder Spotify), je {"titel" (ihr Name beim Anbieter, höchstens ${GRENZEN.playlistTitelMax} Zeichen), "anbieter": "applemusic"|"spotify", "url" (die Adresse der Playlist: https://music.apple.com/<land>/playlist/… oder https://open.spotify.com/playlist/…), "bild" (die https-Adresse ihres Titelbilds, wenn du sie gefunden hast, sonst null)}. Also 3 to ${GRENZEN.playlistsMax} public playlists that are widely played right now (Apple Music or Spotify), each as above. Nur Adressen, die du wirklich gefunden hast / only addresses you actually found.
 
 Antworte nur mit JSON, ohne Text davor oder danach / Answer with JSON only:
 {"tiktok": [Trend, …], "instagram": [Trend, …], "playlists": [Playlist, …]}`;
