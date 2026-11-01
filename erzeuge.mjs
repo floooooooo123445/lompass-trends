@@ -376,10 +376,17 @@ async function frageAnthropic(schluessel, monat, inhalt = auftrag(monat), domain
       nachrichten.push({ role: 'assistant', content: daten.content });
       continue;
     }
-    return daten.content
+    const text = daten.content
       .filter((block) => block.type === 'text')
       .map((block) => block.text)
       .join('');
+    // Runde 39: Die vierte Probe endete mit Text ohne JSON. Dann geht dieselbe
+    // Unterhaltung einmal weiter mit der Bitte um nur das JSON.
+    if (text.includes('{') && text.lastIndexOf('}') > text.indexOf('{')) return text;
+    console.log(`Antwort ohne JSON (stop_reason ${daten.stop_reason}): ${text.slice(0, 800)}`);
+    if (runde === 3) return text;
+    nachrichten.push({ role: 'assistant', content: daten.content });
+    nachrichten.push({ role: 'user', content: 'Antworte jetzt nur mit dem JSON im verlangten Format, ohne Text davor oder danach. Answer now with the JSON only.' });
   }
   throw new Error('Die Websuche kam in vier Runden nicht zu Ende.');
 }
