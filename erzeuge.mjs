@@ -478,6 +478,30 @@ function schluesselAusUmgebung() {
   return '';
 }
 
+/** Runde 39 — warum ein Trend der Antwort fiel (nur für das Protokoll der Probe). */
+function grundGegen(wert) {
+  if (!istObjekt(wert)) return 'kein Objekt';
+  const id = typeof wert.id === 'string' ? wert.id : '';
+  if (id.length === 0 || id.length > GRENZEN.kennungMax || !KENNUNG.test(id)) return `Kennung ${JSON.stringify(wert.id)}`;
+  if (!GRENZEN.bereiche.includes(wert.bereich)) return `Bereich ${JSON.stringify(wert.bereich)}`;
+  if (zweisprachig(wert.titel, GRENZEN.titelMax) === null) return 'Titel';
+  if (zweisprachig(wert.beschreibung, GRENZEN.beschreibungMax) === null) return 'Beschreibung';
+  if (httpsTeile(wert.quelle) === null) return `Quelle ${JSON.stringify(wert.quelle)}`;
+  if (videosAus(wert.videos).length === 0) return `Videos ${JSON.stringify(wert.videos)?.slice(0, 300)}`;
+  return 'ok';
+}
+
+function probeBefund(roh) {
+  const zeilen = [`Schlüssel der Antwort: ${istObjekt(roh) ? Object.keys(roh).join(', ') : typeof roh}`];
+  for (const plattform of ['tiktok', 'instagram']) {
+    const liste = istObjekt(roh) && Array.isArray(roh[plattform]) ? roh[plattform] : null;
+    zeilen.push(`${plattform}: ${liste === null ? 'keine Liste' : `${liste.length} Einträge`}`);
+    for (const eintrag of liste ?? []) zeilen.push(`  - ${istObjekt(eintrag) ? eintrag.id : '?'}: ${grundGegen(eintrag)}`);
+  }
+  zeilen.push(`Roh (gekürzt): ${JSON.stringify(roh).slice(0, 6000)}`);
+  return zeilen.join('\n');
+}
+
 async function lauf(probe = null) {
   if (probe !== null && liegtImRepo(probe)) {
     throw new Error('Die Probe schreibt nur außerhalb des Repos — bitte einen Pfad außerhalb nennen.');
@@ -503,6 +527,9 @@ async function lauf(probe = null) {
     playlists: roh.playlists,
   });
   if (vorab === null) {
+    // Runde 39: In der Probe zeigt das Protokoll, woran es lag — die rohe Antwort
+    // (ohne Schlüssel) und je Trend der erste Grund, aus dem er fiel.
+    if (probe !== null) console.log(probeBefund(roh));
     throw new Error('Die Antwort trägt keinen brauchbaren Trend.');
   }
 
