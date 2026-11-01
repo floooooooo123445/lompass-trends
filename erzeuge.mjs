@@ -596,15 +596,18 @@ async function lauf(probe = null) {
       instagram: await nurLebendeVideos(vorab.plattformen.instagram),
     },
   });
-  // Mindestens ein Trend je Plattform — sonst bleibt die alte Datei.
+  // Runde 39: Mindestens drei Trends zusammen — die App mischt TikTok und Instagram
+  // ohnehin („Bitte tiktok und instagram mischen das braucht es nicht zu unterteilen“,
+  // der Nutzer); Medien berichten über Instagram seltener (Probe vom 01.11.: 0 Trends).
+  // Sonst bleibt die alte Datei.
   if (probe !== null) {
     for (const p of GRENZEN.plattformen) {
       console.log(`${p}: ${vorab.plattformen[p].length} Trends vor der Videoprüfung, ${datei?.plattformen?.[p]?.length ?? 0} danach`);
       for (const t of vorab.plattformen[p]) console.log(`  - ${t.id}: ${t.videos.map((v) => v.url).join(' ')}`);
     }
   }
-  if (datei === null || datei.plattformen.tiktok.length === 0 || datei.plattformen.instagram.length === 0) {
-    throw new Error('Nach der Prüfung der Videos bleibt nicht je Plattform ein Trend. Die alte Datei bleibt.');
+  if (datei === null || datei.plattformen.tiktok.length + datei.plattformen.instagram.length < 3) {
+    throw new Error('Nach der Prüfung der Videos bleiben keine drei Trends. Die alte Datei bleibt.');
   }
 
   const wurzel = dirname(fileURLToPath(import.meta.url));
