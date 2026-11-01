@@ -348,6 +348,21 @@ function schlafe(ms) {
   return new Promise((fertig) => setTimeout(fertig, ms));
 }
 
+// Runde 39: Der erste echte Lauf (01.11.2026) brach mit „fetch failed" ab — ein
+// Netzfehler ohne Antwort, die Proben davor liefen durch. Zwei Wiederholungen mit
+// Pause; der Grund (`cause.code`) steht im Protokoll.
+async function holeMitWiederholung(adresse, optionen) {
+  for (let versuch = 1; ; versuch += 1) {
+    try {
+      return await fetch(adresse, optionen);
+    } catch (fehler) {
+      console.log(`Abruf ${versuch} fehlgeschlagen: ${fehler.message} ${fehler.cause?.code ?? fehler.cause?.message ?? ''}`);
+      if (versuch === 3) throw fehler;
+      await schlafe(15000 * versuch);
+    }
+  }
+}
+
 // Runde 39: `inhalt` und `domains` für den zweiten Schritt (Videos je Trend),
 // sonst wie bisher der Auftrag des Monats ohne Domänen-Grenze.
 async function frageAnthropic(schluessel, monat, inhalt = auftrag(monat), domains = null) {
@@ -355,7 +370,7 @@ async function frageAnthropic(schluessel, monat, inhalt = auftrag(monat), domain
   // `pause_turn`: Die Websuche hat eine lange Runde unterbrochen — dieselbe
   // Unterhaltung geht weiter, höchstens dreimal.
   for (let runde = 0; runde < 4; runde += 1) {
-    const antwort = await fetch(ANTHROPIC, {
+    const antwort = await holeMitWiederholung(ANTHROPIC, {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
