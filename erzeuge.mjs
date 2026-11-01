@@ -319,6 +319,7 @@ const MODELL = process.env.TRENDS_MODELL || 'claude-sonnet-5-5';
 // Runde 39 (01.11.2026): 20 Suchen reichten nicht — die Probe kam mit leeren
 // Listen zurück („Mein Suchlimit war nach wenigen Abfragen aufgebraucht").
 const SUCHEN_MAX = Number(process.env.TRENDS_SUCHEN_MAX || 40);
+const VIDEO_SUCHEN_MAX = 15;
 const NAME = 'lompass-trends (monatlicher Job; github.com/floooooooo123445/lompass-trends)';
 
 function auftrag(monat) {
@@ -346,8 +347,10 @@ function schlafe(ms) {
   return new Promise((fertig) => setTimeout(fertig, ms));
 }
 
-async function frageAnthropic(schluessel, monat) {
-  const nachrichten = [{ role: 'user', content: auftrag(monat) }];
+// Runde 39: `inhalt` und `domains` für den zweiten Schritt (Videos je Trend),
+// sonst wie bisher der Auftrag des Monats ohne Domänen-Grenze.
+async function frageAnthropic(schluessel, monat, inhalt = auftrag(monat), domains = null) {
+  const nachrichten = [{ role: 'user', content: inhalt }];
   // `pause_turn`: Die Websuche hat eine lange Runde unterbrochen — dieselbe
   // Unterhaltung geht weiter, höchstens dreimal.
   for (let runde = 0; runde < 4; runde += 1) {
@@ -361,7 +364,7 @@ async function frageAnthropic(schluessel, monat) {
       body: JSON.stringify({
         model: MODELL,
         max_tokens: 16000,
-        tools: [{ type: 'web_search_20260209', name: 'web_search', max_uses: SUCHEN_MAX }],
+        tools: [{ type: 'web_search_20260209', name: 'web_search', max_uses: domains ? VIDEO_SUCHEN_MAX : SUCHEN_MAX, ...(domains ? { allowed_domains: domains } : {}) }],
         messages: nachrichten,
       }),
     });
@@ -483,6 +486,46 @@ function schluesselAusUmgebung() {
   return '';
 }
 
+// Runde 39 (01.11.2026) — **der zweite Schritt: Videos je Trend.** Die erste
+// Suche findet Trends in Medien, aber kaum Video-Adressen (Probe vom 01.11.:
+// sechs belegte Trends, alle mit `videos: []`). Deshalb sucht je Plattform eine
+// zweite Anfrage nur auf deren Domäne nach Videos zu genau diesen Trends; die
+// Adressen prüft danach wie immer oEmbed.
+const VIDEO_SUCHE = [
+  { plattform: 'youtube', domains: ['youtube.com', 'www.youtube.com'], art: 'YouTube-Videos oder -Shorts (https://www.youtube.com/watch?v=… oder /shorts/…)' },
+  { plattform: 'tiktok', domains: ['tiktok.com', 'www.tiktok.com'], art: 'TikTok-Videos (https://www.tiktok.com/@konto/video/…)' },
+];
+
+function videoAuftrag(trends, art) {
+  const liste = trends.map((t) => ({ id: t.id, titel: t.titel?.de ?? '', beschreibung: t.beschreibung?.de ?? '' }));
+  return `Finde zu jedem dieser Social-Media-Trends 1 bis 3 öffentliche ${art}, die genau diesen Trend zeigen. Find 1 to 3 public videos per trend that show exactly this trend.
+Nur Adressen, die du in den Suchergebnissen wirklich gefunden hast; erfinde nie eine Adresse. Findest du zu einem Trend nichts Passendes, lass ihn weg. Only addresses you actually found; never invent one. If nothing fits a trend, leave it out.
+Trends: ${JSON.stringify(liste)}
+Antworte nur mit JSON / Answer with JSON only: {"<id>": [{"url": "…", "creator": "…"}], …}`;
+}
+
+async function videosErgaenzen(schluessel, monat, roh) {
+  const trends = GRENZEN.plattformen.flatMap((p) => (Array.isArray(roh[p]) ? roh[p] : [])).filter(istObjekt);
+  if (trends.length === 0) return;
+  for (const suche of VIDEO_SUCHE) {
+    let gefunden;
+    try {
+      gefunden = jsonAus(await frageAnthropic(schluessel, monat, videoAuftrag(trends, suche.art), suche.domains));
+    } catch (fehler) {
+      console.log(`Videosuche ${suche.plattform}: ${fehler.message}`);
+      continue;
+    }
+    for (const trend of trends) {
+      const neu = Array.isArray(gefunden?.[trend.id]) ? gefunden[trend.id] : [];
+      const videos = Array.isArray(trend.videos) ? trend.videos : [];
+      for (const v of neu) {
+        if (istObjekt(v) && typeof v.url === 'string') videos.push({ plattform: suche.plattform, url: v.url, creator: v.creator ?? '' });
+      }
+      trend.videos = videos;
+    }
+  }
+}
+
 /** Runde 39 — warum ein Trend der Antwort fiel (nur für das Protokoll der Probe). */
 function grundGegen(wert) {
   if (!istObjekt(wert)) return 'kein Objekt';
@@ -522,6 +565,7 @@ async function lauf(probe = null) {
   const jetzt = new Date();
   const monat = jetzt.toISOString().slice(0, 7);
   const roh = jsonAus(await frageAnthropic(schluessel, monat));
+  await videosErgaenzen(schluessel, monat, roh);
 
   const vorab = pruefeDatei({
     version: 1,
