@@ -6,13 +6,13 @@
 # Runde 39 (01.11.2026): Probe-Schalter. Vor dem ersten Monatslauf zeigt eine
 # Probe die Trends mit Medium, Datum und Adresse nur im Protokoll und speichert
 # nichts (harte Regel 6, Nachtrag 563: „Erst Quellen zeigen", der Nutzer,
-# 20.10.2026; Probe auf GitHub: seine Wahl vom 01.11.2026). Der Zeitplan ruht,
-# bis er nach der Probe „ja" sagt.
+# 20.10.2026; Probe auf GitHub: seine Wahl vom 01.11.2026). Nach der Probe vom
+# 01.11.2026 hat er den Lauf freigegeben („Ja, gefährliche ausschließen").
 name: Trends des Monats
 
 on:
-  # schedule:
-  #   - cron: '17 6 1 * *'
+  schedule:
+    - cron: '17 6 1 * *'
   workflow_dispatch:
     inputs:
       probe:
