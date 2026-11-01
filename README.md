@@ -7,7 +7,9 @@ Die Trends des Monats für Haiko — eine Datei für alle (Stufe 415).
 Am 1. jedes Monats um 06:17 UTC fragt `erzeuge.mjs` die Schnittstelle von
 Anthropic einmal mit Websuche nach den Trends des Monats auf TikTok und
 Instagram: je Plattform 5–10 Trends mit Titel und Beschreibung (deutsch und
-englisch), Quelle und 3–8 öffentlichen Videos. Jede Video-Adresse wird über
+englisch), Quelle und 3–8 öffentlichen Videos; dazu (seit Stufe 528) 3–8
+Playlists des Monats bei Apple Music oder Spotify mit Titel, Link und, wenn
+gefunden, Bild — die App zeigt sie auf „Lieder im Trend". Jede Video-Adresse wird über
 oEmbed von TikTok oder YouTube geprüft, tote fallen. Bleibt je Plattform
 mindestens ein Trend, schreibt der Job `aktuell.json` und
 `archiv/JJJJ-MM.json` und committet beide. Sonst bricht er ab, und die alte
@@ -37,6 +39,49 @@ Actions → „Trends des Monats" → „Run workflow".
 
 Ohne Commit im Repo schaltet GitHub einen Zeitplan nach 60 Tagen ab; der
 monatliche Commit der Datei hält ihn wach.
+
+## Erst die Probe (seit Stufe 563)
+
+Der Auftrag verlangt seit Stufe 563 Trends aus Deutschland, Österreich und
+der Schweiz zuerst, nur mit einem Medium als Quelle, je Trend `quelleName`
+(Name des Mediums) und `quelleDatum` (Erscheinungsdatum, `JJJJ-MM-TT`). Vor
+dem ersten monatlichen Lauf einmal am Rechner:
+
+```
+ANTHROPIC_API_KEY=… node erzeuge.mjs --probe /pfad/außerhalb/probe.json
+```
+
+oder mit `ANTHROPIC_API_KEY_DATEI=/pfad/außerhalb/schluessel.txt`. Die Probe
+schreibt nur an diesen Pfad — einen im Repo weist sie ab —, ohne Archiv und
+ohne Commit, und listet Trends mit Medium, Datum und Adresse. Den Auftrag
+selbst zeigt `node erzeuge.mjs --auftrag JJJJ-MM`, ohne Netz. Der monatliche
+Lauf bleibt aus, bis der Nutzer nach der Probe „ja" sagt (harte Regel 6,
+Nachtrag 563).
+
+## Die Musikvideos der Woche (seit Stufe 562)
+
+Montags um 05:43 UTC liest `musikvideos.mjs` den Feed „most-played 50 songs
+DE" von Apple, sucht je Lied über die YouTube Data API das offizielle
+Musikvideo (Kanal des Interpreten oder VEVO, nur einbettbare Videos), setzt
+15 Sekunden aus der Mitte (`start`/`end`), prüft jede Kennung über oEmbed und
+schreibt `musikvideos.json`. Ein Lied ohne Treffer fehlt; findet er gar
+nichts, bleibt die alte Datei. Keine KI.
+
+Die App lädt nur diese Datei, ohne Schlüssel:
+`https://raw.githubusercontent.com/floooooooo123445/lompass-trends/main/musikvideos.json`
+
+**Kosten:** im freien Kontingent der YouTube Data API (je Lauf etwa 50
+Suchen zu 100 Einheiten und ein `videos.list`; die Grenze sind 10 000
+Einheiten am Tag — vor dem ersten Lauf in der Konsole prüfen).
+
+**Einrichten:**
+
+1. In der Google-Cloud-Konsole ein Projekt anlegen (oder das für YouTube
+   readonly nehmen), „YouTube Data API v3" aktivieren, unter „Anmeldedaten"
+   einen API-Schlüssel erzeugen und ihn auf diese API beschränken.
+2. Im Repo `lompass-trends`: Settings → Secrets and variables → Actions →
+   New repository secret: Name `YOUTUBE_API_KEY`, Wert der Schlüssel.
+3. Actions → „Musikvideos der Woche" → „Run workflow" für den ersten Lauf.
 
 ## In der Nähe (seit Stufe 598)
 

@@ -2,12 +2,23 @@
 # Repo `lompass-trends`). Läuft am 1. jedes Monats um 06:17 UTC — neben der
 # vollen Stunde, weil Läufe zur vollen Stunde unter Last verzögert oder
 # verworfen werden können — und auf Knopfdruck („Run workflow").
+#
+# Runde 39 (01.11.2026): Probe-Schalter. Vor dem ersten Monatslauf zeigt eine
+# Probe die Trends mit Medium, Datum und Adresse nur im Protokoll und speichert
+# nichts (harte Regel 6, Nachtrag 563: „Erst Quellen zeigen", der Nutzer,
+# 20.10.2026; Probe auf GitHub: seine Wahl vom 01.11.2026). Der Zeitplan ruht,
+# bis er nach der Probe „ja" sagt.
 name: Trends des Monats
 
 on:
-  schedule:
-    - cron: '17 6 1 * *'
+  # schedule:
+  #   - cron: '17 6 1 * *'
   workflow_dispatch:
+    inputs:
+      probe:
+        description: 'Nur Probe: Trends mit Quellen ins Protokoll, nichts speichern'
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -27,14 +38,22 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Probe (nichts wird gespeichert)
+        if: ${{ inputs.probe }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node erzeuge.mjs --probe "$RUNNER_TEMP/probe.json"
+
       # Keine Abhängigkeit: Node bringt `fetch` mit. Bricht der Lauf ab, bleibt
       # die alte `aktuell.json` stehen.
       - name: Trends erzeugen
+        if: ${{ !inputs.probe }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node erzeuge.mjs
 
       - name: Datei committen
+        if: ${{ !inputs.probe }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

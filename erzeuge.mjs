@@ -28,8 +28,8 @@
 // vergleicht die Grenzen unten mit denen der App und lässt beide Prüfungen
 // über dieselben Eingaben laufen. Wer hier etwas ändert, ändert es dort mit.
 
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { dirname, join } from 'node:path';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, join, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 // GRENZEN-ANFANG
@@ -46,7 +46,19 @@ const GRENZEN = {
     "tiktok": ["www.tiktok.com", "tiktok.com", "m.tiktok.com"],
     "youtube": ["www.youtube.com", "youtube.com", "m.youtube.com", "youtu.be"],
     "instagram": ["www.instagram.com", "instagram.com"]
-  }
+  },
+  "playlistsMax": 8,
+  "playlistTitelMax": 60,
+  "playlistAdresseMax": 500,
+  "playlistHosts": {
+    "applemusic": ["music.apple.com"],
+    "spotify": ["open.spotify.com"]
+  },
+  "playlistPfade": {
+    "applemusic": "^\\/[a-z]{2}\\/playlist\\/(?:[^/?#\\s]+\\/)?pl\\.[A-Za-z0-9._-]+(?:[/?#]|$)",
+    "spotify": "^\\/(?:intl-[a-z]{2}\\/)?playlist\\/[A-Za-z0-9]{10,40}(?:[/?#]|$)"
+  },
+  "quelleNameMax": 40
 };
 // GRENZEN-ENDE
 
@@ -149,7 +161,23 @@ function videosAus(wert) {
   return videos;
 }
 
-function trendAus(wert) {
+// Stufe 563 — Name und Datum der Quelle, beide optional; ein Feld, das eine
+// Regel bricht, fällt allein (dieselben Regeln wie `quelleFelder` in
+// `src/domain/trends-datei.ts`).
+function quelleFelder(wert, bis) {
+  const name = typeof wert.quelleName === 'string' ? wert.quelleName.trim() : '';
+  const datum = typeof wert.quelleDatum === 'string' ? wert.quelleDatum.trim() : '';
+  const tagGueltig =
+    /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/.test(datum) &&
+    new Date(`${datum}T00:00:00Z`).toISOString().slice(0, 10) === datum &&
+    (bis === null || datum <= bis);
+  return {
+    ...(name.length > 0 && name.length <= GRENZEN.quelleNameMax ? { quelleName: name } : {}),
+    ...(tagGueltig ? { quelleDatum: datum } : {}),
+  };
+}
+
+function trendAus(wert, bis = null) {
   if (!istObjekt(wert)) {
     return null;
   }
@@ -172,17 +200,25 @@ function trendAus(wert) {
   if (videos.length === 0) {
     return null;
   }
-  return { id, bereich: wert.bereich, titel, beschreibung, quelle: wert.quelle.trim(), videos };
+  return {
+    id,
+    bereich: wert.bereich,
+    titel,
+    beschreibung,
+    quelle: wert.quelle.trim(),
+    ...quelleFelder(wert, bis),
+    videos,
+  };
 }
 
-function pruefeTrendListe(wert) {
+function pruefeTrendListe(wert, bis = null) {
   if (!Array.isArray(wert)) {
     return [];
   }
   const gesehen = new Set();
   const trends = [];
   for (const eintrag of wert) {
-    const trend = trendAus(eintrag);
+    const trend = trendAus(eintrag, bis);
     if (trend === null || gesehen.has(trend.id)) {
       continue;
     }
@@ -206,12 +242,70 @@ function pruefeDatei(json) {
   if (!istObjekt(plattformen) || !GRENZEN.plattformen.every((name) => Array.isArray(plattformen[name]))) {
     return null;
   }
-  const tiktok = pruefeTrendListe(plattformen.tiktok);
-  const instagram = pruefeTrendListe(plattformen.instagram);
+  // Stufe 563 — ein Datum der Quelle nach dem Tag der Datei fällt als Feld.
+  const bis = /^\d{4}-\d{2}-\d{2}/.test(json.erzeugtAm) ? json.erzeugtAm.slice(0, 10) : null;
+  const tiktok = pruefeTrendListe(plattformen.tiktok, bis);
+  const instagram = pruefeTrendListe(plattformen.instagram, bis);
   if (tiktok.length === 0 && instagram.length === 0) {
     return null;
   }
-  return { version: 1, monat: json.monat, erzeugtAm: json.erzeugtAm, plattformen: { tiktok, instagram } };
+  // Stufe 528 — das optionale Feld `playlists`; leer steht es nicht da.
+  const playlists = pruefePlaylists(json.playlists);
+  return {
+    version: 1,
+    monat: json.monat,
+    erzeugtAm: json.erzeugtAm,
+    plattformen: { tiktok, instagram },
+    ...(playlists.length === 0 ? {} : { playlists }),
+  };
+}
+
+// Stufe 528 — die Playlists des Monats, dieselben Regeln wie `pruefePlaylists`
+// in `src/domain/trends-datei.ts`: Titel, Anbieter, ein Link auf eine Playlist
+// genau dieses Anbieters, optional ein Bild; schiefe und doppelte fallen.
+const PLAYLIST_PFADE = Object.fromEntries(
+  Object.entries(GRENZEN.playlistPfade).map(([anbieter, muster]) => [anbieter, new RegExp(muster)]),
+);
+
+function playlistAus(wert) {
+  if (!istObjekt(wert) || !Object.keys(GRENZEN.playlistHosts).includes(wert.anbieter)) {
+    return null;
+  }
+  const anbieter = wert.anbieter;
+  const titel = text(wert.titel, GRENZEN.playlistTitelMax);
+  const teile = httpsTeile(wert.url);
+  if (
+    titel === null ||
+    teile === null ||
+    wert.url.trim().length > GRENZEN.playlistAdresseMax ||
+    !GRENZEN.playlistHosts[anbieter].includes(teile.host) ||
+    !PLAYLIST_PFADE[anbieter].test(teile.rest)
+  ) {
+    return null;
+  }
+  const bild =
+    httpsTeile(wert.bild) !== null && wert.bild.trim().length <= GRENZEN.playlistAdresseMax ? wert.bild.trim() : null;
+  return { titel, anbieter, url: wert.url.trim(), bild };
+}
+
+function pruefePlaylists(wert) {
+  if (!Array.isArray(wert)) {
+    return [];
+  }
+  const gesehen = new Set();
+  const playlists = [];
+  for (const eintrag of wert) {
+    const playlist = playlistAus(eintrag);
+    if (playlist === null || gesehen.has(playlist.url)) {
+      continue;
+    }
+    gesehen.add(playlist.url);
+    playlists.push(playlist);
+    if (playlists.length === GRENZEN.playlistsMax) {
+      break;
+    }
+  }
+  return playlists;
 }
 
 // ---------------------------------------------------------------------------
@@ -231,13 +325,16 @@ You observe TikTok and Instagram and describe what is trending there this month 
 
 Aufgabe / Task:
 - Je Plattform (TikTok, Instagram) 5 bis 10 Trends dieses Monats. For each platform (TikTok, Instagram) 5 to 10 trends of this month.
-- Je Trend / per trend: "id" (Kleinbuchstaben, Ziffern, Bindestriche / lowercase, digits, hyphens), "bereich" (genau einer von / exactly one of: ${GRENZEN.bereiche.join(', ')}), "titel" {"de","en"} (höchstens / at most ${GRENZEN.titelMax} Zeichen/characters), "beschreibung" {"de","en"} (ein Satz, höchstens / one sentence, at most ${GRENZEN.beschreibungMax} Zeichen/characters), "quelle" (Pflicht: die https-Adresse der Seite, auf der du ihn gelesen hast / required: the https address of the page you read it on), "videos": 3 bis 8 öffentliche Videos / 3 to 8 public videos, je / each {"plattform": "youtube"|"tiktok"|"instagram", "url", "id", "creator"}.
+- Zuerst Deutschland, Österreich und die Schweiz (DACH); andere Länder nur, wenn der Trend dort nachweislich angekommen ist. Germany, Austria and Switzerland (DACH) first; other countries only if the trend has demonstrably arrived there.
+- Nur Trends, über die ein Medium berichtet (Zeitung, Sender, Nachrichtenseite, Fachportal); kein Marketing-Blog, kein Trend-Tool, keine KI-Seite. Only trends a news outlet reports on (newspaper, broadcaster, news site, trade portal); no marketing blog, no trend tool, no AI site.
+- Je Trend / per trend: "id" (Kleinbuchstaben, Ziffern, Bindestriche / lowercase, digits, hyphens), "bereich" (genau einer von / exactly one of: ${GRENZEN.bereiche.join(', ')}), "titel" {"de","en"} (höchstens / at most ${GRENZEN.titelMax} Zeichen/characters), "beschreibung" {"de","en"} (ein Satz, höchstens / one sentence, at most ${GRENZEN.beschreibungMax} Zeichen/characters), "quelle" (Pflicht: die https-Adresse des Artikels, in dem du ihn gelesen hast / required: the https address of the article you read it in), "quelleName" (Pflicht: der Name des Mediums, höchstens ${GRENZEN.quelleNameMax} Zeichen / required: the outlet's name, at most ${GRENZEN.quelleNameMax} characters), "quelleDatum" (Pflicht: das Erscheinungsdatum des Artikels, JJJJ-MM-TT / required: the article's publication date, YYYY-MM-DD), "videos": 3 bis 8 öffentliche Videos / 3 to 8 public videos, je / each {"plattform": "youtube"|"tiktok"|"instagram", "url", "id", "creator"}.
 - Nimm bevorzugt YouTube-Videos (Shorts), dazu TikTok-Videos; Instagram-Links nur, wenn es nichts anderes gibt. Prefer YouTube videos (Shorts), add TikTok videos; Instagram links only if nothing else exists.
 - Nur Adressen, die du wirklich gefunden hast. Erfinde niemals eine Adresse, eine Quelle oder ein Datum. Only addresses you actually found. Never invent an address, a source or a date.
 - Kein Rat, kein Marketing, keine Aussage über Personen außer dem Namen des Creators. No advice, no marketing, nothing about people except the creator's name.
+- Dazu 3 bis ${GRENZEN.playlistsMax} öffentliche Playlists, die in diesem Monat viel gehört werden (Apple Music oder Spotify), je {"titel" (ihr Name beim Anbieter, höchstens ${GRENZEN.playlistTitelMax} Zeichen), "anbieter": "applemusic"|"spotify", "url" (die Adresse der Playlist: https://music.apple.com/<land>/playlist/… oder https://open.spotify.com/playlist/…), "bild" (die https-Adresse ihres Titelbilds, wenn du sie gefunden hast, sonst null)}. Also 3 to ${GRENZEN.playlistsMax} public playlists that are widely played this month (Apple Music or Spotify), each as above. Nur Adressen, die du wirklich gefunden hast / only addresses you actually found.
 
 Antworte nur mit JSON, ohne Text davor oder danach / Answer with JSON only:
-{"tiktok": [Trend, …], "instagram": [Trend, …]}`;
+{"tiktok": [Trend, …], "instagram": [Trend, …], "playlists": [Playlist, …]}`;
 }
 
 function schlafe(ms) {
@@ -344,10 +441,54 @@ async function nurLebendeVideos(trends) {
   return geprueft;
 }
 
-async function lauf() {
-  const schluessel = process.env.ANTHROPIC_API_KEY;
+// Stufe 563 — **die Probe am Rechner** (harte Regel 6, Nachtrag 563 am
+// Vermerk 415): `node erzeuge.mjs --probe <pfad>` läuft wie der Monatsjob,
+// schreibt die geprüfte Datei aber nur an `<pfad>` — **außerhalb des Repos**,
+// ohne Archiv und ohne Commit (committen tut ohnehin nur der Workflow). Der
+// Schlüssel kommt aus `ANTHROPIC_API_KEY` oder aus der Datei, die
+// `ANTHROPIC_API_KEY_DATEI` nennt (auch sie außerhalb des Repos).
+
+/** Die Wurzel des Repos, in dem dieses Skript liegt — das erste Verzeichnis darüber mit `.git`. */
+function repoWurzel() {
+  let ordner = dirname(fileURLToPath(import.meta.url));
+  for (;;) {
+    if (existsSync(join(ordner, '.git'))) return ordner;
+    const darueber = dirname(ordner);
+    if (darueber === ordner) return dirname(fileURLToPath(import.meta.url));
+    ordner = darueber;
+  }
+}
+
+/** Ob ein Pfad im Repo liegt (dann schreibt die Probe nicht). */
+export function liegtImRepo(pfad, wurzel = repoWurzel()) {
+  const ziel = resolve(pfad).toLowerCase();
+  const repo = resolve(wurzel).toLowerCase();
+  return ziel === repo || ziel.startsWith(`${repo}${sep}`);
+}
+
+function schluesselAusUmgebung() {
+  if (process.env.ANTHROPIC_API_KEY) return process.env.ANTHROPIC_API_KEY;
+  const datei = process.env.ANTHROPIC_API_KEY_DATEI;
+  if (datei) {
+    if (liegtImRepo(datei)) {
+      throw new Error('ANTHROPIC_API_KEY_DATEI liegt im Repo — der Schlüssel gehört außerhalb.');
+    }
+    return readFileSync(datei, 'utf8').trim();
+  }
+  return '';
+}
+
+async function lauf(probe = null) {
+  if (probe !== null && liegtImRepo(probe)) {
+    throw new Error('Die Probe schreibt nur außerhalb des Repos — bitte einen Pfad außerhalb nennen.');
+  }
+  const schluessel = schluesselAusUmgebung();
   if (!schluessel) {
-    throw new Error('ANTHROPIC_API_KEY fehlt (Secret im Repo setzen).');
+    throw new Error(
+      probe === null
+        ? 'ANTHROPIC_API_KEY fehlt (Secret im Repo setzen).'
+        : 'ANTHROPIC_API_KEY fehlt (Umgebungsvariable oder ANTHROPIC_API_KEY_DATEI außerhalb des Repos).',
+    );
   }
   const jetzt = new Date();
   const monat = jetzt.toISOString().slice(0, 7);
@@ -358,6 +499,8 @@ async function lauf() {
     monat,
     erzeugtAm: jetzt.toISOString(),
     plattformen: { tiktok: roh.tiktok, instagram: roh.instagram },
+    // Stufe 528
+    playlists: roh.playlists,
   });
   if (vorab === null) {
     throw new Error('Die Antwort trägt keinen brauchbaren Trend.');
@@ -377,6 +520,15 @@ async function lauf() {
 
   const wurzel = dirname(fileURLToPath(import.meta.url));
   const inhalt = `${JSON.stringify(datei, null, 2)}\n`;
+  // Stufe 563 — die Probe: nur an den Pfad außerhalb des Repos, sonst nichts.
+  if (probe !== null) {
+    writeFileSync(resolve(probe), inhalt);
+    const zeilen = [...datei.plattformen.tiktok, ...datei.plattformen.instagram].map(
+      (trend) => `- ${trend.titel.de} — ${trend.quelleName ?? trend.quelle}${trend.quelleDatum ? `, ${trend.quelleDatum}` : ''} (${trend.quelle})`,
+    );
+    console.log(`Probe ${monat}: ${zeilen.length} Trends in ${resolve(probe)}\n${zeilen.join('\n')}`);
+    return;
+  }
   mkdirSync(join(wurzel, 'archiv'), { recursive: true });
   writeFileSync(join(wurzel, 'aktuell.json'), inhalt);
   writeFileSync(join(wurzel, 'archiv', `${monat}.json`), inhalt);
@@ -398,8 +550,21 @@ async function creatorStdin() {
   process.stdout.write(JSON.stringify(creatorAusOembed(plattform, antwort)));
 }
 
+// Stufe 563 — der Auftrag eines Monats auf stdout, ohne Netz (für den Test im Hauptrepo).
+async function auftragAusgeben() {
+  process.stdout.write(auftrag(process.argv[3] ?? new Date().toISOString().slice(0, 7)));
+}
+
 const ablauf =
-  process.argv[2] === '--pruefe' ? pruefeStdin() : process.argv[2] === '--creator' ? creatorStdin() : lauf();
+  process.argv[2] === '--pruefe'
+    ? pruefeStdin()
+    : process.argv[2] === '--creator'
+      ? creatorStdin()
+      : process.argv[2] === '--auftrag'
+        ? auftragAusgeben()
+        : process.argv[2] === '--probe'
+          ? lauf(process.argv[3] ?? '')
+          : lauf();
 ablauf.catch((fehler) => {
   console.error(fehler instanceof Error ? fehler.message : fehler);
   process.exit(1);
