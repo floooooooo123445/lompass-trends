@@ -597,6 +597,12 @@ async function lauf(probe = null) {
     },
   });
   // Mindestens ein Trend je Plattform — sonst bleibt die alte Datei.
+  if (probe !== null) {
+    for (const p of GRENZEN.plattformen) {
+      console.log(`${p}: ${vorab.plattformen[p].length} Trends vor der Videoprüfung, ${datei?.plattformen?.[p]?.length ?? 0} danach`);
+      for (const t of vorab.plattformen[p]) console.log(`  - ${t.id}: ${t.videos.map((v) => v.url).join(' ')}`);
+    }
+  }
   if (datei === null || datei.plattformen.tiktok.length === 0 || datei.plattformen.instagram.length === 0) {
     throw new Error('Nach der Prüfung der Videos bleibt nicht je Plattform ein Trend. Die alte Datei bleibt.');
   }
