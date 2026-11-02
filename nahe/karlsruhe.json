@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-11-01",
+  "stand": "2026-11-02",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -9,214 +9,6 @@
     }
   ],
   "termine": [
-    {
-      "titel": "Der Regenbogenfisch",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T13:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/der_regenbogenfisch-88",
-      "bild": null
-    },
-    {
-      "titel": "Im Namen des Volkes - Karlsruhe hat gesprochen",
-      "ort": "Schlossplatz, Karl-Friedrich-Denkmal, Karlsruhe",
-      "beginn": "2026-11-01T14:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/im_namen_des_volkes_karlsruhe_hat_gesprochen-15",
-      "bild": null
-    },
-    {
-      "titel": "Stadtrundfahrt mit der Tram von Karlsruhe nach Durlach",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T14:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/stadtrundfahrt_mit_der_tram_von_karlsruhe_nach_durlach",
-      "bild": null
-    },
-    {
-      "titel": "Stadtführung Karlsruhe",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T14:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/stadtfuhrung_karlsruhe-238",
-      "bild": null
-    },
-    {
-      "titel": "Der satanarchäolügenialkohöllische Wunschpunsch",
-      "ort": "Badisches Staatstheater, INSEL, Karlsruhe",
-      "beginn": "2026-11-01T14:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/der_satanarchaolugenialkohollische_wunschpunsch-6",
-      "bild": null
-    },
-    {
-      "titel": "Pfoten, Hufe, Federn",
-      "ort": "Heimatfreunde Grötzingen e.V., Karlsruhe",
-      "beginn": "2026-11-01T14:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/pfoten_hufe_federn-5",
-      "bild": null
-    },
-    {
-      "titel": "Stadtführung Durlach",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T14:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/stadtfuhrung_durlach",
-      "bild": null
-    },
-    {
-      "titel": "Lost Places in Karlsruhe. Fotografien von Harald Wacker",
-      "ort": "Stadtmuseum im Prinz-Max-Palais, Karlsruhe",
-      "beginn": "2026-11-01T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/lost_places_in_karlsruhe_fotografien_von_harald_wacker-10",
-      "bild": null
-    },
-    {
-      "titel": "Ein Sternbild für Flappi",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/ein_sternbild_fur_flappi-92",
-      "bild": null
-    },
-    {
-      "titel": "QBeKA Buchclub",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/qbeka_buchclub",
-      "bild": null
-    },
-    {
-      "titel": "Kinderwerkstatt „Druckreif! Experimentelle Druckwerkstatt“",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kinderwerkstatt_druckreif_experimentelle_druckwerkstatt-8",
-      "bild": null
-    },
-    {
-      "titel": "Führung „Update! Die Sammlung neu sichten – Szenenwechsel 4“",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T15:15",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/fuhrung_update_die_sammlung_neu_sichten_szenenwechsel4n-18",
-      "bild": null
-    },
-    {
-      "titel": "Die Zauberflöte (Premiere)",
-      "ort": "Hochschule für Musik Karlsruhe, CampusOne, Wolfgang-Rihm-Forum",
-      "beginn": "2026-11-01T16:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/die_zauberflote_premiere",
-      "bild": null
-    },
-    {
-      "titel": "Tears In Heaven - Songs und ihre Geschichten",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T16:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/tears_in_heaven_songs_und_ihre_geschichten",
-      "bild": null
-    },
-    {
-      "titel": "Zeitreise - Vom Urknall zum Menschen",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T17:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/zeitreise_vom_urknall_zum_menschen-96",
-      "bild": null
-    },
-    {
-      "titel": "Konzerte der Jungen Philharmonie Karlsruhe - Eintritt frei",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T17:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/konzerte_der_jungen_philharmonie_karlsruhe-1",
-      "bild": null
-    },
-    {
-      "titel": "Résonances françaises",
-      "ort": "Katholische Stadtkirche St. Stephan Karlsruhe",
-      "beginn": "2026-11-01T17:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/resonances_francaises",
-      "bild": null
-    },
-    {
-      "titel": "Rigoletto (Nur noch wenige Male)",
-      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
-      "beginn": "2026-11-01T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/rigoletto_nur_noch_wenige_male",
-      "bild": null
-    },
-    {
-      "titel": "Freies Tanzen Karlsruhe",
-      "ort": "Anne-Frank-Haus, Karlsruhe",
-      "beginn": "2026-11-01T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/freies_tanzen_karlsruhe-137",
-      "bild": null
-    },
-    {
-      "titel": "Jazzline",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T18:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/jazzline",
-      "bild": null
-    },
-    {
-      "titel": "Georg Kreisler – Der lächelnde Rebell (Gastspiel)",
-      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
-      "beginn": "2026-11-01T18:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/georg_kreisler_der_lachelnde_rebell_gastspiel",
-      "bild": null
-    },
-    {
-      "titel": "Murzarella- Bauchgesänge... ab in die zweite Runde",
-      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
-      "beginn": "2026-11-01T18:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/murzarella_bauchgesange_ab_in_die_zweite_runde-1",
-      "bild": null
-    },
-    {
-      "titel": "Von der Erde zum Universum",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-01T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/von_der_erde_zum_universum-44",
-      "bild": null
-    },
-    {
-      "titel": "SVEN REGENER",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-11-01T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sven_regener",
-      "bild": null
-    },
-    {
-      "titel": "Frauen in der DDR",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-02T09:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/frauen_in_der_ddr-1",
-      "bild": null
-    },
-    {
-      "titel": "Fabrik Quartet",
-      "ort": "Hochschule für Musik Karlsruhe, CampusOne, MUT",
-      "beginn": "2026-11-02T10:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/fabrik_quartet",
-      "bild": null
-    },
     {
       "titel": "Akademie der älteren Generation",
       "ort": "Erlöserkirche der Evangelischen methodistischen Kirche, Karlsruhe",
@@ -442,6 +234,14 @@
       "bild": null
     },
     {
+      "titel": "Live-Show \"Die Empathie-Rebellion\" in Karslruhe",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-04T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/live_show_die_empathie_rebellion_in_karslruhe",
+      "bild": null
+    },
+    {
       "titel": "Feierliche Eröffnungsveranstaltung",
       "ort": "Jüdische Kultusgemeinde Karlsruhe K.d.ö.R.",
       "beginn": "2026-11-04T19:00",
@@ -538,6 +338,14 @@
       "bild": null
     },
     {
+      "titel": "Lars - der kleine Eisbär",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-05T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lars_der_kleine_eisbar-80",
+      "bild": null
+    },
+    {
       "titel": "Wolkenwandern: Inklusives Theater",
       "ort": "Karlsruhe",
       "beginn": "2026-11-05T15:00",
@@ -559,6 +367,14 @@
       "beginn": "2026-11-05T15:00",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6",
+      "bild": null
+    },
+    {
+      "titel": "Aurora - Wunder des Nordlichts",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-05T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/aurora_wunder_des_nordlichts-126",
       "bild": null
     },
     {
@@ -623,6 +439,14 @@
       "beginn": "2026-11-05T18:45",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/einfach_tanzen-1",
+      "bild": null
+    },
+    {
+      "titel": "Queen Heaven - das Original!",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-05T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/queen_heaven_das_original-23",
       "bild": null
     },
     {
@@ -714,6 +538,14 @@
       "bild": null
     },
     {
+      "titel": "Klangreise durchs Sonnensystem",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-06T15:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/klangreise_durchs_sonnensystem-13",
+      "bild": null
+    },
+    {
       "titel": "Sprache verbindet Menschen – Japanisch als Brücke zwischen Kulturen",
       "ort": "Badische Landesbibliothek, Karlsruhe",
       "beginn": "2026-11-06T15:00",
@@ -746,6 +578,22 @@
       "bild": null
     },
     {
+      "titel": "NEU: Signale aus dem All - Messengers of Time and Space",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-06T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/neu_signale_aus_dem_all_messengers_of_time_and_space-6",
+      "bild": null
+    },
+    {
+      "titel": "Das Phantom des Universums",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-06T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/das_phantom_des_universums-9",
+      "bild": null
+    },
+    {
       "titel": "Holmes & Watson",
       "ort": "Zentrum für Kunst und Medien (ZKM), Karlsruhe",
       "beginn": "2026-11-06T19:00",
@@ -775,6 +623,14 @@
       "beginn": "2026-11-06T19:00",
       "kategorie": "konzert",
       "quelle": "https://kalender.karlsruhe.de/db/termine/musik/klangwerk_jamsession_cafe_nun-8",
+      "bild": null
+    },
+    {
+      "titel": "Monotypien, Installationen und Collagen von Valentina Jaffé",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-06T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/monotypien_installationen_und_collagen",
       "bild": null
     },
     {
@@ -882,6 +738,14 @@
       "bild": null
     },
     {
+      "titel": "Pink Floyd - The DARK SIDE of the MOON",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-06T21:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/pink_floyd_the_dark_side_of_the_moon-58",
+      "bild": null
+    },
+    {
       "titel": "Aurel Mertz - live",
       "ort": "Staatliche Hochschule für Gestaltung Karlsruhe",
       "beginn": "2026-11-06T21:15",
@@ -914,6 +778,22 @@
       "bild": null
     },
     {
+      "titel": "Captain Schnuppes Weltraumreise",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T11:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/captain_schnuppes_weltraumreise-49",
+      "bild": null
+    },
+    {
+      "titel": "Dinosaurier - die Geschichte des Überlebens",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T13:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/dinosaurier_die_geschichte_des_uberlebens-109",
+      "bild": null
+    },
+    {
       "titel": "Der Karlsruher Hauptfriedhof - Grabmale und ihre Symbolik",
       "ort": "Karlsruhe",
       "beginn": "2026-11-07T14:00",
@@ -930,6 +810,14 @@
       "bild": null
     },
     {
+      "titel": "Ein Sternbild für Flappi",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/ein_sternbild_fur_flappi-91",
+      "bild": null
+    },
+    {
       "titel": "Auf den Spuren des Kolonialismus in Karlsruhe",
       "ort": "Karlsruhe",
       "beginn": "2026-11-07T15:00",
@@ -938,11 +826,27 @@
       "bild": null
     },
     {
+      "titel": "Zeitreise - Vom Urknall zum Menschen",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/zeitreise_vom_urknall_zum_menschen-97",
+      "bild": null
+    },
+    {
       "titel": "Martinsumzug mit Lagerfeuer, Ross & Reiter",
       "ort": "Karlsruhe",
       "beginn": "2026-11-07T17:00",
       "kategorie": "sport",
       "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/martinsumzug_mit_lagerfeuer_ross_reiter",
+      "bild": null
+    },
+    {
+      "titel": "Die Grabkapelle im Kerzenschein erleben",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/die_grabkapelle_im_kerzenschein_erleben",
       "bild": null
     },
     {
@@ -959,6 +863,14 @@
       "beginn": "2026-11-07T18:30",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/geschichten_aus_dem_wiener_wald-1",
+      "bild": null
+    },
+    {
+      "titel": "Geheimnis Dunkle Materie",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/geheimnis_dunkle_materie-21",
       "bild": null
     },
     {
@@ -1082,6 +994,14 @@
       "bild": null
     },
     {
+      "titel": "Aurora - Wunder des Nordlichts",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-07T21:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/aurora_wunder_des_nordlichts-127",
+      "bild": null
+    },
+    {
       "titel": "80ER PARTY",
       "ort": "Substage Karlsruhe e.V.",
       "beginn": "2026-11-07T21:00",
@@ -1154,6 +1074,22 @@
       "bild": null
     },
     {
+      "titel": "NEU: Fritz Fliege fliegt ins Weltall",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-08T11:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/neu_fritz_fliege_fliegt_ins_weltall-10",
+      "bild": null
+    },
+    {
+      "titel": "Stups, die kleine Sternschnuppe",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-08T13:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/stups_die_kleine_sternschnuppe-60",
+      "bild": null
+    },
+    {
       "titel": "Matzen, Mikwe, Menorah - Jüdisches Leben in Karlsruhe",
       "ort": "Karlsruhe",
       "beginn": "2026-11-08T14:00",
@@ -1191,6 +1127,14 @@
       "beginn": "2026-11-08T14:30",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/exotik_unter_glas_exotische_pflanzen",
+      "bild": null
+    },
+    {
+      "titel": "Der Regenbogenfisch",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-08T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/der_regenbogenfisch-89",
       "bild": null
     },
     {
@@ -1247,6 +1191,14 @@
       "beginn": "2026-11-08T16:00",
       "kategorie": "konzert",
       "quelle": "https://kalender.karlsruhe.de/db/termine/musik/nebel",
+      "bild": null
+    },
+    {
+      "titel": "NEU: \"Black Marble\" - Die Erde bei Nacht",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-08T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/neu_black_marble_die_erde_bei_nacht-10",
       "bild": null
     },
     {
@@ -1311,6 +1263,14 @@
       "beginn": "2026-11-08T18:30",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/12_tote_huhner-2",
+      "bild": null
+    },
+    {
+      "titel": "Musik & Kosmos: \"Stars of Classic\"",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-08T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/musik_kosmos_stars_of_classic-56",
       "bild": null
     },
     {
@@ -1415,6 +1375,14 @@
       "beginn": "2026-11-09T18:00",
       "kategorie": "konzert",
       "quelle": "https://kalender.karlsruhe.de/db/termine/musik/gedenkkonzert_ich_bin_der_welt_abhanden_gekommen",
+      "bild": null
+    },
+    {
+      "titel": "Vom Erzählen, Gespräche über Leseerfahrungen VIII, Roncalli Literaturkreis",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-09T18:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vom_erzahlen_gesprache_uber_leseerfahrungen-8",
       "bild": null
     },
     {
@@ -1626,6 +1594,14 @@
       "bild": null
     },
     {
+      "titel": "Bildungsfrühstück mit Henrike Wagner B.A., Karlsruhe",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-11T09:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/bildungsfruhstuck_mit_henrike_wagner_ba_karlsruhe",
+      "bild": null
+    },
+    {
       "titel": "Onleihe Sprechstunde",
       "ort": "Karlsruhe",
       "beginn": "2026-11-11T10:00",
@@ -1802,6 +1778,14 @@
       "bild": null
     },
     {
+      "titel": "Militantropos (DCP OmeU)",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-11T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/militantropos_dcp_omeu",
+      "bild": null
+    },
+    {
       "titel": "BLUE CHURCH . „Du Fremde: Musik“",
       "ort": "Kleine Kirche, Kaiserstr. 131, 76133 Karlsruhe",
       "beginn": "2026-11-11T19:30",
@@ -1870,7 +1854,7 @@
       "ort": "Karlsruhe",
       "beginn": "2026-11-12T10:00",
       "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/wie_wirken_frauen_fur_den_frieden",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/wie_wirken_frauen_fur_den_frieden-1",
       "bild": null
     },
     {
@@ -1951,6 +1935,14 @@
       "beginn": "2026-11-12T17:30",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/smart_city_mobilitat_klima",
+      "bild": null
+    },
+    {
+      "titel": "„Es gibt keine verlorene Zeit.“",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-12T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/es_gibt_keine_verlorene_zeit-4",
       "bild": null
     },
     {
@@ -2159,6 +2151,14 @@
       "beginn": "2026-11-13T15:00",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/kreativ_mit_holz_basteln_schnitzen_und_brennmalerei-1",
+      "bild": null
+    },
+    {
+      "titel": "Workshop \"Klartext reden – ohne Streit!\"",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-13T15:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/workshop_klartext_reden_ohne_streit",
       "bild": null
     },
     {
@@ -2394,19 +2394,19 @@
       "bild": null
     },
     {
+      "titel": "La battaglia di Algeri (35mm OmeU)",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-13T20:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/la_battaglia_di_algeri_35mm_omeu",
+      "bild": null
+    },
+    {
       "titel": "KAI STRAUSS & THE ELECTRIC BLUES ALL STARS",
       "ort": "Kulturzentrum Tollhaus, Karlsruhe",
       "beginn": "2026-11-13T20:00",
       "kategorie": "konzert",
       "quelle": "https://kalender.karlsruhe.de/db/termine/musik/kai_strauss_the_electric_blues_all_stars",
-      "bild": null
-    },
-    {
-      "titel": "CAVEMAN",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-11-13T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/caveman",
       "bild": null
     }
   ]
