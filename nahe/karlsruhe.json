@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-11-02",
+  "stand": "2026-11-03",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -9,86 +9,6 @@
     }
   ],
   "termine": [
-    {
-      "titel": "Akademie der älteren Generation",
-      "ort": "Erlöserkirche der Evangelischen methodistischen Kirche, Karlsruhe",
-      "beginn": "2026-11-02T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/akademie_der_alteren_generation-1",
-      "bild": null
-    },
-    {
-      "titel": "Projektmanagement",
-      "ort": "Badische Landesbibliothek, Karlsruhe",
-      "beginn": "2026-11-02T17:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/projektmanagement",
-      "bild": null
-    },
-    {
-      "titel": "Pilzberatung 2026",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-11-02T17:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/pilzberatung2026n-1",
-      "bild": null
-    },
-    {
-      "titel": "Lektürekurs Hebräisch (5 Termine)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-02T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lekturekurs_hebraisch_5_termine-1",
-      "bild": null
-    },
-    {
-      "titel": "Veganer Mitbringen-Abend",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-02T18:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/veganer_mitbringen_abend",
-      "bild": null
-    },
-    {
-      "titel": "Badisches Staatstheater - neu entdeckt, tiefer geblickt, intensiv im Austausch",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-02T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/badisches_staatstheater_neu_entdeckt",
-      "bild": null
-    },
-    {
-      "titel": "PRIMA Abend Klavier",
-      "ort": "Hochschule für Musik, Velte-Saal, Karlsruhe",
-      "beginn": "2026-11-02T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/prima_abend_klavier",
-      "bild": null
-    },
-    {
-      "titel": "Lachtschwestern",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-11-02T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/lachtschwestern-2",
-      "bild": null
-    },
-    {
-      "titel": "Sprechstunde: Einfach digital!",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-03T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sprechstunde_einfach_digital-59",
-      "bild": null
-    },
-    {
-      "titel": "Genova-Dimitrov",
-      "ort": "Hochschule für Musik, Velte-Saal, Karlsruhe",
-      "beginn": "2026-11-03T11:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/genova_dimitrov",
-      "bild": null
-    },
     {
       "titel": "Buchclub „Über den Buchrand hinaus“",
       "ort": "Karlsruhe",
@@ -1778,11 +1698,11 @@
       "bild": null
     },
     {
-      "titel": "Militantropos (DCP OmeU)",
+      "titel": "Militantropos (OmeU)",
       "ort": "Karlsruhe",
       "beginn": "2026-11-11T19:00",
       "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/militantropos_dcp_omeu",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/militantropos_omeu",
       "bild": null
     },
     {
@@ -2015,14 +1935,6 @@
       "beginn": "2026-11-12T19:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/die_aliens_sind_unter_uns_neobiota_in_karlsruhe",
-      "bild": null
-    },
-    {
-      "titel": "Tag 4 des 11. Festivals für freie Improvisationsmusik Karlsruhe",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-12T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/tag_4_des_11_festivals_fur_freie_improvisationsmusik",
       "bild": null
     },
     {
@@ -2407,6 +2319,94 @@
       "beginn": "2026-11-13T20:00",
       "kategorie": "konzert",
       "quelle": "https://kalender.karlsruhe.de/db/termine/musik/kai_strauss_the_electric_blues_all_stars",
+      "bild": null
+    },
+    {
+      "titel": "CAVEMAN",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-13T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/caveman",
+      "bild": null
+    },
+    {
+      "titel": "Ansa Sauermann Support Sophie Hallberg | Café NUN",
+      "ort": "Café NUN, Karlsruhe",
+      "beginn": "2026-11-13T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/ansa_sauermann_support_sophie_hallberg_cafe_nun",
+      "bild": null
+    },
+    {
+      "titel": "In annere Umschdänd",
+      "ort": "Badisch Bühn Mundarttheater, Karlsruhe",
+      "beginn": "2026-11-13T20:15",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/in_annere_umschdand-46",
+      "bild": null
+    },
+    {
+      "titel": "FANTASY-WOCHE: Kinofilm \"Dog of God\"",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-13T21:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_kinofilm_dog_of_god",
+      "bild": null
+    },
+    {
+      "titel": "Hasardeur Indoor",
+      "ort": "Messe Karlsruhe",
+      "beginn": "2026-11-14",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/hasardeur_indoor",
+      "bild": null
+    },
+    {
+      "titel": "Mia Oberländer. Mind the Gap II",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-14",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/mia_oberlander_mind_the_gap_ii",
+      "bild": null
+    },
+    {
+      "titel": "Historischer Schwertkampf - Einsteiger Workshop",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-14T10:00",
+      "kategorie": "sport",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/historischer_schwertkampf_einsteiger_workshop",
+      "bild": null
+    },
+    {
+      "titel": "Camera Acting Workshop für Jugendliche und junge Erwachsene ab 16 Jahren",
+      "ort": "Imagine, Schauspielschule für Kinder und Jugendliche, Karlsruhe",
+      "beginn": "2026-11-14T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/camera_acting_workshop_fur_jugendliche",
+      "bild": null
+    },
+    {
+      "titel": "30 Years American Library",
+      "ort": "Stadtbibliothek Karlsruhe, Amerikanische Bibliothek",
+      "beginn": "2026-11-14T10:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/30_years_american_library",
+      "bild": null
+    },
+    {
+      "titel": "Französischer Workshop für Kinder",
+      "ort": "Stiftung Centre Culturel Franco-Allemand Karlsruhe.",
+      "beginn": "2026-11-14T10:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/franzosischer_workshop_fur_kinder",
+      "bild": null
+    },
+    {
+      "titel": "Hobby und Künstlermarkt",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-14T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/hobby_und_kunstlermarkt",
       "bild": null
     }
   ]
