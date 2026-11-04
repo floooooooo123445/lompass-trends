@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-11-03",
+  "stand": "2026-11-04",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -10,67 +10,11 @@
   ],
   "termine": [
     {
-      "titel": "Buchclub „Über den Buchrand hinaus“",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-03T17:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/buchclub_uber_den_buchrand_hinaus",
-      "bild": null
-    },
-    {
-      "titel": "Theaterlabor für alle",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-03T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/theaterlabor_fur_alle-11",
-      "bild": null
-    },
-    {
-      "titel": "Checkpoint Karlsruhe | 03.11.2026",
-      "ort": "ZeSIA, Zentrum für sexuelle Gesundheit, Identität und Aufklärung Karlsruhe",
-      "beginn": "2026-11-03T18:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/checkpoint_karlsruhe03112026n",
-      "bild": null
-    },
-    {
-      "titel": "Vortrag: Im Dunkel der Unterwasserhöhlen des Yucatans – auf den Spuren der nächsten Verwandten der Insekten",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-11-03T18:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vortrag_im_dunkel_der_unterwasserhohlen",
-      "bild": null
-    },
-    {
-      "titel": "Brand und Katastrophe – Zündeln und Löschen in Baden 1700–1900",
-      "ort": "Badische Landesbibliothek, Karlsruhe",
-      "beginn": "2026-11-03T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen-1",
-      "bild": null
-    },
-    {
       "titel": "Brand und Katastrophe – Zündeln und Löschen in Baden 1700-1900",
       "ort": "Badische Landesbibliothek, Karlsruhe",
       "beginn": "2026-11-04",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen",
-      "bild": null
-    },
-    {
-      "titel": "Orientierungslos im Bücherdschungel?",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-04T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/orientierungslos_im_bucherdschungel-2",
-      "bild": null
-    },
-    {
-      "titel": "Onleihe Sprechstunde",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-04T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/onleihe_sprechstunde-125",
       "bild": null
     },
     {
@@ -1508,7 +1452,7 @@
     {
       "titel": "Wandern für Seniorinnen und Senioren",
       "ort": "Karlsruhe",
-      "beginn": "2026-11-11T09:00",
+      "beginn": "2026-11-11T08:50",
       "kategorie": "sport",
       "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/wandern_fur_seniorinnen_und_senioren-17",
       "bild": null
@@ -1810,19 +1754,19 @@
       "bild": null
     },
     {
+      "titel": "Book DIY",
+      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Durlach",
+      "beginn": "2026-11-12T15:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/book_diy-1",
+      "bild": null
+    },
+    {
       "titel": "Experimente (5–7 Jahre): Schmecken und Riechen",
       "ort": "Staatliches Museum für Naturkunde Karlsruhe",
       "beginn": "2026-11-12T15:30",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/experimente_57_jahre_schmecken_und_riechen-3",
-      "bild": null
-    },
-    {
-      "titel": "Book DIY",
-      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Durlach",
-      "beginn": "2026-11-12T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/book_diy-1",
       "bild": null
     },
     {
@@ -2007,6 +1951,14 @@
       "beginn": "2026-11-12T20:00",
       "kategorie": "konzert",
       "quelle": "https://kalender.karlsruhe.de/db/termine/musik/minyo_crusaders",
+      "bild": null
+    },
+    {
+      "titel": "Hobbykünstler & Kreativbörse 2026",
+      "ort": "Badnerlandhalle Neureut, Karlsruhe",
+      "beginn": "2026-11-13",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/hobbykunstler_kreativborse2026n",
       "bild": null
     },
     {
@@ -2407,6 +2359,54 @@
       "beginn": "2026-11-14T11:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/hobby_und_kunstlermarkt",
+      "bild": null
+    },
+    {
+      "titel": "Adventskranz binden",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-14T11:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/adventskranz_binden-2",
+      "bild": null
+    },
+    {
+      "titel": "Familientag – Medienzeit ist Familienzeit",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-14T12:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/familientag_medienzeit_ist_familienzeit",
+      "bild": null
+    },
+    {
+      "titel": "Familientag: Gemeinsam lesen, liken, leben",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-14T12:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/familientag_gemeinsam_lesen_liken_leben",
+      "bild": null
+    },
+    {
+      "titel": "Mit der Linie 5 auf Entdeckungstour - unterwegs mit der Tram und zu Fuß",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-14T14:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/mit_der_linie_5_auf_entdeckungstour-12",
+      "bild": null
+    },
+    {
+      "titel": "Hinterhöfe und Schleichwege in der Oststadt",
+      "ort": "Haupteingang Lutherkiche am Gottesauer Platz, Karlsruhe",
+      "beginn": "2026-11-14T14:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/hinterhofe_und_schleichwege_in_der_oststadt-5",
+      "bild": null
+    },
+    {
+      "titel": "Blick hinter die Kulissen – Theaterführung",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-14T14:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/blick_hinter_die_kulissen_theaterfuhrung",
       "bild": null
     }
   ]
