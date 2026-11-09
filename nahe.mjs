@@ -5,8 +5,9 @@
 // Was der Job tut, einmal am Tag (`.github/workflows/tag.yml`):
 //
 // 1. liest die Quellenliste `nahe-quellen.json` — je Quelle die Stadt (ihre
-//    Kennung wie `stadtKennung` in der App), die Art (`ical`, `rss` oder
-//    `jsonld`), genau eine https-Adresse und die Lizenz, wörtlich. Eine Quelle
+//    Kennung wie `stadtKennung` in der App), die Art (`ical`, `rss`,
+//    `jsonld` oder seit Stufe 743 `json`), genau eine https-Adresse und die
+//    Lizenz, wörtlich. Eine Quelle
 //    ohne Lizenz, ohne https, mit fremder Art oder auf einer Plattform fällt
 //    (Kopie von `pruefeNaheQuelle`, `src/domain/reisen/nahe.ts`);
 // 2. holt je Quelle genau diese eine Adresse über einen höflichen Abruf:
@@ -25,10 +26,16 @@
 //    nur `ev:startdate` zählt); Mitternacht heißt dann „ohne Uhrzeit".
 //    `"ortAus": "kopf"` nimmt den Ort aus dem fetten Kopf der Meldung
 //    („<Zeit> - <Ort> - ", Kalender der Stadt Karlsruhe). Von einer
-//    iCal-Serie zählt nur `DTSTART` (`RRULE` liest der Job nicht);
+//    iCal-Serie zählt nur `DTSTART` (`RRULE` liest der Job nicht).
+//    Stufe 743: `"beginnAus": "termin"` und `"ortAus": "staette"` lesen den
+//    Beginn aus `<termin>` und den Ort aus `<staette>` in der Meldung
+//    (Kalender der Stadt Ulm); die Art `json` liest eine Sammel-Schnittstelle
+//    nur in der Form, die die Quelle mit `"form"` nennt (`simple-search`, die
+//    Listen von berlin.de);
 // 4. schreibt je Stadt `nahe/<stadt>.json` im Format, das die App liest
 //    (`src/data/naheDatei.ts`, `pruefeNaheDatei`): `{ stadt, stand, quellen,
-//    termine }`, ab heute, die nächsten zuerst, höchstens 300. `quellen` nennt
+//    termine }`, ab heute, die nächsten zuerst, höchstens 600 (bis Stufe 741
+//    300; seit Stufe 742 zeigt „In der Nähe" bis zu 14 Tage). `quellen` nennt
 //    Herausgeber, Lizenz und Nachweis — die App liest das Feld nicht, es steht
 //    für jeden, der die Datei im Repo findet. Vor dem Schreiben prüft er die
 //    Datei mit einer Kopie der Regeln der App (der Test
@@ -52,7 +59,7 @@ import { fileURLToPath } from 'node:url';
 // --- Kopie der Regeln der App (src/domain/reisen/nahe.ts) -------------------
 
 export const KATEGORIEN = ['kultur', 'kurs', 'disko', 'festival', 'konzert', 'sport', 'markt', 'sonstiges'];
-export const QUELLEN_ARTEN = ['ical', 'rss', 'jsonld'];
+export const QUELLEN_ARTEN = ['ical', 'rss', 'jsonld', 'json'];
 export const GESPERRTE_HOSTS = [
   'tiktok.com',
   'instagram.com',
@@ -65,7 +72,8 @@ export const GESPERRTE_HOSTS = [
   'threads.net',
   'threads.com',
 ];
-export const TERMINE_MAX = 300;
+// Stufe 742 — 600 statt 300: „In der Nähe" zeigt bis zu 14 Tage (`NAHE_TERMINE_MAX` in der App).
+export const TERMINE_MAX = 600;
 const TITEL_MAX = 160;
 const ORT_MAX = 160;
 const ADRESSE_MAX = 2048;
@@ -335,12 +343,15 @@ export function gekuerzt(wert, max) {
 
 // --- Kategorie: nur aus dem, was die Quelle als Art nennt -------------------
 
+// Stufe 743: „Feste" und „Volksfeste" (Ulm „Feste & Events", berlin.de
+// „strassen-volksfeste") zählen als Festival, „Märkte" (Ulm „Märkte & Messen",
+// berlin.de „maerkte") als Markt — das Wort der Quelle, nie der Titel.
 const KATEGORIE_MUSTER = [
-  ['festival', /festival/],
+  ['festival', /festival|\bfeste\b|volksfest|stadtfest|straßenfest|strassenfest/],
   ['konzert', /konzert|musik|music|jazz|chor\b|band\b/],
   ['disko', /party|disko|disco|clubbing|tanznacht/],
   ['sport', /sport|marathon|turnier|sportsevent/],
-  ['markt', /markt|flohmarkt|basar|trödel|saleevent/],
+  ['markt', /markt|märkte|maerkte|flohmarkt|basar|trödel|saleevent/],
   ['kurs', /kurs|workshop|seminar|schulung|educationevent|courseinstance/],
   [
     'kultur',
@@ -475,6 +486,48 @@ function ohneMitternacht(beginn) {
   return beginn !== null && beginn.endsWith('T00:00') ? beginn.slice(0, 10) : beginn;
 }
 
+// Stufe 743
+/**
+ * Der Beginn aus `<termin>` in der Meldung — der Kalender der Stadt Ulm
+ * schreibt `<termin><jahr>2026</jahr><monat>11</monat><tag>09</tag>
+ * <uhrzeit>07:00</uhrzeit></termin>` in die Beschreibung. Ohne gültige
+ * Uhrzeit oder um Mitternacht nur der Tag; ohne gültigen Tag `null`.
+ */
+export function beginnAusTermin(eintrag) {
+  const block = rssFeld(eintrag, 'termin');
+  if (block === '') return null;
+  const jahr = glatt(rssFeld(block, 'jahr'));
+  const monat = glatt(rssFeld(block, 'monat'));
+  const tag = glatt(rssFeld(block, 'tag'));
+  if (!/^\d{4}$/.test(jahr) || !/^\d{1,2}$/.test(monat) || !/^\d{1,2}$/.test(tag)) return null;
+  if (!gueltigesDatum(Number(jahr), Number(monat), Number(tag))) return null;
+  const uhr = /^(\d{1,2})[:.](\d{2})$/.exec(glatt(rssFeld(block, 'uhrzeit')));
+  if (uhr === null || Number(uhr[1]) > 23 || Number(uhr[2]) > 59) {
+    return wandzeitText(Number(jahr), Number(monat), Number(tag), null, null);
+  }
+  return ohneMitternacht(wandzeitText(Number(jahr), Number(monat), Number(tag), Number(uhr[1]), Number(uhr[2])));
+}
+
+// Stufe 743
+/**
+ * Der Ort aus `<staette>` in der Meldung (Kalender der Stadt Ulm):
+ * `<bezeichnung>`, eine `<teilstaette>`, dahinter `<ort>` der Stätte („Ulm",
+ * „Neu-Ulm", aber auch „Senden" oder „Vöhringen"). Der `<veranstalter>`
+ * daneben trägt dieselben Felder und zählt nicht. Ohne Stätte: leer.
+ */
+export function ortAusStaette(eintrag) {
+  const staette = rssFeld(eintrag, 'staette');
+  if (staette === '') return '';
+  const name = [glatt(rssFeld(staette, 'bezeichnung')), glatt(rssFeld(staette, 'teilstaette'))].filter(Boolean).join(', ');
+  const stadt = stadtDerStaette(eintrag);
+  return mitStadt(name, stadt) || stadt;
+}
+
+/** `<ort>` in `<staette>` — der Ort, den die Stätte selbst nennt; sonst leer. */
+function stadtDerStaette(eintrag) {
+  return glatt(rssFeld(rssFeld(eintrag, 'staette'), 'ort'));
+}
+
 /** Der Ort mit der Stadt der Quelle dahinter, wenn er sie nicht schon nennt („OrgelFabrikSalon, Karlsruhe"). */
 function mitStadt(ort, stadt) {
   if (ort === '' || typeof stadt !== 'string' || stadt === '') return ort;
@@ -491,13 +544,26 @@ export function liesRss(text, quelle) {
         ? beginnAusIso(start)
         : quelle.beginnAus === 'pubDate'
           ? ohneMitternacht(beginnAusRfc822(glatt(rssFeld(eintrag, 'pubDate'))))
-          : null;
-    const genannterOrt = glatt(rssFeld(eintrag, 'ev:location')) || (quelle.ortAus === 'kopf' ? ortAusKopf(eintrag) : '');
+          : quelle.beginnAus === 'termin'
+            ? beginnAusTermin(eintrag)
+            : null;
+    const ausKopf = quelle.ortAus === 'kopf' ? ortAusKopf(eintrag) : quelle.ortAus === 'staette' ? ortAusStaette(eintrag) : '';
+    const genannterOrt = glatt(rssFeld(eintrag, 'ev:location')) || ausKopf;
     if (nurOnline(titel, genannterOrt, glatt(rssFeld(eintrag, 'description')))) return [];
-    const ort = mitStadt(genannterOrt, quelle.ort) || (quelle.ort ?? '');
+    // Stufe 743: Nennt die Stätte ihren eigenen Ort („Bürgerhaus, Senden"), kommt die Stadt der Quelle nicht dahinter.
+    const eigenerOrt = quelle.ortAus === 'staette' && genannterOrt === ausKopf && stadtDerStaette(eintrag) !== '';
+    const ort = eigenerOrt ? genannterOrt : mitStadt(genannterOrt, quelle.ort) || (quelle.ort ?? '');
     const adresse = httpsAdresse(glatt(rssFeld(eintrag, 'link'))) ?? httpsAdresse(quelle.seite);
     if (titel === '' || beginn === null || ort === '' || adresse === null) return [];
-    const woerter = [...rssFelder(eintrag, 'category'), ...rssFelder(eintrag, 'ev:type'), ...pfadWoerter(adresse)];
+    // Stufe 743: dazu `<kategorie>` und `<unterkategorie1/2>` in der Meldung (Kalender der Stadt Ulm).
+    const woerter = [
+      ...rssFelder(eintrag, 'category'),
+      ...rssFelder(eintrag, 'ev:type'),
+      ...rssFelder(eintrag, 'kategorie'),
+      ...rssFelder(eintrag, 'unterkategorie1'),
+      ...rssFelder(eintrag, 'unterkategorie2'),
+      ...pfadWoerter(adresse),
+    ];
     return [termin(titel, ort, beginn, kategorieAus(woerter), adresse)];
   });
 }
@@ -547,7 +613,8 @@ function sammleEreignisse(knoten, ablage) {
 /**
  * Nur, was eine Seite in `<script type="application/ld+json">` über sich
  * selbst ausweist (Vermerk 505 an Regel 7) — eine Antwort, die selbst JSON
- * ist (eine Sammel-Schnittstelle), liest der Job nicht.
+ * ist (eine Sammel-Schnittstelle), liest der Job hier nicht; dafür steht seit
+ * Stufe 743 die Art `json` mit genannter Form ({@link liesJson}).
  */
 export function liesJsonLd(text, quelle) {
   const bloecke = [...text.matchAll(/<script\b[^>]*type\s*=\s*["']?application\/ld\+json["']?[^>]*>([\s\S]*?)<\/script>/gi)].map(
@@ -574,7 +641,60 @@ export function liesJsonLd(text, quelle) {
   });
 }
 
-const LESER = { ical: liesIcal, rss: liesRss, jsonld: liesJsonLd };
+/** `TT.MM.JJJJ` (oder ISO) als Tag — `null`, wenn es keiner ist. */
+export function beginnAusDatum(wert) {
+  const treffer = /^(\d{1,2})\.(\d{1,2})\.(\d{4})$/.exec(typeof wert === 'string' ? wert.trim() : '');
+  if (treffer === null) {
+    const iso = beginnAusIso(wert);
+    return iso === null ? null : iso.slice(0, 10);
+  }
+  const [, t, m, j] = treffer;
+  return gueltigesDatum(Number(j), Number(m), Number(t)) ? wandzeitText(Number(j), Number(m), Number(t), null, null) : null;
+}
+
+function feld(eintrag, name) {
+  return glatt(typeof eintrag[name] === 'string' ? eintrag[name] : '');
+}
+
+// Stufe 743
+/**
+ * **Eine Sammel-Schnittstelle als JSON** (Art `json`) — gelesen nur in der
+ * Form, die die Quelle mit `"form"` nennt; eine fremde Form liest der Job
+ * nicht. `simple-search`: die Listen von berlin.de (`{ index: [{
+ * bezeichnung, strasse, bezirk, von, bis, zeit, … }] }`, etwa die Straßen-
+ * und Volksfeste der Senatsverwaltung). Ein Fest gilt ab seinem ersten Tag
+ * `von`, ohne Uhrzeit (`zeit` ist freier Text). Der Termin steht auf der
+ * Seite der Liste (`seite`); die Kategorie kommt aus dem Pfad der Liste, nie
+ * aus dem Titel. Ein Eintrag mit einem Bezirk aus `"ohneBezirke"` (berlin.de
+ * führt Feste in Brandenburg mit) fällt. Kontaktfelder (`mail`,
+ * `veranstalter`) liest der Job nicht.
+ */
+export function liesJson(text, quelle) {
+  if (quelle.form !== 'simple-search') return [];
+  let daten;
+  try {
+    daten = JSON.parse(text);
+  } catch {
+    return [];
+  }
+  const liste = istObjekt(daten) && Array.isArray(daten.index) ? daten.index : [];
+  const adresse = httpsAdresse(quelle.seite);
+  if (adresse === null) return [];
+  const ohneBezirke = Array.isArray(quelle.ohneBezirke) ? quelle.ohneBezirke : [];
+  const kategorie = kategorieAus(pfadWoerter(quelle.url ?? ''));
+  return liste.flatMap((e) => {
+    if (!istObjekt(e) || ohneBezirke.includes(feld(e, 'bezirk'))) return [];
+    const titel = feld(e, 'bezeichnung');
+    const beginn = beginnAusDatum(e.von);
+    const strasse = feld(e, 'strasse');
+    if (nurOnline(titel, strasse, feld(e, 'bemerkungen'))) return [];
+    const ort = mitStadt(strasse, quelle.ort) || (quelle.ort ?? '');
+    if (titel === '' || beginn === null || ort === '') return [];
+    return [termin(titel, ort, beginn, kategorie, adresse)];
+  });
+}
+
+const LESER = { ical: liesIcal, rss: liesRss, jsonld: liesJsonLd, json: liesJson };
 
 /**
  * Ein Titel, der selbst sagt, dass der Termin nicht stattfindet („-- ENTFÄLLT --",
@@ -757,6 +877,7 @@ const ANNAHME = {
   ical: 'text/calendar, */*;q=0.1',
   rss: 'application/rss+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.1',
   jsonld: 'text/html, */*;q=0.1',
+  json: 'application/json, */*;q=0.1',
 };
 
 /** Genau die Adresse einer Quelle — oder ein Fehler mit Grund. */

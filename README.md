@@ -87,7 +87,8 @@ Einheiten am Tag — vor dem ersten Lauf in der Konsole prüfen).
 
 Täglich um 03:29 UTC liest `nahe.mjs` die Quellen aus `nahe-quellen.json`
 und schreibt je Stadt `nahe/<stadt>.json` — die Termine ab heute, die
-nächsten zuerst, höchstens 300. Keine KI, kein Schlüssel, kein Secret.
+nächsten zuerst, höchstens 600 (seit Stufe 742; die App zeigt bis zu 14
+Tage, bis dahin 300). Keine KI, kein Schlüssel, kein Secret.
 
 **Die Quellenliste** nennt je Quelle `stadt` (die Kennung wie in der App:
 „Nürnberg" → `nuernberg`), `art` (`ical`, `rss` oder `jsonld`), `url` (genau
@@ -100,7 +101,16 @@ der Meldung, und nur `ev:startdate` zählt); Mitternacht heißt dort „ohne
 Uhrzeit". `"ortAus": "kopf"` nimmt den Ort aus dem fetten Kopf der Meldung
 („<Zeit> - <Ort> - ", Kalender der Stadt Karlsruhe). Online-Termine fallen.
 Von einer iCal-Serie zählt nur der erste Termin (`RRULE` liest der Job
-nicht). Eine Quelle ohne Lizenz, ohne https
+nicht). Seit Stufe 743: `"beginnAus": "termin"` und `"ortAus": "staette"`
+lesen Beginn und Ort aus `<termin>` und `<staette>` in der Meldung (Kalender
+der Stadt Ulm), und die Art `json` liest eine offene Sammel-Schnittstelle nur
+in der Form, die `"form"` nennt — `simple-search` sind die Listen von
+berlin.de (Straßen- und Volksfeste; ein Fest ab seinem ersten Tag, Bezirke aus
+`"ohneBezirke"` fallen). Berlin steht noch nicht in der Liste: CC BY verlangt
+eine Nennung in der App, die es noch nicht gibt. Die Städte der Liste stehen in der App gespiegelt in
+`NAHE_DATEI_STAEDTE` (`src/domain/reisen/nahe.ts`, ein Wächter vergleicht
+beide); eine Stadt ohne Datei nimmt die Datei der nächsten Stadt mit Datei
+bis 40 km. Eine Quelle ohne Lizenz, ohne https
 oder auf einer Plattform (TikTok, Instagram, Facebook, X, YouTube, Threads)
 liest der Job nicht. Eine Stadt ohne Quelle mit klarer Lizenz steht nicht in
 der Liste.

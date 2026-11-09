@@ -10,5 +10,17 @@
     "seite": "https://kalender.karlsruhe.de/db/termine/",
     "beginnAus": "pubDate",
     "ortAus": "kopf"
+  },
+  {
+    "stadt": "ulm",
+    "art": "rss",
+    "url": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/templates/rss_events.groovy?data_source=evt_rssfeed_ulm_events",
+    "lizenz": "Creative Commons CCZero",
+    "herausgeber": "Stadt Ulm, Digitale Agenda",
+    "nachweis": "https://datenhub.ulm.de/ckan/dataset/veranstaltungsdaten-in-ulm-und-neu-ulm",
+    "ort": "Ulm",
+    "seite": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/",
+    "beginnAus": "termin",
+    "ortAus": "staette"
   }
 ]
