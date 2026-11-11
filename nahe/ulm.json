@@ -1,6 +1,6 @@
 {
   "stadt": "ulm",
-  "stand": "2026-11-10",
+  "stand": "2026-11-11",
   "quellen": [
     {
       "herausgeber": "Stadt Ulm, Digitale Agenda",
@@ -9,222 +9,6 @@
     }
   ],
   "termine": [
-    {
-      "titel": "Verlängert bis März 2027: Radio-Schnuppern bei free FM",
-      "ort": "Radio freeFM, Ulm",
-      "beginn": "2026-11-10T07:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53213/",
-      "bild": null
-    },
-    {
-      "titel": "Winterfreude pur beim Eisstockschießen",
-      "ort": "Seeberger Genusswelt GmbH, Ulm",
-      "beginn": "2026-11-10T08:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/50661/",
-      "bild": null
-    },
-    {
-      "titel": "Ausstellung",
-      "ort": "Petruskirche, Neu-Ulm",
-      "beginn": "2026-11-10T09:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53694/",
-      "bild": null
-    },
-    {
-      "titel": "Zwischen Berlin und Tbilissi. Junge Fotograf*innen schauen auf ihre Welt",
-      "ort": "Stadthaus Ulm",
-      "beginn": "2026-11-10T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52996/",
-      "bild": null
-    },
-    {
-      "titel": "Wanderfotoausstellung \"Faces of moms*\"",
-      "ort": "Kath. Beratungsstelle für Schwangerschaftsfragen SkF, Neu-Ulm",
-      "beginn": "2026-11-10T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53509/",
-      "bild": null
-    },
-    {
-      "titel": "Ausstellung \"Hochschule für Gestaltung Ulm. Von der Stunde Null bis 1968\"",
-      "ort": "HfG-Archiv Ulm",
-      "beginn": "2026-11-10T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/48141/",
-      "bild": null
-    },
-    {
-      "titel": "Stadtgeschichtliche Dauerausstellung",
-      "ort": "Haus der Stadtgeschichte / Stadtarchiv Ulm",
-      "beginn": "2026-11-10T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47192/",
-      "bild": null
-    },
-    {
-      "titel": "Neue Ausstellung „Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bundesrepublik“",
-      "ort": "HfG-Archiv Ulm",
-      "beginn": "2026-11-10T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53777/",
-      "bild": null
-    },
-    {
-      "titel": "Die Einsteins - Museum einer Ulmer Familie",
-      "ort": "Museum „Die Einsteins“, Ulm",
-      "beginn": "2026-11-10T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51014/",
-      "bild": null
-    },
-    {
-      "titel": "Offene Beratung für Eltern",
-      "ort": "Kinder- und Familienzentrum Schaffnerstraße 18/1, Ulm",
-      "beginn": "2026-11-10T12:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53713/",
-      "bild": null
-    },
-    {
-      "titel": "Norbert Klaus: Von Chaos und Ordnung",
-      "ort": "Galerie im Kornhauskeller, Ulm",
-      "beginn": "2026-11-10T14:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53334/",
-      "bild": null
-    },
-    {
-      "titel": "Café Lebenswert ist geöffnet für Jung und Alt",
-      "ort": "Cafe Lebenswert, Neu-Ulm",
-      "beginn": "2026-11-10T15:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51294/",
-      "bild": null
-    },
-    {
-      "titel": "Stickmaschinen-Einweisung",
-      "ort": "Makerspace Zentralbibliothek Ulm",
-      "beginn": "2026-11-10T16:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/49489/",
-      "bild": null
-    },
-    {
-      "titel": "Wissenschaftscafé – Science Slam interaktiv",
-      "ort": "Zentralbibliothek Ulm",
-      "beginn": "2026-11-10T16:30",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53769/",
-      "bild": null
-    },
-    {
-      "titel": "Ein sinnliches Duft-Erlebins",
-      "ort": "atelier creanne, Nelson-Barracks, Neu-Ulm",
-      "beginn": "2026-11-10T17:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53708/",
-      "bild": null
-    },
-    {
-      "titel": "Bauch Intensiv",
-      "ort": "Stuntwerk, Senden",
-      "beginn": "2026-11-10T17:30",
-      "kategorie": "sport",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47875/",
-      "bild": null
-    },
-    {
-      "titel": "Finanzen Walk – jeden Dienstag",
-      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
-      "beginn": "2026-11-10T18:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47801/",
-      "bild": null
-    },
-    {
-      "titel": "Salsa Fitness",
-      "ort": "Stuntwerk, Senden",
-      "beginn": "2026-11-10T18:00",
-      "kategorie": "sport",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47874/",
-      "bild": null
-    },
-    {
-      "titel": "VER-BLENDUNG",
-      "ort": "Basilika St. Martin in Ulm Wiblingen",
-      "beginn": "2026-11-10T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53714/",
-      "bild": null
-    },
-    {
-      "titel": "Spanisch Spaziergang – jeden Dienstag",
-      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
-      "beginn": "2026-11-10T18:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47142/",
-      "bild": null
-    },
-    {
-      "titel": "Longevity Fortsetzung",
-      "ort": "Naturheilverein Ulm/Neu-Ulm e.V.",
-      "beginn": "2026-11-10T18:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52582/",
-      "bild": null
-    },
-    {
-      "titel": "Hanuman Chalisa und Aarti",
-      "ort": "Sri Neem Karoli Baba Mandir, Neu-Ulm",
-      "beginn": "2026-11-10T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/36258/",
-      "bild": null
-    },
-    {
-      "titel": "Encountergottesdienst",
-      "ort": "Connect Church Ulm",
-      "beginn": "2026-11-10T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47317/",
-      "bild": null
-    },
-    {
-      "titel": "Bodenschutz unter PV-Anlagen auf unversiegelter Fläche",
-      "ort": "EinsteinHaus - Ulmer VolkshochschuleClub Orange, Club Orange",
-      "beginn": "2026-11-10T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53979/",
-      "bild": null
-    },
-    {
-      "titel": "„Kess-erziehen“ – Väterkurs für Väter von 2- bis 12-jährigen Kindern",
-      "ort": "Kinder- und Familienzentrum Schaffnerstraße 18/1, Ulm",
-      "beginn": "2026-11-10T19:30",
-      "kategorie": "kurs",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53568/",
-      "bild": null
-    },
-    {
-      "titel": "Salsa Movimientos Tanzkurs",
-      "ort": "dansarts ballet centrum ulm",
-      "beginn": "2026-11-10T20:00",
-      "kategorie": "sport",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52510/",
-      "bild": null
-    },
-    {
-      "titel": "Salsa Fortgeschritten",
-      "ort": "DAVID Health Club, Neu-Ulm",
-      "beginn": "2026-11-10T20:00",
-      "kategorie": "sport",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/43525/",
-      "bild": null
-    },
     {
       "titel": "Ulmer Wochenmarkt | Münsterplatz",
       "ort": "Münsterplatz Ulm",
@@ -242,19 +26,75 @@
       "bild": null
     },
     {
-      "titel": "Info am Morgen: Wording und Framing",
+      "titel": "Verlängert bis März 2027: Radio-Schnuppern bei free FM",
       "ort": "Radio freeFM, Ulm",
-      "beginn": "2026-11-11T10:00",
+      "beginn": "2026-11-11T07:00",
       "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53662/",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53213/",
       "bild": null
     },
     {
-      "titel": "40 Jahre Bananensprayer",
-      "ort": "Galerie am Saumarkt, Ulm",
+      "titel": "Winterfreude pur beim Eisstockschießen",
+      "ort": "Seeberger Genusswelt GmbH, Ulm",
+      "beginn": "2026-11-11T08:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/50661/",
+      "bild": null
+    },
+    {
+      "titel": "Ausstellung",
+      "ort": "Petruskirche, Neu-Ulm",
+      "beginn": "2026-11-11T09:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53694/",
+      "bild": null
+    },
+    {
+      "titel": "Zwischen Berlin und Tbilissi. Junge Fotograf*innen schauen auf ihre Welt",
+      "ort": "Stadthaus Ulm",
       "beginn": "2026-11-11T10:00",
       "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53776/",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52996/",
+      "bild": null
+    },
+    {
+      "titel": "Wanderfotoausstellung \"Faces of moms*\"",
+      "ort": "Kath. Beratungsstelle für Schwangerschaftsfragen SkF, Neu-Ulm",
+      "beginn": "2026-11-11T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53509/",
+      "bild": null
+    },
+    {
+      "titel": "Ausstellung \"Hochschule für Gestaltung Ulm. Von der Stunde Null bis 1968\"",
+      "ort": "HfG-Archiv Ulm",
+      "beginn": "2026-11-11T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/48141/",
+      "bild": null
+    },
+    {
+      "titel": "Stadtgeschichtliche Dauerausstellung",
+      "ort": "Haus der Stadtgeschichte / Stadtarchiv Ulm",
+      "beginn": "2026-11-11T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47192/",
+      "bild": null
+    },
+    {
+      "titel": "Neue Ausstellung „Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bundesrepublik“",
+      "ort": "HfG-Archiv Ulm",
+      "beginn": "2026-11-11T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53777/",
+      "bild": null
+    },
+    {
+      "titel": "Die Einsteins - Museum einer Ulmer Familie",
+      "ort": "Museum „Die Einsteins“, Ulm",
+      "beginn": "2026-11-11T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51014/",
       "bild": null
     },
     {
@@ -282,6 +122,14 @@
       "bild": null
     },
     {
+      "titel": "Norbert Klaus: Von Chaos und Ordnung",
+      "ort": "Galerie im Kornhauskeller, Ulm",
+      "beginn": "2026-11-11T14:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53334/",
+      "bild": null
+    },
+    {
       "titel": "Babytreff",
       "ort": "Kinder- und Familienzentrum Schaffnerstraße 18/1, Ulm",
       "beginn": "2026-11-11T14:00",
@@ -290,11 +138,27 @@
       "bild": null
     },
     {
+      "titel": "40 Jahre Bananensprayer",
+      "ort": "Galerie am Saumarkt, Ulm",
+      "beginn": "2026-11-11T14:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53776/",
+      "bild": null
+    },
+    {
       "titel": "Kasperle und das Zauberduell",
       "ort": "Erstes Ulmer Kasperle Theater",
       "beginn": "2026-11-11T15:00",
       "kategorie": "kultur",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51069/",
+      "bild": null
+    },
+    {
+      "titel": "Café Lebenswert ist geöffnet für Jung und Alt",
+      "ort": "Cafe Lebenswert, Neu-Ulm",
+      "beginn": "2026-11-11T15:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51294/",
       "bild": null
     },
     {
@@ -314,11 +178,11 @@
       "bild": null
     },
     {
-      "titel": "St. Martinmarkt",
-      "ort": "Stadtteilbüro Vorfeld, Neu-Ulm",
-      "beginn": "2026-11-11T16:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53909/",
+      "titel": "Ökumenischer Martinsumzug",
+      "ort": "Alter Friedhof, Ulm",
+      "beginn": "2026-11-11T17:00",
+      "kategorie": "festival",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53980/",
       "bild": null
     },
     {
@@ -703,6 +567,14 @@
       "beginn": "2026-11-13T17:00",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/50844/",
+      "bild": null
+    },
+    {
+      "titel": "Filmpremiere: Pilsl's Internationale Weltuntergangstage",
+      "ort": "Xinedome, Ulm",
+      "beginn": "2026-11-13T17:15",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53994/",
       "bild": null
     },
     {
@@ -1306,6 +1178,14 @@
       "bild": null
     },
     {
+      "titel": "VER-BLENDUNG",
+      "ort": "Basilika St. Martin in Ulm Wiblingen",
+      "beginn": "2026-11-15T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53714/",
+      "bild": null
+    },
+    {
       "titel": "Chess'n'Beats",
       "ort": "Studentencafé, Ulm",
       "beginn": "2026-11-15T16:00",
@@ -1458,6 +1338,14 @@
       "bild": null
     },
     {
+      "titel": "Offene Beratung für Eltern",
+      "ort": "Kinder- und Familienzentrum Schaffnerstraße 18/1, Ulm",
+      "beginn": "2026-11-17T12:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53713/",
+      "bild": null
+    },
+    {
       "titel": "Kulturtasche/Mäppchen - Nähkurs für Anfänger*innen",
       "ort": "Makerspace Zentralbibliothek Ulm",
       "beginn": "2026-11-17T15:00",
@@ -1471,6 +1359,46 @@
       "beginn": "2026-11-17T17:00",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53623/",
+      "bild": null
+    },
+    {
+      "titel": "Bauch Intensiv",
+      "ort": "Stuntwerk, Senden",
+      "beginn": "2026-11-17T17:30",
+      "kategorie": "sport",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47875/",
+      "bild": null
+    },
+    {
+      "titel": "Finanzen Walk – jeden Dienstag",
+      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
+      "beginn": "2026-11-17T18:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47801/",
+      "bild": null
+    },
+    {
+      "titel": "Salsa Fitness",
+      "ort": "Stuntwerk, Senden",
+      "beginn": "2026-11-17T18:00",
+      "kategorie": "sport",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47874/",
+      "bild": null
+    },
+    {
+      "titel": "Spanisch Spaziergang – jeden Dienstag",
+      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
+      "beginn": "2026-11-17T18:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47142/",
+      "bild": null
+    },
+    {
+      "titel": "Arco!",
+      "ort": "Musikschule der Stadt UlmKonzertsaal, Konzertsaal",
+      "beginn": "2026-11-17T18:30",
+      "kategorie": "konzert",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53770/",
       "bild": null
     },
     {
@@ -1490,11 +1418,43 @@
       "bild": null
     },
     {
+      "titel": "Encountergottesdienst",
+      "ort": "Connect Church Ulm",
+      "beginn": "2026-11-17T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47317/",
+      "bild": null
+    },
+    {
+      "titel": "„Kess-erziehen“ – Väterkurs für Väter von 2- bis 12-jährigen Kindern",
+      "ort": "Kinder- und Familienzentrum Schaffnerstraße 18/1, Ulm",
+      "beginn": "2026-11-17T19:30",
+      "kategorie": "kurs",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53568/",
+      "bild": null
+    },
+    {
       "titel": "Kennen Sie Max Eyth? Zum 190. Geburtstag und 120. Todestag des Dichteringenieurs",
       "ort": "Musikschule Neu-UlmDr. Joachim-Keller-Saal, Dr. Joachim-Keller-Saal",
       "beginn": "2026-11-17T19:30",
       "kategorie": "kultur",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53576/",
+      "bild": null
+    },
+    {
+      "titel": "Salsa Movimientos Tanzkurs",
+      "ort": "dansarts ballet centrum ulm",
+      "beginn": "2026-11-17T20:00",
+      "kategorie": "sport",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52510/",
+      "bild": null
+    },
+    {
+      "titel": "Salsa Fortgeschritten",
+      "ort": "DAVID Health Club, Neu-Ulm",
+      "beginn": "2026-11-17T20:00",
+      "kategorie": "sport",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/43525/",
       "bild": null
     },
     {
@@ -1794,6 +1754,14 @@
       "bild": null
     },
     {
+      "titel": "Jedermann Gastronomie-Genießer Treffen",
+      "ort": "Ruhetal, Ulm",
+      "beginn": "2026-11-20T19:00",
+      "kategorie": "festival",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53987/",
+      "bild": null
+    },
+    {
       "titel": "WKO & Justus Eichhorn - YoungStar am Klavier",
       "ort": "Kornhaus, Ulm",
       "beginn": "2026-11-20T19:30",
@@ -1831,6 +1799,14 @@
       "beginn": "2026-11-20T20:00",
       "kategorie": "kultur",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53969/",
+      "bild": null
+    },
+    {
+      "titel": "Ü55-Party: Tanzen wie damals!",
+      "ort": "Ten-Dance GmbH, Ulm",
+      "beginn": "2026-11-20T20:00",
+      "kategorie": "disko",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53989/",
       "bild": null
     },
     {
@@ -2050,6 +2026,14 @@
       "bild": null
     },
     {
+      "titel": "„Ferdinand, du bist so ungalant“ — Maria Rosendorfsky, J. Emanuel Pichler und Magnus Schneider",
+      "ort": "Kunstverein UlmSchuhhaussaal, Schuhhaussaal",
+      "beginn": "2026-11-22T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53985/",
+      "bild": null
+    },
+    {
       "titel": "Chocolat",
       "ort": "Lindenhalle Ehingen(Donau)",
       "beginn": "2026-11-22T19:30",
@@ -2079,6 +2063,38 @@
       "beginn": "2026-11-23T20:00",
       "kategorie": "kultur",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53247/",
+      "bild": null
+    },
+    {
+      "titel": "China neu denken",
+      "ort": "EinsteinHaus - Ulmer VolkshochschuleClub Orange, Club Orange",
+      "beginn": "2026-11-24T18:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52896/",
+      "bild": null
+    },
+    {
+      "titel": "RECORDER ohne Grenzen",
+      "ort": "Musikschule der Stadt UlmKonzertsaal, Konzertsaal",
+      "beginn": "2026-11-24T18:30",
+      "kategorie": "konzert",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53860/",
+      "bild": null
+    },
+    {
+      "titel": "Hanuman Chalisa und Aarti",
+      "ort": "Sri Neem Karoli Baba Mandir, Neu-Ulm",
+      "beginn": "2026-11-24T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/49241/",
+      "bild": null
+    },
+    {
+      "titel": "Heimsuchung",
+      "ort": "Altes Theater Ulm",
+      "beginn": "2026-11-25T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/49647/",
       "bild": null
     }
   ]
