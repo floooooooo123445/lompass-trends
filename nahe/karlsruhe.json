@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-11-11",
+  "stand": "2026-11-12",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -10,243 +10,11 @@
   ],
   "termine": [
     {
-      "titel": "Orgelpunkt",
-      "ort": "Kleine Kirche Karlsruhe",
-      "beginn": "2026-11-11T12:15",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/orgelpunkt-8",
-      "bild": null
-    },
-    {
-      "titel": "Brain Energy - Gut vorbereitet fürs nächste Referat",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/brain_energy_gut_vorbereitet_furs_nachste_referat-1",
-      "bild": null
-    },
-    {
-      "titel": "Klimaschutz zum Beruf machen: Was kannst du bewegen!",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T15:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/klimaschutz_zum_beruf_machen_was_kannst_du_bewegen",
-      "bild": null
-    },
-    {
-      "titel": "Kurs (12-19 Jahre): Reptilien",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-11-11T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kurs_12_19_jahre_reptilien",
-      "bild": null
-    },
-    {
-      "titel": "Workshop (6-7 Jahre): Spuren der Urmenschen – mehr als nur Knochen",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-11-11T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/workshop_6_7_jahre_spuren_der_urmenschen",
-      "bild": null
-    },
-    {
-      "titel": "Kunsthäppchen „Wenn die Welt aus den Fugen gerät – Kunst und psychische Krisen“",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kunsthappchen_wenn_die_welt_aus_den",
-      "bild": null
-    },
-    {
-      "titel": "Storytime",
-      "ort": "Stadtbibliothek Karlsruhe, Amerikanische Bibliothek",
-      "beginn": "2026-11-11T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/storytime-26",
-      "bild": null
-    },
-    {
-      "titel": "VORLESEZEIT in der Kinder- & Jugendbibliothek",
-      "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
-      "beginn": "2026-11-11T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_der_kinder_jugendbibliothek-58",
-      "bild": null
-    },
-    {
-      "titel": "Workshop für Pädagog:innen zu \"Der Zauberer von Oz\"",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T17:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/workshop_fur_padagoginnen_zu_der_zauberer_von_oz",
-      "bild": null
-    },
-    {
-      "titel": "St. Martinsumzug",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T17:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/st_martinsumzug",
-      "bild": null
-    },
-    {
-      "titel": "Goethe-Gesellschaft: Steffi Böttger (Leipzig): \"Chronist und Schwadroneur: Karl August Varnhagen von Ense.\"",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/goethe_gesellschaft_steffi_bottger_leipzig",
-      "bild": null
-    },
-    {
-      "titel": "Schritt für Schritt zum zukunftssicheren Zuhause – Sanierungstipps aus dem Handwerk",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/schritt_fur_schritt_zum_zukunftssicheren",
-      "bild": null
-    },
-    {
-      "titel": "Karlsruher Umweltimpulse 2026",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T18:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/karlsruher_umweltimpulse2026n",
-      "bild": null
-    },
-    {
-      "titel": "Transgenerationale Weitergabe von Traumata",
-      "ort": "vhs Karlsruhe",
-      "beginn": "2026-11-11T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/transgenerationale_weitergabe_von_traumata",
-      "bild": null
-    },
-    {
-      "titel": "Chronist und Schwadroneur: Karl August Varnhagen von Ense, Tagebücher und Denkwürdigkeiten",
-      "ort": "Prinz Max Palais, Karlsruhe",
-      "beginn": "2026-11-11T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/chronist_und_schwadroneur_karl_august",
-      "bild": null
-    },
-    {
-      "titel": "Von rücksichtslosen Ausbeutern und freundlichen „Ariseuren“",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/von_rucksichtslosen_ausbeutern_und_freundlichen",
-      "bild": null
-    },
-    {
-      "titel": "ARCHSPIRE",
-      "ort": "Substage Karlsruhe e.V.",
-      "beginn": "2026-11-11T18:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/archspire",
-      "bild": null
-    },
-    {
-      "titel": "Eröffnung des 11. Festivals für freie Improvisationsmusik Karlsruhe",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/eroffnung_des_11_festivals_fur_freie",
-      "bild": null
-    },
-    {
-      "titel": "Militantropos (OmeU)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/militantropos_omeu",
-      "bild": null
-    },
-    {
-      "titel": "BLUE CHURCH . „Du Fremde: Musik“",
-      "ort": "Kleine Kirche, Kaiserstr. 131, 76133 Karlsruhe",
-      "beginn": "2026-11-11T19:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/blue_church_du_fremde_musik",
-      "bild": null
-    },
-    {
-      "titel": "Die Herrenkapelle",
-      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
-      "beginn": "2026-11-11T19:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/die_herrenkapelle-1",
-      "bild": null
-    },
-    {
-      "titel": "Das Prinzip Hoffnung",
-      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
-      "beginn": "2026-11-11T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/das_prinzip_hoffnung",
-      "bild": null
-    },
-    {
-      "titel": "17. Europäisches Filmfestival der Generationen",
-      "ort": "Luthersaal Karlsruhe",
-      "beginn": "2026-11-11T19:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-11",
-      "bild": null
-    },
-    {
-      "titel": "opera on tap . Opernarien frisch gezapft",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-11T19:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/opera_on_tap_opernarien_frisch_gezapft-13",
-      "bild": null
-    },
-    {
-      "titel": "Blue Church: Jazz & Texte",
-      "ort": "Kleine Kirche Karlsruhe",
-      "beginn": "2026-11-11T19:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/blue_church_jazz_texte-1",
-      "bild": null
-    },
-    {
-      "titel": "European Outdoor Film Tour 26/27 - EOFT",
-      "ort": "Filmtheater Schauburg, Marienstraße 16, 76137 Karlsruhe",
-      "beginn": "2026-11-11T20:00",
-      "kategorie": "sport",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/european_outdoor_film_tour_2627_eoft-2",
-      "bild": null
-    },
-    {
       "titel": "UN_CTRL – Festival für gemeinschaftliche Technologien und Kunst",
       "ort": "Zentrum für Kunst und Medien (ZKM) | Kubus, Karlsruhe",
       "beginn": "2026-11-12",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/un_ctrl_festival_fur_gemeinschaftliche",
-      "bild": null
-    },
-    {
-      "titel": "Wie wirken Frauen für den Frieden?",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-12T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/wie_wirken_frauen_fur_den_frieden-1",
-      "bild": null
-    },
-    {
-      "titel": "Riesen Probleme",
-      "ort": "Badisches Staatstheater, INSEL, Karlsruhe",
-      "beginn": "2026-11-12T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/riesen_probleme-1",
-      "bild": null
-    },
-    {
-      "titel": "Die Farben des Lebens – Ein kreatives Angebot für Menschen mit Demenz und ihre Angehörigen",
-      "ort": "Städtische Galerie Karlsruhe",
-      "beginn": "2026-11-12T10:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/die_farben_des_lebens_ein_kreatives-10",
       "bild": null
     },
     {
@@ -999,6 +767,14 @@
       "beginn": "2026-11-14T17:00",
       "kategorie": "konzert",
       "quelle": "https://kalender.karlsruhe.de/db/termine/musik/chor_trifft_film_wie_im_himmel",
+      "bild": null
+    },
+    {
+      "titel": "Multi-Kulti Konzert",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-14T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/multi_kulti_konzert",
       "bild": null
     },
     {
@@ -3095,6 +2871,158 @@
       "beginn": "2026-11-25T10:30",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sabrina_schmohl_und_nikolai_renger_lesung",
+      "bild": null
+    },
+    {
+      "titel": "Orgelpunkt",
+      "ort": "Kleine Kirche Karlsruhe",
+      "beginn": "2026-11-25T12:15",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/orgelpunkt-10",
+      "bild": null
+    },
+    {
+      "titel": "Brain Energy - Gut vorbereitet fürs nächste Referat",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-25T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/brain_energy_gut_vorbereitet_furs_nachste_referat-3",
+      "bild": null
+    },
+    {
+      "titel": "Mittwochstreff: Winterblues meets Wintersounds",
+      "ort": "Zentrum für Kunst und Medien ZKM, Karlsruhe",
+      "beginn": "2026-11-25T15:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/mittwochstreff_winterblues_meets_wintersounds",
+      "bild": null
+    },
+    {
+      "titel": "Upcycling: Tischlaternen und Geschenktüten basteln",
+      "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
+      "beginn": "2026-11-25T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/upcycling_tischlaternen_und_geschenktuten_basteln",
+      "bild": null
+    },
+    {
+      "titel": "Upcyclingaktion",
+      "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
+      "beginn": "2026-11-25T16:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/upcyclingaktion",
+      "bild": null
+    },
+    {
+      "titel": "Storytime",
+      "ort": "Stadtbibliothek Karlsruhe, Amerikanische Bibliothek",
+      "beginn": "2026-11-25T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/storytime-27",
+      "bild": null
+    },
+    {
+      "titel": "VORLESEZEIT in der Kinder- & Jugendbibliothek",
+      "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
+      "beginn": "2026-11-25T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_der_kinder_jugendbibliothek-60",
+      "bild": null
+    },
+    {
+      "titel": "„Rechte Räume\" - Vortrag von Stephan Trüby",
+      "ort": "Generallandesarchiv Karlsruhe",
+      "beginn": "2026-11-25T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/architektur/rechte_raume_vortrag_von_stephan_truby",
+      "bild": null
+    },
+    {
+      "titel": "Bu sözler bizim – Die Worte gehören uns (Wiederaufnahme / Staatstheater entspannt)",
+      "ort": "Badisches Staatstheater, INSEL, Karlsruhe",
+      "beginn": "2026-11-25T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/bu_sozler_bizim_die_worte_gehoren_uns-2",
+      "bild": null
+    },
+    {
+      "titel": "Solistenexamen Konzert mit Orchester",
+      "ort": "Hochschule für Musik Karlsruhe, CampusOne, Wolfgang-Rihm-Forum",
+      "beginn": "2026-11-25T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/solistenexamen_konzert_mit_orchester",
+      "bild": null
+    },
+    {
+      "titel": "TABEA KIND TRIO",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-25T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/tabea_kind_trio-1",
+      "bild": null
+    },
+    {
+      "titel": "Komitas Chamber Orchestra (Gyumri / Armenien)",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-25T19:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/komitas_chamber_orchestra_gyumri_armenien",
+      "bild": null
+    },
+    {
+      "titel": "Das Mädchen aus der Streichholzfabrik",
+      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
+      "beginn": "2026-11-25T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/das_madchen_aus_der_streichholzfabrik",
+      "bild": null
+    },
+    {
+      "titel": "Jazz Session",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-25T19:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/jazz_session-8",
+      "bild": null
+    },
+    {
+      "titel": "LESUNG: Susanne Siegert \"Gedenken neu denken\"",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-25T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lesung_susanne_siegert_gedenken_neu_denken",
+      "bild": null
+    },
+    {
+      "titel": "Play/Display: Symposium zu Spiel, Museum und kuratorischer Praxis",
+      "ort": "Zentrum für Kunst und Medien (ZKM) | Vortragssaal, Karlsruhe",
+      "beginn": "2026-11-26",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/playdisplay_symposium_zu_spiel_museum",
+      "bild": null
+    },
+    {
+      "titel": "Informationsveranstaltung mit Frühstück zum Internationalen Tag gegen Gewalt an Frauen",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-26T10:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/informationsveranstaltung_mit_fruhstuck",
+      "bild": null
+    },
+    {
+      "titel": "\"Doppelleben\"",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-26T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/doppelleben",
+      "bild": null
+    },
+    {
+      "titel": "Bu sözler bizim – Die Worte gehören uns",
+      "ort": "Badisches Staatstheater, INSEL, Karlsruhe",
+      "beginn": "2026-11-26T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/bu_sozler_bizim_die_worte_gehoren_uns-9",
       "bild": null
     }
   ]
