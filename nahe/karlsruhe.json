@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-11-13",
+  "stand": "2026-11-14",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -9,358 +9,6 @@
     }
   ],
   "termine": [
-    {
-      "titel": "Hobbykünstler & Kreativbörse 2026",
-      "ort": "Badnerlandhalle Neureut, Karlsruhe",
-      "beginn": "2026-11-13",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/hobbykunstler_kreativborse2026n",
-      "bild": null
-    },
-    {
-      "titel": "Interdisziplinärer Kunstmarkt „Kunst.Kaufen!“ mit Lesung",
-      "ort": "GEDOK Künstlerinnenforum, Karlsruhe",
-      "beginn": "2026-11-13",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/interdisziplinarer_kunstmarkt_kunstkaufen_mit_lesung",
-      "bild": null
-    },
-    {
-      "titel": "Adventsmarkt",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T08:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/adventsmarkt-1",
-      "bild": null
-    },
-    {
-      "titel": "Karlsruher Kaffeehäuser (inkl. Getränke, Kuchen, Führung)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T14:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruher_kaffeehauser_inkl_getranke_kuchen_fuhrung-4",
-      "bild": null
-    },
-    {
-      "titel": "„Mit Kindern Ansehen“ Interkultureller Museumsnachmittag für Eltern und Kinder (3–12 Jahre) mit Eva Wittig",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/mit_kindern_ansehen_interkultureller-31",
-      "bild": null
-    },
-    {
-      "titel": "Kreativ mit Holz - Basteln, schnitzen und Brennmalerei",
-      "ort": "Naturschutzzentrum Karlsruhe-Rappenwört",
-      "beginn": "2026-11-13T15:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/kreativ_mit_holz_basteln_schnitzen_und_brennmalerei-1",
-      "bild": null
-    },
-    {
-      "titel": "Workshop \"Klartext reden – ohne Streit!\"",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T15:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/workshop_klartext_reden_ohne_streit",
-      "bild": null
-    },
-    {
-      "titel": "FANTASY-WOCHE: Book DIY",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_book_diy",
-      "bild": null
-    },
-    {
-      "titel": "Das neue Staatstheater – Baustellenführung durch Modul 1",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/das_neue_staatstheater_baustellenfuhrung_durch_modul1n-4",
-      "bild": null
-    },
-    {
-      "titel": "Führung „Update! Die Sammlung neu sichten – Szenenwechsel 4“",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/fuhrung_update_die_sammlung_neu_sichten_szenenwechsel4n-20",
-      "bild": null
-    },
-    {
-      "titel": "VORLESEZEIT in Neureut",
-      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Neureut",
-      "beginn": "2026-11-13T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_neureut-54",
-      "bild": null
-    },
-    {
-      "titel": "Schreiben auf den Spuren von Rainer Maria Rilke",
-      "ort": "Badische Landesbibliothek, Karlsruhe",
-      "beginn": "2026-11-13T16:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/schreiben_auf_den_spuren_von_rainer_maria_rilke",
-      "bild": null
-    },
-    {
-      "titel": "Im Rahmen der RegioCOP31 Karlsruhe: Klimawandel: Was ist das?",
-      "ort": "Tourist-Information am Marktplatz, Karlsruhe",
-      "beginn": "2026-11-13T17:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/im_rahmen_der_regiocop31_karlsruhe_klimawandel",
-      "bild": null
-    },
-    {
-      "titel": "Karlsruher Spieletage",
-      "ort": "NCO Club, Karlsruhe",
-      "beginn": "2026-11-13T18:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruher_spieletage",
-      "bild": null
-    },
-    {
-      "titel": "LUCKY 13",
-      "ort": "LUIS LEU, experimentelle Kunstplattform, Karlsruhe",
-      "beginn": "2026-11-13T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/lucky13n",
-      "bild": null
-    },
-    {
-      "titel": "Das Klima Puzzle - Wir haben die Karten in der Hand",
-      "ort": "Zukunftsraum für Nachhaltigkeit und Wissenschaft, Karlsruhe",
-      "beginn": "2026-11-13T18:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/das_klima_puzzle_wir_haben_die_karten_in_der_hand-7",
-      "bild": null
-    },
-    {
-      "titel": "17. Europäisches Filmfestival der Generationen",
-      "ort": "Hardtwaldzentrum, Karlsruhe",
-      "beginn": "2026-11-13T18:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-12",
-      "bild": null
-    },
-    {
-      "titel": "vhs-SprachenTreff After Work",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vhs_sprachentreff_after_work-5",
-      "bild": null
-    },
-    {
-      "titel": "FANTASY-WOCHE: Bier & Besserwissen Vol. III",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_bier_besserwissen_vol_iii_ausgebucht_",
-      "bild": null
-    },
-    {
-      "titel": "CONVERGE",
-      "ort": "Substage Karlsruhe e.V.",
-      "beginn": "2026-11-13T18:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/converge",
-      "bild": null
-    },
-    {
-      "titel": "Black Marble - Die Erde bei Nacht",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/black_marble_die_erde_bei_nacht",
-      "bild": null
-    },
-    {
-      "titel": "PUB Quiz: The Good, the Bad and the Bankrupt",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/pub_quiz_the_good_the_bad_and_the_bankrupt",
-      "bild": null
-    },
-    {
-      "titel": "Benedetto Marcello - nobile Veneto dillettante",
-      "ort": "Hochschule für Musik, Velte-Saal, Karlsruhe",
-      "beginn": "2026-11-13T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/benedetto_marcello_nobile_veneto_dillettante",
-      "bild": null
-    },
-    {
-      "titel": "Computing Music XIV",
-      "ort": "Hochschule für Musik Karlsruhe, CampusOne, MUT",
-      "beginn": "2026-11-13T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/computing_music_xiv",
-      "bild": null
-    },
-    {
-      "titel": "3. Tag des 11. Festivals für freie Improvisationsmusik Karlsruhe",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/3_tag_des_11_festivals_fur_freie_improvisationsmusik",
-      "bild": null
-    },
-    {
-      "titel": "Kein Motiv",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kein_motiv",
-      "bild": null
-    },
-    {
-      "titel": "Das Prinzip Hoffnung",
-      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
-      "beginn": "2026-11-13T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/das_prinzip_hoffnung-1",
-      "bild": null
-    },
-    {
-      "titel": "Französischer Abend auf dem Bildungscampus West",
-      "ort": "VHS Karlsruhe, Ulrich-Bernays-Saal",
-      "beginn": "2026-11-13T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/franzosischer_abend_auf_dem_bildungscampus_west",
-      "bild": null
-    },
-    {
-      "titel": "80 Jahre Italienische Republik",
-      "ort": "Centro = Schul- und Kulturzentrum der Deutsch-Italienischen Gesellschaft e.V. Karlsruhe",
-      "beginn": "2026-11-13T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/80_jahre_italienische_republik",
-      "bild": null
-    },
-    {
-      "titel": "Helges Leben",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/helges_leben-5",
-      "bild": null
-    },
-    {
-      "titel": "The Wreckers (Nur noch wenige Male)",
-      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
-      "beginn": "2026-11-13T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/the_wreckers_nur_noch_wenige_male-1",
-      "bild": null
-    },
-    {
-      "titel": "12 tote Hühner",
-      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
-      "beginn": "2026-11-13T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/12_tote_huhner-3",
-      "bild": null
-    },
-    {
-      "titel": "FreitagsOrgel",
-      "ort": "Kirche St. Bernhard, Karlsruhe",
-      "beginn": "2026-11-13T19:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/freitagsorgel-6",
-      "bild": null
-    },
-    {
-      "titel": "Die Glasmenagerie",
-      "ort": "Jakobus-Theater im Theaterhaus Karlsruhe",
-      "beginn": "2026-11-13T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/die_glasmenagerie-3",
-      "bild": null
-    },
-    {
-      "titel": "loKAlz Mørf + Sunseen",
-      "ort": "Jubez, Jugend- und Begegnungszentrum, Karlsruhe",
-      "beginn": "2026-11-13T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/lokalz_mrf_sunseen-1",
-      "bild": null
-    },
-    {
-      "titel": "Philip Bölter",
-      "ort": "Kulturhaus MIKADO, Karlsruhe",
-      "beginn": "2026-11-13T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/philip_bolter-1",
-      "bild": null
-    },
-    {
-      "titel": "Young Jazz . Armin Jambor Quartet",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/young_jazz_armin_jambor_quartet",
-      "bild": null
-    },
-    {
-      "titel": "TANZ: Kiesecker | Hoess \"#TOUCH\" (D)",
-      "ort": "Zentrum für Kunst und Medien (ZKM) | Medientheater, Karlsruhe",
-      "beginn": "2026-11-13T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/tanz_kiesecker_hoess_touch_d-1",
-      "bild": null
-    },
-    {
-      "titel": "La battaglia di Algeri (35mm OmeU)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T20:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/la_battaglia_di_algeri_35mm_omeu",
-      "bild": null
-    },
-    {
-      "titel": "KAI STRAUSS & THE ELECTRIC BLUES ALL STARS",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-11-13T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/kai_strauss_the_electric_blues_all_stars",
-      "bild": null
-    },
-    {
-      "titel": "CAVEMAN",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-11-13T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/caveman",
-      "bild": null
-    },
-    {
-      "titel": "Ansa Sauermann Support Sophie Hallberg | Café NUN",
-      "ort": "Café NUN, Karlsruhe",
-      "beginn": "2026-11-13T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/ansa_sauermann_support_sophie_hallberg_cafe_nun",
-      "bild": null
-    },
-    {
-      "titel": "In annere Umschdänd",
-      "ort": "Badisch Bühn Mundarttheater, Karlsruhe",
-      "beginn": "2026-11-13T20:15",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/in_annere_umschdand-46",
-      "bild": null
-    },
-    {
-      "titel": "FANTASY-WOCHE: Kinofilm \"Dog of God\"",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-13T21:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_kinofilm_dog_of_god",
-      "bild": null
-    },
     {
       "titel": "Ellen Arkbro, Werner Durand / Hilary Jeffery / Marcus Pal, Amedeo Maria Schwaller und [ _ _ _ ]",
       "ort": "Badischer Kunstverein, Karlsruhe",
@@ -386,14 +34,6 @@
       "bild": null
     },
     {
-      "titel": "Historischer Schwertkampf - Einsteiger Workshop",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-14T10:00",
-      "kategorie": "sport",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/historischer_schwertkampf_einsteiger_workshop",
-      "bild": null
-    },
-    {
       "titel": "Camera Acting Workshop für Jugendliche und junge Erwachsene ab 16 Jahren",
       "ort": "Imagine, Schauspielschule für Kinder und Jugendliche, Karlsruhe",
       "beginn": "2026-11-14T10:00",
@@ -402,35 +42,11 @@
       "bild": null
     },
     {
-      "titel": "30 Years American Library",
-      "ort": "Stadtbibliothek Karlsruhe, Amerikanische Bibliothek",
-      "beginn": "2026-11-14T10:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/30_years_american_library",
-      "bild": null
-    },
-    {
-      "titel": "Französischer Workshop für Kinder",
-      "ort": "Stiftung Centre Culturel Franco-Allemand Karlsruhe.",
-      "beginn": "2026-11-14T10:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/franzosischer_workshop_fur_kinder",
-      "bild": null
-    },
-    {
       "titel": "Hobby und Künstlermarkt",
       "ort": "Karlsruhe",
       "beginn": "2026-11-14T11:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/hobby_und_kunstlermarkt",
-      "bild": null
-    },
-    {
-      "titel": "Adventskranz binden",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-14T11:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/adventskranz_binden-2",
       "bild": null
     },
     {
@@ -3135,6 +2751,286 @@
       "beginn": "2026-11-27T11:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/familienalbumkarlsruhe-4",
+      "bild": null
+    },
+    {
+      "titel": "„Mit Kindern Ansehen“ Interkultureller Museumsnachmittag für Eltern und Kinder (3–12 Jahre) mit Eva Wittig",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/mit_kindern_ansehen_interkultureller-32",
+      "bild": null
+    },
+    {
+      "titel": "Bilderbuchkino in der Kinemathek: \"Alice im Wunderland\"",
+      "ort": "Kinemathek Karlsruhe",
+      "beginn": "2026-11-27T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/bilderbuchkino_in_der_kinemathek_alice_im_wunderland",
+      "bild": null
+    },
+    {
+      "titel": "Müll Comics zeichnen mit Kit Klimamonster",
+      "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
+      "beginn": "2026-11-27T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/mull_comics_zeichnen_mit_kit_klimamonster",
+      "bild": null
+    },
+    {
+      "titel": "Weihnachtsmarkt des Humboldt-Gymnasiums",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T16:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/weihnachtsmarkt_des_humboldt_gymnasiums-3",
+      "bild": null
+    },
+    {
+      "titel": "VORLESEZEIT in Neureut",
+      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Neureut",
+      "beginn": "2026-11-27T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_neureut-56",
+      "bild": null
+    },
+    {
+      "titel": "Salon pour le Feu. Ein Abend im Zeichen des Feuers – das Finale der Elemente",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T17:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/salon_pour_le_feu_ein_abend_im_zeichen",
+      "bild": null
+    },
+    {
+      "titel": "Christmas Carol Singing",
+      "ort": "Stadtbibliothek Karlsruhe, Amerikanische Bibliothek",
+      "beginn": "2026-11-27T18:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/christmas_carol_singing",
+      "bild": null
+    },
+    {
+      "titel": "Eröffnung: Hidden on Tape. Frühe Videokunst in Europa",
+      "ort": "Hochschule für Musik, Karlsruhe",
+      "beginn": "2026-11-27T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/eroffnung_hidden_on_tape_fruhe_videokunst_in_europa",
+      "bild": null
+    },
+    {
+      "titel": "Karneval der Tiere",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-3",
+      "bild": null
+    },
+    {
+      "titel": "Showtime. Die besten Lieder der Welt",
+      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
+      "beginn": "2026-11-27T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/showtime_die_besten_lieder_der_welt-1",
+      "bild": null
+    },
+    {
+      "titel": "Vortrag: Im Hindukusch: Von Hochstetten nach Afghanistan",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-27T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vortrag_im_hindukusch_von_hochstetten_nach_afghanistan",
+      "bild": null
+    },
+    {
+      "titel": "Karneval der Tiere - Eine XR-Experience über das Verschwinden",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-27T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/karneval_der_tiere_eine_xr_experience-3",
+      "bild": null
+    },
+    {
+      "titel": "Disco Queen - Im Fieber der 70er",
+      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
+      "beginn": "2026-11-27T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/disco_queen_im_fieber_der_70er-68",
+      "bild": null
+    },
+    {
+      "titel": "Seasons – Vom Vergehen und vom Neubeginn",
+      "ort": "Kleine Kirche Karlsruhe",
+      "beginn": "2026-11-27T19:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/seasons_vom_vergehen_und_vom_neubeginn",
+      "bild": null
+    },
+    {
+      "titel": "Performance: In Two Minds",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/performance_in_two_minds",
+      "bild": null
+    },
+    {
+      "titel": "Swing time . Thimo Niesterok Quartett",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/swing_time_thimo_niesterok_quartett",
+      "bild": null
+    },
+    {
+      "titel": "Lost in Translation (35mm OmU)",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T20:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/lost_in_translation_35mm_omu",
+      "bild": null
+    },
+    {
+      "titel": "„Mit schwarzen Segeln segelt mein Schiff …“",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/mit_schwarzen_segeln_segelt_mein_schiff-1",
+      "bild": null
+    },
+    {
+      "titel": "BOSSE",
+      "ort": "Substage Karlsruhe e.V.",
+      "beginn": "2026-11-27T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/bosse",
+      "bild": null
+    },
+    {
+      "titel": "JOSEF HADER",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-27T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/josef_hader",
+      "bild": null
+    },
+    {
+      "titel": "30 JAHRE SEÁN TREACY BAND - DIE JUBILÄUMSFETE",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-27T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/30_jahre_sean_treacy_band_die_jubilaumsfete",
+      "bild": null
+    },
+    {
+      "titel": "In annere Umschdänd",
+      "ort": "Badisch Bühn Mundarttheater, Karlsruhe",
+      "beginn": "2026-11-27T20:15",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/in_annere_umschdand-50",
+      "bild": null
+    },
+    {
+      "titel": "Black Marble - Die Erde bei Nacht",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T21:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/black_marble_die_erde_bei_nacht-2",
+      "bild": null
+    },
+    {
+      "titel": "Karneval der Tiere",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T21:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-4",
+      "bild": null
+    },
+    {
+      "titel": "Karneval der Tiere - Eine XR-Experience über das Verschwinden",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-27T21:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/karneval_der_tiere_eine_xr_experience-4",
+      "bild": null
+    },
+    {
+      "titel": "Achtung Zugdurchfahrt!",
+      "ort": "Pfinzgaumuseum Karlsburg Durlach, Karlsruhe",
+      "beginn": "2026-11-28",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/achtung_zugdurchfahrt-3",
+      "bild": null
+    },
+    {
+      "titel": "Gitte",
+      "ort": "Konzerthaus / Kongresszentrum Karlsruhe",
+      "beginn": "2026-11-28",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/gitte",
+      "bild": null
+    },
+    {
+      "titel": "KIT Graduation 2026",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-28",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kit_graduation2026n",
+      "bild": null
+    },
+    {
+      "titel": "TIERisch gut 2026",
+      "ort": "Messe Karlsruhe",
+      "beginn": "2026-11-28",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/tierisch_gut2026n",
+      "bild": null
+    },
+    {
+      "titel": "TIERisch gut 2026",
+      "ort": "Messe Karlsruhe, Messe gesamt",
+      "beginn": "2026-11-28T09:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/tierisch_gut2026n-1",
+      "bild": null
+    },
+    {
+      "titel": "Everybody move now! Yoga im Museum",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-28T09:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/everybody_move_now_yoga_im_museum",
+      "bild": null
+    },
+    {
+      "titel": "Schnupperworkshop Theaterspielen für Kinder von 6-8 Jahren",
+      "ort": "Imagine, Schauspielschule für Kinder und Jugendliche, Karlsruhe",
+      "beginn": "2026-11-28T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur-2",
+      "bild": null
+    },
+    {
+      "titel": "Adventskranz binden",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-28T11:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/adventskranz_binden",
+      "bild": null
+    },
+    {
+      "titel": "jazz market . BLUFF . Brand New Jazz",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-28T11:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/jazz_market_bluff_brand_new_jazz",
+      "bild": null
+    },
+    {
+      "titel": "Schnupperworkshop Theaterspielen für Kinder von 10-13 Jahren",
+      "ort": "Imagine, Schauspielschule für Kinder und Jugendliche, Karlsruhe",
+      "beginn": "2026-11-28T11:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur-1",
       "bild": null
     }
   ]
