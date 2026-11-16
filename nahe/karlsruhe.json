@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-11-15",
+  "stand": "2026-11-16",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -9,190 +9,6 @@
     }
   ],
   "termine": [
-    {
-      "titel": "NEU: Fritz Fliege fliegt ins Weltall",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-15T13:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/neu_fritz_fliege_fliegt_ins_weltall-11",
-      "bild": null
-    },
-    {
-      "titel": "Lesung + Workshop: Mia Oberländer: Saloon",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-15T14:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/lesung_workshop_mia_oberlander_saloon",
-      "bild": null
-    },
-    {
-      "titel": "Technik und Kunst im Untergrund - die 7 U-Strab-Haltestellen",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-15T14:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/technik_und_kunst_im_untergrund_die-8",
-      "bild": null
-    },
-    {
-      "titel": "Wolfgang Rempfer",
-      "ort": "Galerie Kunstfachwerk N6, Karlsruhe",
-      "beginn": "2026-11-15T14:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/wolfgang_rempfer-2",
-      "bild": null
-    },
-    {
-      "titel": "Lost Places in Karlsruhe. Fotografien von Harald Wacker",
-      "ort": "Stadtmuseum im Prinz-Max-Palais, Karlsruhe",
-      "beginn": "2026-11-15T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/lost_places_in_karlsruhe_fotografien_von_harald_wacker-11",
-      "bild": null
-    },
-    {
-      "titel": "Kinderwerkstatt „Rosen, Flieder, Gänseblümchen – Ein bunter Blumenstrauß voll Kunst“",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-15T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kinderwerkstatt_rosen_flieder_ganseblumchen",
-      "bild": null
-    },
-    {
-      "titel": "Letzter Tag des 11. Festival für freie Improvisationsmusik Karlsruhe",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-15T15:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/letzter_tag_des_11_festival_fur_freie",
-      "bild": null
-    },
-    {
-      "titel": "Führung „Update! Die Sammlung neu sichten – Szenenwechsel 4“",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-15T15:15",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/fuhrung_update_die_sammlung_neu_sichten_szenenwechsel4n-21",
-      "bild": null
-    },
-    {
-      "titel": "Der Zauberer von Oz (Premiere)",
-      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
-      "beginn": "2026-11-15T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/der_zauberer_von_oz_premiere",
-      "bild": null
-    },
-    {
-      "titel": "Die Sonne - Unser lebendiger Stern",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-15T17:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/die_sonne_unser_lebendiger_stern-33",
-      "bild": null
-    },
-    {
-      "titel": "Jahreskonzert der Jugendmusikschule Neureut",
-      "ort": "Badnerlandhalle Neureut, Karlsruhe",
-      "beginn": "2026-11-15T17:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/jahreskonzert_der_jugendmusikschule_neureut-1",
-      "bild": null
-    },
-    {
-      "titel": "Giuseppe Verdi: Messa da Requiem",
-      "ort": "Katholische Stadtkirche St. Stephan Karlsruhe",
-      "beginn": "2026-11-15T17:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/giuseppe_verdi_messa_da_requiem",
-      "bild": null
-    },
-    {
-      "titel": "Konzert für Streichorchester",
-      "ort": "Ev.Paul Gerhardt Gemeinde, Karlsruhe",
-      "beginn": "2026-11-15T17:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/konzert_fur_streichorchester-1",
-      "bild": null
-    },
-    {
-      "titel": "Trio Diapason . Melodien der Leidenschaft",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-15T18:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/trio_diapason_melodien_der_leidenschaft",
-      "bild": null
-    },
-    {
-      "titel": "LUKAS AUE",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-11-15T18:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/lukas_aue",
-      "bild": null
-    },
-    {
-      "titel": "Ausstellungseröffnung: \"Tibeter im Exil\"",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-11-15T18:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/ausstellungseroffnung_tibeter_im_exil",
-      "bild": null
-    },
-    {
-      "titel": "1. Liederabend – Winterreise",
-      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
-      "beginn": "2026-11-15T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/1_liederabend_winterreise",
-      "bild": null
-    },
-    {
-      "titel": "Freies Tanzen Karlsruhe",
-      "ort": "Anne-Frank-Haus, Karlsruhe",
-      "beginn": "2026-11-15T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/freies_tanzen_karlsruhe-139",
-      "bild": null
-    },
-    {
-      "titel": "TANZ: Kiesecker | Hoess \"#TOUCH\" (D)",
-      "ort": "Zentrum für Kunst und Medien (ZKM) | Medientheater, Karlsruhe",
-      "beginn": "2026-11-15T18:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/tanz_kiesecker_hoess_touch_d-3",
-      "bild": null
-    },
-    {
-      "titel": "Reiner Kröhnert: ER",
-      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
-      "beginn": "2026-11-15T18:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/reiner_krohnert_er",
-      "bild": null
-    },
-    {
-      "titel": "Dudefest Clubshow @ P8 Monolord + Mars Red Sky",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-15T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/dudefest_clubshow_p8_monolord_mars_red_sky",
-      "bild": null
-    },
-    {
-      "titel": "Der Zauberer von Oz",
-      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
-      "beginn": "2026-11-16T09:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/der_zauberer_von_oz",
-      "bild": null
-    },
-    {
-      "titel": "Der Zauberer von Oz",
-      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
-      "beginn": "2026-11-16T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/der_zauberer_von_oz-1",
-      "bild": null
-    },
     {
       "titel": "Akademie der älteren Generation",
       "ort": "Erlöserkirche der Evangelischen methodistischen Kirche, Karlsruhe",
@@ -415,6 +231,14 @@
       "beginn": "2026-11-18",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/expose_2026_expodirekt2026n",
+      "bild": null
+    },
+    {
+      "titel": "Studieninfotag am KIT 2026",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-18T08:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/studieninfotag_am_kit2026n",
       "bild": null
     },
     {
@@ -1039,6 +863,14 @@
       "beginn": "2026-11-20T19:00",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/zeitreise_vom_urknall_zum_menschen-99",
+      "bild": null
+    },
+    {
+      "titel": "Justice Night",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-20T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/justice_night",
       "bild": null
     },
     {
@@ -1834,6 +1666,14 @@
       "bild": null
     },
     {
+      "titel": "Zeitreise - Vom Urknall zum Menschen",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-23T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/zeitreise_vom_urknall_zum_menschen-100",
+      "bild": null
+    },
+    {
       "titel": "PRIMA Abend Klavier",
       "ort": "Hochschule für Musik, Velte-Saal, Karlsruhe",
       "beginn": "2026-11-23T19:00",
@@ -2007,6 +1847,14 @@
       "beginn": "2026-11-25",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/bonding_firmenkontaktmesse_karlsruhe2026n",
+      "bild": null
+    },
+    {
+      "titel": "Wandern für Seniorinnen und Senioren",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-25T08:50",
+      "kategorie": "sport",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/wandern_fur_seniorinnen_und_senioren-18",
       "bild": null
     },
     {
@@ -2234,6 +2082,14 @@
       "bild": null
     },
     {
+      "titel": "Von der Erde zum Universum",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-26T15:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/von_der_erde_zum_universum-46",
+      "bild": null
+    },
+    {
       "titel": "Experimente (5–7 Jahre): Sehen und Hören",
       "ort": "Staatliches Museum für Naturkunde Karlsruhe",
       "beginn": "2026-11-26T15:30",
@@ -2255,6 +2111,14 @@
       "beginn": "2026-11-26T16:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_mit_basteln_in_der_kinder_jugendbibliothek-11",
+      "bild": null
+    },
+    {
+      "titel": "Der Blaue Planet",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-26T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/der_blaue_planet-13",
       "bild": null
     },
     {
@@ -2370,11 +2234,27 @@
       "bild": null
     },
     {
+      "titel": "Queen Heaven - das Original!",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-26T21:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/queen_heaven_das_original-24",
+      "bild": null
+    },
+    {
       "titel": "Grimmige Gesellschaft",
       "ort": "Kinemathek Karlsruhe e.V.",
       "beginn": "2026-11-26T21:00",
       "kategorie": "sonstiges",
       "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/grimmige_gesellschaft-3",
+      "bild": null
+    },
+    {
+      "titel": "2. Denkmalkongress Baden-Württemberg – Wege zur Klimaneutralität in Gebäuden und Siedlungen",
+      "ort": "IHK Haus der Wirtschaft, Karlsruhe",
+      "beginn": "2026-11-27T09:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/architektur/2_denkmalkongress_baden_wurttemberg",
       "bild": null
     },
     {
@@ -2434,6 +2314,14 @@
       "bild": null
     },
     {
+      "titel": "3-2-1 Liftoff!",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/3_2_1_liftoff-13",
+      "bild": null
+    },
+    {
       "titel": "Salon pour le Feu. Ein Abend im Zeichen des Feuers – das Finale der Elemente",
       "ort": "Karlsruhe",
       "beginn": "2026-11-27T17:30",
@@ -2447,6 +2335,14 @@
       "beginn": "2026-11-27T18:30",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/christmas_carol_singing",
+      "bild": null
+    },
+    {
+      "titel": "Aurora - Wunder des Nordlichts",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-27T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/aurora_wunder_des_nordlichts-130",
       "bild": null
     },
     {
@@ -2574,7 +2470,7 @@
       "ort": "Karlsruhe",
       "beginn": "2026-11-27T21:00",
       "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/black_marble_die_erde_bei_nacht-2",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/black_marble_die_erde_bei_nacht-3",
       "bild": null
     },
     {
@@ -2682,6 +2578,14 @@
       "bild": null
     },
     {
+      "titel": "NEU: Fritz Fliege fliegt ins Weltall",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-28T13:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/neu_fritz_fliege_fliegt_ins_weltall-13",
+      "bild": null
+    },
+    {
       "titel": "Das neue Staatstheater – Baustellenführung durch Modul 1",
       "ort": "Karlsruhe",
       "beginn": "2026-11-28T13:30",
@@ -2703,6 +2607,14 @@
       "beginn": "2026-11-28T14:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/the_knit_and_lit-5",
+      "bild": null
+    },
+    {
+      "titel": "Ein Sternbild für Flappi",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-28T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/ein_sternbild_fur_flappi-95",
       "bild": null
     },
     {
@@ -2730,6 +2642,22 @@
       "bild": null
     },
     {
+      "titel": "Aurora - Wunder des Nordlichts",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-28T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/aurora_wunder_des_nordlichts-131",
+      "bild": null
+    },
+    {
+      "titel": "Grötzingen glüht!",
+      "ort": "Rathausplatz Grötzingen, Karlsruhe",
+      "beginn": "2026-11-28T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/grotzingen_gluht",
+      "bild": null
+    },
+    {
       "titel": "Ey, Alter! (Wiederaufnahme)",
       "ort": "Badisches Staatstheater, INSEL, Karlsruhe",
       "beginn": "2026-11-28T17:00",
@@ -2743,6 +2671,14 @@
       "beginn": "2026-11-28T18:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/pride_night_gala_der_vielfalt_fur_zesia",
+      "bild": null
+    },
+    {
+      "titel": "Zeitreise - Vom Urknall zum Menschen",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-28T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/zeitreise_vom_urknall_zum_menschen-101",
       "bild": null
     },
     {
@@ -2850,11 +2786,27 @@
       "bild": null
     },
     {
+      "titel": "Pink Floyd - The DARK SIDE of the MOON",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-28T21:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/pink_floyd_the_dark_side_of_the_moon-59",
+      "bild": null
+    },
+    {
       "titel": "Pride Night - Die Party",
       "ort": "Karlsruhe",
       "beginn": "2026-11-28T21:30",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/pride_night_die_party",
+      "bild": null
+    },
+    {
+      "titel": "Schlossgarten-Gelächter Karlsruhe",
+      "ort": "Platz der Grundrechte, Karlsruhe",
+      "beginn": "2026-11-29T11:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/schlossgarten_gelachter_karlsruhe-8",
       "bild": null
     },
     {
@@ -2879,6 +2831,214 @@
       "beginn": "2026-11-29T11:15",
       "kategorie": "konzert",
       "quelle": "https://kalender.karlsruhe.de/db/termine/musik/botanische_fuhrung_starke_frauen_in_der_biologie",
+      "bild": null
+    },
+    {
+      "titel": "Stups, die kleine Sternschnuppe",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T11:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/stups_die_kleine_sternschnuppe-63",
+      "bild": null
+    },
+    {
+      "titel": "Die Weihnachtsgeschichte",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T13:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/die_weihnachtsgeschichte-13",
+      "bild": null
+    },
+    {
+      "titel": "NUN-Märchenzeit: Tischlein deck dich mit Markus Finkler",
+      "ort": "Café NUN, Karlsruhe",
+      "beginn": "2026-11-29T14:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/nun_marchenzeit_tischlein_deck_dich_mit_markus_finkler",
+      "bild": null
+    },
+    {
+      "titel": "Figurentheater: Der kleine König feiert Weihnachten",
+      "ort": "Bürgerzentrum Südwerk Karlsruhe",
+      "beginn": "2026-11-29T14:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/figurentheater_der_kleine_konig_feiert_weihnachten-1",
+      "bild": null
+    },
+    {
+      "titel": "Wolfgang Rempfer",
+      "ort": "Galerie Kunstfachwerk N6, Karlsruhe",
+      "beginn": "2026-11-29T14:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/wolfgang_rempfer-4",
+      "bild": null
+    },
+    {
+      "titel": "Der Stern von Bethlehem",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T15:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/der_stern_von_bethlehem-10",
+      "bild": null
+    },
+    {
+      "titel": "Lichterglanz und Liedersingen: Badische Weihnachtsbräuche vor rund 100 Jahren",
+      "ort": "Pfinzgaumuseum Karlsburg Durlach, Karlsruhe",
+      "beginn": "2026-11-29T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/lichterglanz_und_liedersingen_badische",
+      "bild": null
+    },
+    {
+      "titel": "Kinderwerkstatt „Mit der Taube auf dem Kopf – Witzige Fotocollagen“",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kinderwerkstatt_mit_der_taube_auf_dem",
+      "bild": null
+    },
+    {
+      "titel": "Führung „Martin Parr. Parrathon“",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T15:15",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/fuhrung_martin_parr_parrathon",
+      "bild": null
+    },
+    {
+      "titel": "Cinderella (Im Rahmen von Tanz Karlsruhe)",
+      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
+      "beginn": "2026-11-29T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/cinderella_im_rahmen_von_tanz_karlsruhe",
+      "bild": null
+    },
+    {
+      "titel": "Open Stage im TanzAreal",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/open_stage_im_tanzareal-1",
+      "bild": null
+    },
+    {
+      "titel": "Der Blaue Planet",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/der_blaue_planet-14",
+      "bild": null
+    },
+    {
+      "titel": "Was an Empfindsamkeit bleibt",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/was_an_empfindsamkeit_bleibt-1",
+      "bild": null
+    },
+    {
+      "titel": "Was an Empfindsamkeit bleibt",
+      "ort": "Kinemathek Karlsruhe e.V.",
+      "beginn": "2026-11-29T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/was_an_empfindsamkeit_bleibt",
+      "bild": null
+    },
+    {
+      "titel": "Advents- und Weihnachtslieder-Singen für Jung und Alt",
+      "ort": "Ev. Stadtkirche Karlsruhe",
+      "beginn": "2026-11-29T17:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/advents_und_weihnachtslieder_singen_fur_jung_und_alt",
+      "bild": null
+    },
+    {
+      "titel": "Viva la vida 3 . The Sound of Winter",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T18:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/viva_la_vida_3_the_sound_of_winter",
+      "bild": null
+    },
+    {
+      "titel": "Karneval der Tiere",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-5",
+      "bild": null
+    },
+    {
+      "titel": "Karneval der Tiere - Eine XR-Experience über das Verschwinden",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-29T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/karneval_der_tiere_eine_xr_experience-5",
+      "bild": null
+    },
+    {
+      "titel": "Freies Tanzen Karlsruhe",
+      "ort": "Anne-Frank-Haus, Karlsruhe",
+      "beginn": "2026-11-29T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/freies_tanzen_karlsruhe-141",
+      "bild": null
+    },
+    {
+      "titel": "Frauenkammerchor Ex-semble",
+      "ort": "Christuskirche Karlsruhe",
+      "beginn": "2026-11-29T18:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/frauenkammerchor_ex_semble",
+      "bild": null
+    },
+    {
+      "titel": "Die Wut, die bleibt",
+      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
+      "beginn": "2026-11-29T18:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/die_wut_die_bleibt",
+      "bild": null
+    },
+    {
+      "titel": "12 tote Hühner",
+      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
+      "beginn": "2026-11-29T18:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/12_tote_huhner-5",
+      "bild": null
+    },
+    {
+      "titel": "Musik & Kosmos: \"Stars of Classic\"",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/musik_kosmos_stars_of_classic-58",
+      "bild": null
+    },
+    {
+      "titel": "WEIBrations",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-29T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/weibrations",
+      "bild": null
+    },
+    {
+      "titel": "Karneval der Tiere",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-29T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-6",
+      "bild": null
+    },
+    {
+      "titel": "Karneval der Tiere - Eine XR-Experience über das Verschwinden",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-29T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/karneval_der_tiere_eine_xr_experience-6",
       "bild": null
     }
   ]
