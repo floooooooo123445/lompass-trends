@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-11-16",
+  "stand": "2026-11-17",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -9,94 +9,6 @@
     }
   ],
   "termine": [
-    {
-      "titel": "Akademie der älteren Generation",
-      "ort": "Erlöserkirche der Evangelischen methodistischen Kirche, Karlsruhe",
-      "beginn": "2026-11-16T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/akademie_der_alteren_generation-2",
-      "bild": null
-    },
-    {
-      "titel": "Pilzberatung 2026",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-11-16T17:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/pilzberatung2026n",
-      "bild": null
-    },
-    {
-      "titel": "Klimaberufe",
-      "ort": "IHK Haus der Wirtschaft, Karlsruhe",
-      "beginn": "2026-11-16T17:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/klimaberufe",
-      "bild": null
-    },
-    {
-      "titel": "Recherchieren mit KI",
-      "ort": "Badische Landesbibliothek, Karlsruhe",
-      "beginn": "2026-11-16T17:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/recherchieren_mit_ki",
-      "bild": null
-    },
-    {
-      "titel": "Freundeskreis Persönlich",
-      "ort": "Hochschule für Musik, Velte-Saal, Karlsruhe",
-      "beginn": "2026-11-16T17:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/freundeskreis_personlich-1",
-      "bild": null
-    },
-    {
-      "titel": "Lektürekurs Hebräisch (5 Termine)",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-16T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lekturekurs_hebraisch_5_termine-3",
-      "bild": null
-    },
-    {
-      "titel": "Money Mindset",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-16T20:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/money_mindset",
-      "bild": null
-    },
-    {
-      "titel": "Preisträger*innen des 30. int. Solo-Tanz-Theater Festival Stuttgart 2026",
-      "ort": "Kulturzentrum Tempel / Scenario Halle, Karlsruhe",
-      "beginn": "2026-11-16T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/preistragerinnen_des_30_int_solo_tanz",
-      "bild": null
-    },
-    {
-      "titel": "Deine berufliche Zukunft",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-17T10:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/deine_berufliche_zukunft-1",
-      "bild": null
-    },
-    {
-      "titel": "Sprechstunde: Einfach digital!",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-17T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sprechstunde_einfach_digital-58",
-      "bild": null
-    },
-    {
-      "titel": "Nils Karlsson Däumling",
-      "ort": "Badisches Staatstheater, INSEL, Karlsruhe",
-      "beginn": "2026-11-17T10:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/nils_karlsson_daumling-1",
-      "bild": null
-    },
     {
       "titel": "Workshop (6-7 Jahre): Spuren der Urmenschen – mehr als nur Knochen",
       "ort": "Staatliches Museum für Naturkunde Karlsruhe",
@@ -319,14 +231,6 @@
       "beginn": "2026-11-18T15:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/jugendbeirat_artenkenntis_fur_alle_entdecke_die_natur-1",
-      "bild": null
-    },
-    {
-      "titel": "Buchclub Buchtipps",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-18T15:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/buchclub_buchtipps-4",
       "bild": null
     },
     {
@@ -631,6 +535,14 @@
       "beginn": "2026-11-19T18:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/solartlab_projekt_straengeist-3",
+      "bild": null
+    },
+    {
+      "titel": "Vortrag: Tritium – von der Erforschung des Universums zum Fusionskraftwerk",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-11-19T18:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vortrag_tritium_von_der_erforschung",
       "bild": null
     },
     {
@@ -3039,6 +2951,86 @@
       "beginn": "2026-11-29T20:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/karneval_der_tiere_eine_xr_experience-6",
+      "bild": null
+    },
+    {
+      "titel": "Frau Grashalm kommt: „Das Geheimnis von Knolle Murphy“",
+      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Mühlburg",
+      "beginn": "2026-11-30T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/frau_grashalm_kommt_das_geheimnis_von_knolle_murphy",
+      "bild": null
+    },
+    {
+      "titel": "Stark von innen - Selbstbewusstsein und Selbstfürsorge",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-30T18:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/stark_von_innen_selbstbewusstsein_und_selbstfursorge",
+      "bild": null
+    },
+    {
+      "titel": "Lektürekurs Hebräisch",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-30T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lekturekurs_hebraisch-5",
+      "bild": null
+    },
+    {
+      "titel": "PRIMA Abend Klavier",
+      "ort": "Hochschule für Musik, Velte-Saal, Karlsruhe",
+      "beginn": "2026-11-30T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/prima_abend_klavier-3",
+      "bild": null
+    },
+    {
+      "titel": "PRIMA Abend Viola",
+      "ort": "Hochschule für Musik, Genuit-Saal, Karlsruhe",
+      "beginn": "2026-11-30T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/prima_abend_viola",
+      "bild": null
+    },
+    {
+      "titel": "Night of Jazz & Pop",
+      "ort": "Hochschule für Musik Karlsruhe, CampusOne, Wolfgang-Rihm-Forum",
+      "beginn": "2026-11-30T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/night_of_jazz_pop",
+      "bild": null
+    },
+    {
+      "titel": "Kino über der Stadt Shorts",
+      "ort": "Karlsruhe",
+      "beginn": "2026-11-30T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/kino_uber_der_stadt_shorts",
+      "bild": null
+    },
+    {
+      "titel": "WOLFGANG SCHORLAU",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-11-30T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/wolfgang_schorlau",
+      "bild": null
+    },
+    {
+      "titel": "Die Welle (Wiederaufnahme)",
+      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
+      "beginn": "2026-12-01T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/die_welle_wiederaufnahme",
+      "bild": null
+    },
+    {
+      "titel": "Sprechstunde: Einfach digital!",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-01T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sprechstunde_einfach_digital-60",
       "bild": null
     }
   ]

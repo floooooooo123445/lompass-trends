@@ -1,6 +1,6 @@
 {
   "stadt": "ulm",
-  "stand": "2026-11-16",
+  "stand": "2026-11-17",
   "quellen": [
     {
       "herausgeber": "Stadt Ulm, Digitale Agenda",
@@ -12,7 +12,7 @@
     {
       "titel": "Verlängert bis März 2027: Radio-Schnuppern bei free FM",
       "ort": "Radio freeFM, Ulm",
-      "beginn": "2026-11-16T07:00",
+      "beginn": "2026-11-17T07:00",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53213/",
       "bild": null
@@ -20,7 +20,7 @@
     {
       "titel": "Winterfreude pur beim Eisstockschießen",
       "ort": "Seeberger Genusswelt GmbH, Ulm",
-      "beginn": "2026-11-16T08:00",
+      "beginn": "2026-11-17T08:00",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/50661/",
       "bild": null
@@ -28,105 +28,9 @@
     {
       "titel": "Zwischen Berlin und Tbilissi. Junge Fotograf*innen schauen auf ihre Welt",
       "ort": "Stadthaus Ulm",
-      "beginn": "2026-11-16T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52996/",
-      "bild": null
-    },
-    {
-      "titel": "Quartierstreff Mitte/Ost",
-      "ort": "Bürgerhaus MitteCafeteria (EG), Cafeteria (EG), Ulm",
-      "beginn": "2026-11-16T13:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51276/",
-      "bild": null
-    },
-    {
-      "titel": "Technik verstehen? Gemeinsam gehts einfacher",
-      "ort": "Bürgerhaus MitteGruppenraum (EG), Gruppenraum (EG), Ulm",
-      "beginn": "2026-11-16T17:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51275/",
-      "bild": null
-    },
-    {
-      "titel": "Dein Einstieg: Radio-Baukasten bei Radio free FM - Orga/Kommunikation, rechtliche Grundlagen",
-      "ort": "Radio freeFM, Ulm",
-      "beginn": "2026-11-16T17:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53658/",
-      "bild": null
-    },
-    {
-      "titel": "KI Walk – jeden Montag",
-      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
-      "beginn": "2026-11-16T18:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47145/",
-      "bild": null
-    },
-    {
-      "titel": "Französisch Spaziergang - jeden Montag",
-      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
-      "beginn": "2026-11-16T18:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47143/",
-      "bild": null
-    },
-    {
-      "titel": "Südtirol zu Gast bei Aegis",
-      "ort": "Café Aegis, Ulm",
-      "beginn": "2026-11-16T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53275/",
-      "bild": null
-    },
-    {
-      "titel": "Live-Vortrag Roger Köppel",
-      "ort": "Edwin-Scharff-Haus, Neu-Ulm",
-      "beginn": "2026-11-16T20:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51785/",
-      "bild": null
-    },
-    {
-      "titel": "Schwertfechten: Langschwert Einsteigerkurs 2026",
-      "ort": "Eduard-Mörike-Halle, Ulm",
-      "beginn": "2026-11-16T20:00",
-      "kategorie": "sport",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51983/",
-      "bild": null
-    },
-    {
-      "titel": "Open Stage",
-      "ort": "ROXY UlmWerkhalle, Werkhalle",
-      "beginn": "2026-11-16T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/50828/",
-      "bild": null
-    },
-    {
-      "titel": "FUCKIN' MONDAY: Getränkebörse!",
-      "ort": "Hinteres Kreuz, Ulm",
-      "beginn": "2026-11-16T21:00",
-      "kategorie": "disko",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/50410/",
-      "bild": null
-    },
-    {
-      "titel": "Fasziengymnastik - für jedes Alter",
-      "ort": "Johanneshaus, Neu-Ulm",
-      "beginn": "2026-11-17T09:30",
-      "kategorie": "sport",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51459/",
-      "bild": null
-    },
-    {
-      "titel": "Gerda gackert für Gerechtigkeit",
-      "ort": "Theater Mücke, Ulm",
       "beginn": "2026-11-17T10:00",
       "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53596/",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52996/",
       "bild": null
     },
     {
@@ -522,6 +426,14 @@
       "bild": null
     },
     {
+      "titel": "Gerda gackert für Gerechtigkeit",
+      "ort": "Theater Mücke, Ulm",
+      "beginn": "2026-11-19T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53596/",
+      "bild": null
+    },
+    {
       "titel": "Mittagtisch \"Gute Stube\" im Cafe Lebenswert",
       "ort": "Cafe Lebenswert, Neu-Ulm",
       "beginn": "2026-11-19T11:30",
@@ -535,6 +447,14 @@
       "beginn": "2026-11-19T12:15",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51691/",
+      "bild": null
+    },
+    {
+      "titel": "Quartierstreff Mitte/Ost",
+      "ort": "Bürgerhaus MitteCafeteria (EG), Cafeteria (EG), Ulm",
+      "beginn": "2026-11-19T13:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51276/",
       "bild": null
     },
     {
@@ -1386,6 +1306,14 @@
       "bild": null
     },
     {
+      "titel": "Chorkonzert: Requiem for Solace",
+      "ort": "Petruskirche, Neu-Ulm",
+      "beginn": "2026-11-22T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54071/",
+      "bild": null
+    },
+    {
       "titel": "Chocolat",
       "ort": "Lindenhalle Ehingen(Donau)",
       "beginn": "2026-11-22T19:30",
@@ -1402,6 +1330,30 @@
       "bild": null
     },
     {
+      "titel": "Technik verstehen? Gemeinsam gehts einfacher",
+      "ort": "Bürgerhaus MitteGruppenraum (EG), Gruppenraum (EG), Ulm",
+      "beginn": "2026-11-23T17:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51275/",
+      "bild": null
+    },
+    {
+      "titel": "KI Walk – jeden Montag",
+      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
+      "beginn": "2026-11-23T18:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47145/",
+      "bild": null
+    },
+    {
+      "titel": "Französisch Spaziergang - jeden Montag",
+      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
+      "beginn": "2026-11-23T18:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47143/",
+      "bild": null
+    },
+    {
       "titel": "Sterbestammtisch",
       "ort": "Aegis Café (ehemals Kokoschinski), Ulm",
       "beginn": "2026-11-23T18:30",
@@ -1410,11 +1362,51 @@
       "bild": null
     },
     {
+      "titel": "Schwertfechten: Langschwert Einsteigerkurs 2026",
+      "ort": "Eduard-Mörike-Halle, Ulm",
+      "beginn": "2026-11-23T20:00",
+      "kategorie": "sport",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51983/",
+      "bild": null
+    },
+    {
       "titel": "Internationales Solo-Tanz-Theater Festival Stuttgart",
       "ort": "ROXY UlmStudio, Studio",
       "beginn": "2026-11-23T20:00",
       "kategorie": "kultur",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53247/",
+      "bild": null
+    },
+    {
+      "titel": "FUCKIN' MONDAY: Getränkebörse!",
+      "ort": "Hinteres Kreuz, Ulm",
+      "beginn": "2026-11-23T21:00",
+      "kategorie": "disko",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/50410/",
+      "bild": null
+    },
+    {
+      "titel": "Unsere Welt am Frühstückstisch",
+      "ort": "Familienzentrum Neu-Ulm",
+      "beginn": "2026-11-24T09:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54059/",
+      "bild": null
+    },
+    {
+      "titel": "Fasziengymnastik - für jedes Alter",
+      "ort": "Johanneshaus, Neu-Ulm",
+      "beginn": "2026-11-24T09:30",
+      "kategorie": "sport",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51459/",
+      "bild": null
+    },
+    {
+      "titel": "Vielfalt für alle",
+      "ort": "Familienzentrum Neu-Ulm",
+      "beginn": "2026-11-24T15:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54060/",
       "bild": null
     },
     {
@@ -1455,6 +1447,14 @@
       "beginn": "2026-11-24T19:00",
       "kategorie": "kultur",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/49241/",
+      "bild": null
+    },
+    {
+      "titel": "MITMACHMUSIK INTERKULTURELL",
+      "ort": "Haus der Nachhaltigkeit, Neu-Ulm",
+      "beginn": "2026-11-24T19:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54064/",
       "bild": null
     },
     {
@@ -1538,6 +1538,14 @@
       "bild": null
     },
     {
+      "titel": "Feste verbinden - Vielfalt feiern",
+      "ort": "Familienzentrum Neu-Ulm",
+      "beginn": "2026-11-26T16:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54061/",
+      "bild": null
+    },
+    {
       "titel": "Autorenlesung",
       "ort": "Spielburg Cafe, Blaustein",
       "beginn": "2026-11-26T17:30",
@@ -1551,14 +1559,6 @@
       "beginn": "2026-11-26T18:00",
       "kategorie": "kultur",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53779/",
-      "bild": null
-    },
-    {
-      "titel": "VIELE KALENDER. EIN ZUHAUSE.",
-      "ort": "Haus der Nachhaltigkeit, Neu-Ulm",
-      "beginn": "2026-11-26T18:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54032/",
       "bild": null
     },
     {
@@ -1639,6 +1639,14 @@
       "beginn": "2026-11-27T15:00",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51466/",
+      "bild": null
+    },
+    {
+      "titel": "BILDER IM KOPF: Sinti und Roma in der Wahrnehmung der Mehrheitsgesellschaft",
+      "ort": "MITTE - Begegnungszentrum AWO Neu-Ulm",
+      "beginn": "2026-11-27T16:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54067/",
       "bild": null
     },
     {
@@ -1786,6 +1794,14 @@
       "bild": null
     },
     {
+      "titel": "WELTKÜCHE",
+      "ort": "Haus der Nachhaltigkeit, Neu-Ulm",
+      "beginn": "2026-11-28T14:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54063/",
+      "bild": null
+    },
+    {
       "titel": "Theater Couturier: Weihnachten beim kleinen Hasen",
       "ort": "Zehntstadel Leipheim",
       "beginn": "2026-11-28T15:00",
@@ -1807,14 +1823,6 @@
       "beginn": "2026-11-28T15:30",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53802/",
-      "bild": null
-    },
-    {
-      "titel": "Märchenjurte Mittelalterlicher Weihnachtsmarkt Neu-Ulm",
-      "ort": "Märchenjurte - Neu-Ulmer Weihnachtsmarkt",
-      "beginn": "2026-11-28T16:30",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54011/",
       "bild": null
     },
     {
@@ -2015,6 +2023,54 @@
       "beginn": "2026-11-30T10:30",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53815/",
+      "bild": null
+    },
+    {
+      "titel": "Lust auf einen Spaziergang?",
+      "ort": "Gegenüber Straßenbahnhaltestelle Staufenring, Ulm",
+      "beginn": "2026-11-30T14:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/48574/",
+      "bild": null
+    },
+    {
+      "titel": "Yoga mit Stuhl Prävention (10er Kurs)",
+      "ort": "Stuntwerk, Senden",
+      "beginn": "2026-11-30T17:00",
+      "kategorie": "sport",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/49840/",
+      "bild": null
+    },
+    {
+      "titel": "Yoga Mobility Präventionskurs (10er Kurs)",
+      "ort": "Stuntwerk, Senden",
+      "beginn": "2026-11-30T18:00",
+      "kategorie": "sport",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/48399/",
+      "bild": null
+    },
+    {
+      "titel": "0Sozialstaat unter Druck – Wer zahlt den Preis?",
+      "ort": "EinsteinHaus - Ulmer VolkshochschuleClub Orange, Club Orange",
+      "beginn": "2026-11-30T18:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53836/",
+      "bild": null
+    },
+    {
+      "titel": "Frieden sichern – was können wir tun?",
+      "ort": "ROXY Ulm",
+      "beginn": "2026-11-30T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53667/",
+      "bild": null
+    },
+    {
+      "titel": "Winterfreude pur beim Eisstockschießen",
+      "ort": "Seeberger Genusswelt GmbH, Ulm",
+      "beginn": "2026-12-01T08:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53840/",
       "bild": null
     }
   ]
