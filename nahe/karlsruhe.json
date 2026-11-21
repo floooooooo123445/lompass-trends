@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-11-20",
+  "stand": "2026-11-21",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -9,270 +9,6 @@
     }
   ],
   "termine": [
-    {
-      "titel": "100 Jahre GEDOK – Das Archiv Künstlerinnen Fotografie Medienkunst (AKFM)",
-      "ort": "GEDOK Künstlerinnenforum, Karlsruhe",
-      "beginn": "2026-11-20",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/100_jahre_gedok_das_archiv_kunstlerinnen",
-      "bild": null
-    },
-    {
-      "titel": "Mario Barth 2026",
-      "ort": "Schwarzwaldhalle / Kongresszentrum Karlsruhe",
-      "beginn": "2026-11-20",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/mario_barth2026n",
-      "bild": null
-    },
-    {
-      "titel": "Arrtist Duo: DENKRÄUME: MY SPACE - YOUR SPACE",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-20T08:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/arrtist_duo_denkraume_my_space_your_space",
-      "bild": null
-    },
-    {
-      "titel": "SternenLese - Vorlesetag im PLANET KA",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-20T14:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sternenlese_vorlesetag_im_planet_ka-1",
-      "bild": null
-    },
-    {
-      "titel": "Vorlesezeit am Bundesweiten Vorlesetag",
-      "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
-      "beginn": "2026-11-20T16:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_am_bundesweiten_vorlesetag",
-      "bild": null
-    },
-    {
-      "titel": "Der achtsame Umgang mit mir selbst",
-      "ort": "vhs Karlsruhe",
-      "beginn": "2026-11-20T16:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_achtsame_umgang_mit_mir_selbst-3",
-      "bild": null
-    },
-    {
-      "titel": "17. Europäisches Filmfestival der Generationen",
-      "ort": "Brunhilde-Baur-Haus, Karlsruhe",
-      "beginn": "2026-11-20T16:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-5",
-      "bild": null
-    },
-    {
-      "titel": "Von der Erde zum Universum",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-20T17:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/von_der_erde_zum_universum-45",
-      "bild": null
-    },
-    {
-      "titel": "Table Ronde",
-      "ort": "Kulturküche Karlsruhe",
-      "beginn": "2026-11-20T17:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/table_ronde-7",
-      "bild": null
-    },
-    {
-      "titel": "Artist Talk mit Juha van Ingen",
-      "ort": "Zentrum für Kunst und Medien (ZKM) | Medialounge, Karlsruhe",
-      "beginn": "2026-11-20T18:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/artist_talk_mit_juha_van_ingen",
-      "bild": null
-    },
-    {
-      "titel": "La Estética del Delirio: Genio y locura en la pintura",
-      "ort": "vhs Karlsruhe, Kaiserallee 12e, Hofgebäude",
-      "beginn": "2026-11-20T18:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/la_estetica_del_delirio_genio_y_locura_en_la_pintura",
-      "bild": null
-    },
-    {
-      "titel": "DESPISED ICON + CARNIFEX",
-      "ort": "Substage Karlsruhe e.V.",
-      "beginn": "2026-11-20T18:30",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/despised_icon_carnifex",
-      "bild": null
-    },
-    {
-      "titel": "Zeitreise - Vom Urknall zum Menschen",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-20T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/zeitreise_vom_urknall_zum_menschen-99",
-      "bild": null
-    },
-    {
-      "titel": "Justice Night",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-20T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/justice_night",
-      "bild": null
-    },
-    {
-      "titel": "Mahnwache zum Transgender Day of Remembrance am 20. November in Karlsruhe",
-      "ort": "Platz der Grundrechte, Karlsruhe",
-      "beginn": "2026-11-20T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/mahnwache_zum_transgender_day_of_remembrance",
-      "bild": null
-    },
-    {
-      "titel": "Karneval der Tiere",
-      "ort": "Staatstheater, siehe Beschreibung, Karlsruhe",
-      "beginn": "2026-11-20T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-1",
-      "bild": null
-    },
-    {
-      "titel": "Macbeth",
-      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
-      "beginn": "2026-11-20T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/macbeth-1",
-      "bild": null
-    },
-    {
-      "titel": "FANTASY-WOCHE: Fantasy Book Night mit Nina Schilling - Lesung \"And Midnight fades to Dawn\" & viele Specials",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-20T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_fantasy_book_night_mit",
-      "bild": null
-    },
-    {
-      "titel": "Karneval der Tiere - Eine XR-Experience über das Verschwinden",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-11-20T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/karneval_der_tiere_eine_xr_experience-1",
-      "bild": null
-    },
-    {
-      "titel": "Ausstellungseröffnung 19 Uhr",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-20T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/ausstellungseroffnung_19_uhr",
-      "bild": null
-    },
-    {
-      "titel": "Die Comedian Harmonists",
-      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
-      "beginn": "2026-11-20T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/die_comedian_harmonists-1",
-      "bild": null
-    },
-    {
-      "titel": "Disco Queen - Im Fieber der 70er",
-      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
-      "beginn": "2026-11-20T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/disco_queen_im_fieber_der_70er-59",
-      "bild": null
-    },
-    {
-      "titel": "Die Glasmenagerie",
-      "ort": "Jakobus-Theater im Theaterhaus Karlsruhe",
-      "beginn": "2026-11-20T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/die_glasmenagerie-7",
-      "bild": null
-    },
-    {
-      "titel": "loKAlz Hymnose + Fancity",
-      "ort": "Jubez, Jugend- und Begegnungszentrum, Karlsruhe",
-      "beginn": "2026-11-20T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/lokalz_hymnose_fancity",
-      "bild": null
-    },
-    {
-      "titel": "Isabelle Konrad (D) „En-Rave!\"",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-20T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/isabelle_konrad_d_en_rave",
-      "bild": null
-    },
-    {
-      "titel": "FAB FOUR GO BLUE NOTE . Ull Möck Trio feat. Lilly Thornton",
-      "ort": "Hemingway Lounge in Karlsruhe",
-      "beginn": "2026-11-20T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/fab_four_go_blue_note_ull_mock_trio_feat_lilly_thornton",
-      "bild": null
-    },
-    {
-      "titel": "HERBERT PIXNER PROJEKT",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-11-20T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/herbert_pixner_projekt",
-      "bild": null
-    },
-    {
-      "titel": "ULAN & BATOR",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-11-20T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/ulan_bator",
-      "bild": null
-    },
-    {
-      "titel": "European Outdoor Film Tour 26/27 - EOFT",
-      "ort": "Filmtheater Schauburg, Karlsruhe",
-      "beginn": "2026-11-20T20:00",
-      "kategorie": "sport",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/european_outdoor_film_tour_2627_eoft-1",
-      "bild": null
-    },
-    {
-      "titel": "In annere Umschdänd",
-      "ort": "Badisch Bühn Mundarttheater, Karlsruhe",
-      "beginn": "2026-11-20T20:15",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/in_annere_umschdand-48",
-      "bild": null
-    },
-    {
-      "titel": "Das Phantom des Universums",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-20T21:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/das_phantom_des_universums-10",
-      "bild": null
-    },
-    {
-      "titel": "Karneval der Tiere",
-      "ort": "Staatstheater, siehe Beschreibung, Karlsruhe",
-      "beginn": "2026-11-20T21:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-2",
-      "bild": null
-    },
-    {
-      "titel": "Karneval der Tiere - Eine XR-Experience über das Verschwinden",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-11-20T21:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/karneval_der_tiere_eine_xr_experience-2",
-      "bild": null
-    },
     {
       "titel": "Durlacher Duos. Kunstwerke im Dialog",
       "ort": "Pfinzgaumuseum Karlsburg Durlach, Karlsruhe",
@@ -295,46 +31,6 @@
       "beginn": "2026-11-21",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/art_genossen2026n",
-      "bild": null
-    },
-    {
-      "titel": "Auf dem Weisenbacher Steig",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-21T09:05",
-      "kategorie": "sport",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/auf_dem_weisenbacher_steig",
-      "bild": null
-    },
-    {
-      "titel": "FANTASY-WOCHE: Theaterworkshop \"Die Bibliothek erwacht - das geheime Leben der Buchfiguren\"",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-21T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_theaterworkshop_die_bibliothek",
-      "bild": null
-    },
-    {
-      "titel": "Adventsbasteln am Waldklassenzimmer",
-      "ort": "Waldklassenzimmer, Karlsruhe",
-      "beginn": "2026-11-21T11:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/adventsbasteln_am_waldklassenzimmer-1",
-      "bild": null
-    },
-    {
-      "titel": "Adventskranz binden",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-21T11:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/adventskranz_binden-1",
-      "bild": null
-    },
-    {
-      "titel": "Krampus Bunter Kram",
-      "ort": "TRIANGEL Transfer | Kultur | Raum, Karlsruhe",
-      "beginn": "2026-11-21T12:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/krampus_bunter_kram",
       "bild": null
     },
     {
@@ -3071,6 +2767,262 @@
       "beginn": "2026-12-04T11:30",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/der_satanarchaolugenialkohollische_wunschpunsch-3",
+      "bild": null
+    },
+    {
+      "titel": "Captain Schnuppes Weltraumreise",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-04T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/captain_schnuppes_weltraumreise-51",
+      "bild": null
+    },
+    {
+      "titel": "Kurs (ab 8 Jahre): Wintervögel",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-12-04T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kurs_ab_8_jahre_wintervogel",
+      "bild": null
+    },
+    {
+      "titel": "Führung in leichter Sprache 15 Uhr „Martin Parr. Parrathon“mit Christina Korzen",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-04T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/fuhrung_in_leichter_sprache_15_uhr_martin",
+      "bild": null
+    },
+    {
+      "titel": "Heller Lichterglanz",
+      "ort": "Naturschutzzentrum Karlsruhe-Rappenwört",
+      "beginn": "2026-12-04T15:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/heller_lichterglanz",
+      "bild": null
+    },
+    {
+      "titel": "Frag den Direktor!",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-12-04T15:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/frag_den_direktor-1",
+      "bild": null
+    },
+    {
+      "titel": "Führung „Martin Parr. Parrathon“",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-04T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/fuhrung_martin_parr_parrathon-1",
+      "bild": null
+    },
+    {
+      "titel": "Abfahrten von Durlach",
+      "ort": "Orgelfabrik Halle, Karlsruhe",
+      "beginn": "2026-12-04T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/abfahrten_von_durlach",
+      "bild": null
+    },
+    {
+      "titel": "Markgrafenstraße 41 – Das Feuer, das immer noch brennt",
+      "ort": "Kinemathek Karlsruhe",
+      "beginn": "2026-12-04T18:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/markgrafenstrae_41_das_feuer_das_immer_noch_brennt",
+      "bild": null
+    },
+    {
+      "titel": "Aurora - Wunder des Nordlichts",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-04T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/aurora_wunder_des_nordlichts-132",
+      "bild": null
+    },
+    {
+      "titel": "Mein Land. Meine Geschichte: Von den Philippinen nach Karlsruhe - mit Enny Wünnemann",
+      "ort": "vhs Karlsruhe, Kaiserallee 12e, Hofgebäude",
+      "beginn": "2026-12-04T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/mein_land_meine_geschichte_von_den_philippinen",
+      "bild": null
+    },
+    {
+      "titel": "1984 / 2052 (Wiederaufnahme)",
+      "ort": "Badisches Staatstheater, Kleines Haus, Karlsruhe",
+      "beginn": "2026-12-04T19:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/1984_2052_wiederaufnahme",
+      "bild": null
+    },
+    {
+      "titel": "TERROR",
+      "ort": "Substage Karlsruhe e.V.",
+      "beginn": "2026-12-04T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/terror",
+      "bild": null
+    },
+    {
+      "titel": "„Lichtersingen”",
+      "ort": "Kleine Kirche Karlsruhe",
+      "beginn": "2026-12-04T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/lichtersingen",
+      "bild": null
+    },
+    {
+      "titel": "Schwarze Löcher - was steckt dahinter?",
+      "ort": "vhs Karlsruhe, Kaiserallee 12e, Hofgebäude",
+      "beginn": "2026-12-04T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/schwarze_locher_was_steckt_dahinter",
+      "bild": null
+    },
+    {
+      "titel": "Disco Queen - Im Fieber der 70er",
+      "ort": "Das Sandkorn Theater & Mehr, Karlsruhe",
+      "beginn": "2026-12-04T19:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/disco_queen_im_fieber_der_70er-74",
+      "bild": null
+    },
+    {
+      "titel": "Manhattan Suite . Trio Kircher & Lehel & Nuss",
+      "ort": "Hemingway Lounge in Karlsruhe",
+      "beginn": "2026-12-04T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/manhattan_suite_trio_kircher_lehel_nuss-1",
+      "bild": null
+    },
+    {
+      "titel": "Kiss Me Deadly (35mm OV)",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-04T20:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/kiss_me_deadly_35mm_ov",
+      "bild": null
+    },
+    {
+      "titel": "Rabbitears",
+      "ort": "Kulturhaus MIKADO, Karlsruhe",
+      "beginn": "2026-12-04T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/rabbitears",
+      "bild": null
+    },
+    {
+      "titel": "GANES",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-12-04T20:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/ganes",
+      "bild": null
+    },
+    {
+      "titel": "SEBASTIAN 23",
+      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
+      "beginn": "2026-12-04T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/sebastian23n",
+      "bild": null
+    },
+    {
+      "titel": "E vornehme Bagasch",
+      "ort": "Badisch Bühn Mundarttheater, Karlsruhe",
+      "beginn": "2026-12-04T20:15",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/e_vornehme_bagasch-21",
+      "bild": null
+    },
+    {
+      "titel": "Konzert: Low Key Orchestra | Café NUN",
+      "ort": "Café NUN, Karlsruhe",
+      "beginn": "2026-12-04T20:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/konzert_low_key_orchestra_cafe_nun",
+      "bild": null
+    },
+    {
+      "titel": "Pink Floyd - The DARK SIDE of the MOON",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-04T21:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/pink_floyd_the_dark_side_of_the_moon-60",
+      "bild": null
+    },
+    {
+      "titel": "Die Welt-ABBA-Show",
+      "ort": "Kongresszentrum Karlsruhe",
+      "beginn": "2026-12-05",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/die_welt_abba_show",
+      "bild": null
+    },
+    {
+      "titel": "Zur Seeweihnacht am Breitnauer See",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-05T08:00",
+      "kategorie": "sport",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/zur_seeweihnacht_am_breitnauer_see",
+      "bild": null
+    },
+    {
+      "titel": "City-Flohmarkt",
+      "ort": "Stephanplatz, Karlsruhe",
+      "beginn": "2026-12-05T08:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/city_flohmarkt-18",
+      "bild": null
+    },
+    {
+      "titel": "Physikalische Experimente kinderleicht - Magisches Wasser",
+      "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
+      "beginn": "2026-12-05T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/physikalische_experimente_kinderleicht_magisches_wasser",
+      "bild": null
+    },
+    {
+      "titel": "\"Lasst uns froh und munter sein ...\"",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-05T11:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/lasst_uns_froh_und_munter_sein",
+      "bild": null
+    },
+    {
+      "titel": "Der Zauberer von Oz",
+      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
+      "beginn": "2026-12-05T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/der_zauberer_von_oz-5",
+      "bild": null
+    },
+    {
+      "titel": "Schmuck-Workshop",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-05T11:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/schmuck_workshop",
+      "bild": null
+    },
+    {
+      "titel": "Stups, die kleine Sternschnuppe",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-05T11:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/stups_die_kleine_sternschnuppe-64",
+      "bild": null
+    },
+    {
+      "titel": "jazz market . Good Old New Orleans . Jazz Boys Rastatt",
+      "ort": "Hemingway Lounge in Karlsruhe",
+      "beginn": "2026-12-05T11:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/jazz_market_good_old_new_orleans_jazz_boys_rastatt-1",
       "bild": null
     }
   ]
