@@ -1,6 +1,6 @@
 {
   "stadt": "ulm",
-  "stand": "2026-11-21",
+  "stand": "2026-11-22",
   "quellen": [
     {
       "herausgeber": "Stadt Ulm, Digitale Agenda",
@@ -10,419 +10,35 @@
   ],
   "termine": [
     {
-      "titel": "Ulmer Wochenmarkt | Münsterplatz",
-      "ort": "Münsterplatz Ulm",
-      "beginn": "2026-11-21T07:00",
-      "kategorie": "markt",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/41922/",
-      "bild": null
-    },
-    {
-      "titel": "Neu-Ulmer Wochenmarkt",
-      "ort": "Petrusplatz, Neu-Ulm",
-      "beginn": "2026-11-21T07:00",
-      "kategorie": "markt",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/1050/",
-      "bild": null
-    },
-    {
       "titel": "Winterfreude pur beim Eisstockschießen",
       "ort": "Seeberger Genusswelt GmbH, Ulm",
-      "beginn": "2026-11-21T08:00",
+      "beginn": "2026-11-22T08:00",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/50661/",
       "bild": null
     },
     {
-      "titel": "Bäume und Sträucher im Winterzustand",
-      "ort": "Botanischer Garten der Universität Ulm",
-      "beginn": "2026-11-21T09:00",
-      "kategorie": "kurs",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51693/",
-      "bild": null
-    },
-    {
-      "titel": "Frauenfrühstück",
-      "ort": "Connect Church Ulm",
-      "beginn": "2026-11-21T09:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52598/",
-      "bild": null
-    },
-    {
-      "titel": "Zwischen Berlin und Tbilissi. Junge Fotograf*innen schauen auf ihre Welt",
-      "ort": "Stadthaus Ulm",
-      "beginn": "2026-11-21T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52996/",
-      "bild": null
-    },
-    {
-      "titel": "Ulmer Weihnachtsmarkt vom 19.11.26 bis 22.12.26",
-      "ort": "Münsterplatz Ulm",
-      "beginn": "2026-11-21T10:00",
-      "kategorie": "markt",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53157/",
-      "bild": null
-    },
-    {
-      "titel": "Meeresschutztag Ulm",
-      "ort": "Bürgerhaus Mitte, Ulm",
-      "beginn": "2026-11-21T10:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53238/",
-      "bild": null
-    },
-    {
-      "titel": "Mobilität im Wandel",
-      "ort": "m25, Ulm",
-      "beginn": "2026-11-21T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53240/",
-      "bild": null
-    },
-    {
-      "titel": "Louise Stomps. Konturen des Inneren",
-      "ort": "Edwin Scharff MuseumKunstmuseum, Kunstmuseum, Neu-Ulm",
-      "beginn": "2026-11-21T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53652/",
-      "bild": null
-    },
-    {
-      "titel": "GRÜN kann ab und zu auch sehr skurril sein",
-      "ort": "MSZU - Müller Schießzentrum Ulm",
-      "beginn": "2026-11-21T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54072/",
-      "bild": null
-    },
-    {
-      "titel": "Internationaler Vorlesetag",
-      "ort": "Kinderbibliothek Ulm",
-      "beginn": "2026-11-21T10:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53539/",
-      "bild": null
-    },
-    {
-      "titel": "Ausstellung \"Hochschule für Gestaltung Ulm. Von der Stunde Null bis 1968\"",
-      "ort": "HfG-Archiv Ulm",
-      "beginn": "2026-11-21T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/48141/",
-      "bild": null
-    },
-    {
-      "titel": "Kreatives Schreiben mit Spazieren – jeden Samstag",
-      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
-      "beginn": "2026-11-21T11:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51932/",
-      "bild": null
-    },
-    {
-      "titel": "Tag der offenen Tür Akademie für Gesundheitsberufe am Universitäsklinikum Ulm",
-      "ort": "Kloster Wiblingen, Ulm",
-      "beginn": "2026-11-21T11:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47359/",
-      "bild": null
-    },
-    {
-      "titel": "Stadtgeschichtliche Dauerausstellung",
-      "ort": "Haus der Stadtgeschichte / Stadtarchiv Ulm",
-      "beginn": "2026-11-21T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47192/",
-      "bild": null
-    },
-    {
-      "titel": "Siegfried Kreitner",
-      "ort": "Galerie Tobias Schrade, Ulm",
-      "beginn": "2026-11-21T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53740/",
-      "bild": null
-    },
-    {
-      "titel": "Neue Ausstellung „Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bundesrepublik“",
-      "ort": "HfG-Archiv Ulm",
-      "beginn": "2026-11-21T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53777/",
-      "bild": null
-    },
-    {
-      "titel": "Die Einsteins - Museum einer Ulmer Familie",
-      "ort": "Museum „Die Einsteins“, Ulm",
-      "beginn": "2026-11-21T11:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51014/",
-      "bild": null
-    },
-    {
-      "titel": "Adventsmarkt St. Georg",
-      "ort": "Kath. Gemeindehaus St. Georg, Ulm",
-      "beginn": "2026-11-21T12:00",
-      "kategorie": "festival",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53886/",
-      "bild": null
-    },
-    {
-      "titel": "Die Jurte auf dem Weihnachtsmarkt",
-      "ort": "Jurte auf dem Ulmer Weihnachtsmarkt",
-      "beginn": "2026-11-21T12:30",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47316/",
-      "bild": null
-    },
-    {
-      "titel": "So klingt Advent",
-      "ort": "Spielburg Cafe, Blaustein",
-      "beginn": "2026-11-21T13:00",
-      "kategorie": "festival",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53203/",
-      "bild": null
-    },
-    {
       "titel": "Komm, spiel mit!",
       "ort": "Edwin-Scharff-Haus, Neu-Ulm",
-      "beginn": "2026-11-21T14:00",
+      "beginn": "2026-11-22T10:00",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52731/",
       "bild": null
     },
     {
-      "titel": "Terrazzo Workshop Ulm",
-      "ort": "werk.stadt.ulm",
-      "beginn": "2026-11-21T14:00",
-      "kategorie": "kurs",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51115/",
+      "titel": "Louise Stomps. Konturen des Inneren",
+      "ort": "Edwin Scharff MuseumKunstmuseum, Kunstmuseum, Neu-Ulm",
+      "beginn": "2026-11-22T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53652/",
       "bild": null
     },
     {
       "titel": "Schlittschuhlaufen",
       "ort": "Eissportanlage des Donaubad, Neu-Ulm",
-      "beginn": "2026-11-21T14:00",
+      "beginn": "2026-11-22T10:00",
       "kategorie": "sport",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53757/",
-      "bild": null
-    },
-    {
-      "titel": "VIELFALT VERBINDET - MIT HERZ & HAND",
-      "ort": "Haus der Nachhaltigkeit, Neu-Ulm",
-      "beginn": "2026-11-21T14:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54033/",
-      "bild": null
-    },
-    {
-      "titel": "Stadtführung mit Besichtigung des Münsters",
-      "ort": "Tourist-Information, Stadthaus, Ulm",
-      "beginn": "2026-11-21T14:30",
-      "kategorie": "kurs",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/38736/",
-      "bild": null
-    },
-    {
-      "titel": "Samstagsnachmittag - Spazieren und Leute treffen",
-      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
-      "beginn": "2026-11-21T15:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/50639/",
-      "bild": null
-    },
-    {
-      "titel": "ULMFASSBAR",
-      "ort": "Florian Zimmer Theater, Neu-Ulm",
-      "beginn": "2026-11-21T15:00",
-      "kategorie": "festival",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52889/",
-      "bild": null
-    },
-    {
-      "titel": "Gerda gackert für Gerechtigkeit",
-      "ort": "Theater Mücke, Ulm",
-      "beginn": "2026-11-21T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53596/",
-      "bild": null
-    },
-    {
-      "titel": "Aufregung im Königreich",
-      "ort": "Erstes Ulmer Kasperle Theater",
-      "beginn": "2026-11-21T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/3052/",
-      "bild": null
-    },
-    {
-      "titel": "Hinter den Kulissen",
-      "ort": "Theater UlmGROSSES HAUS, GROSSES HAUS",
-      "beginn": "2026-11-21T15:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53681/",
-      "bild": null
-    },
-    {
-      "titel": "Smartphone und Sicherheit",
-      "ort": "altersarmut Ulm nein e.V.",
-      "beginn": "2026-11-21T15:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54021/",
-      "bild": null
-    },
-    {
-      "titel": "Foto Walk: spazieren und fotografieren – jeden Samstag",
-      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
-      "beginn": "2026-11-21T16:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47800/",
-      "bild": null
-    },
-    {
-      "titel": "Der originale Wintertreff im Löwen",
-      "ort": "Klosterhof Söflingen, Ulm",
-      "beginn": "2026-11-21T17:00",
-      "kategorie": "markt",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53938/",
-      "bild": null
-    },
-    {
-      "titel": "Hach, bin ich wieder ein Schelm",
-      "ort": "Theater Neu-Ulm",
-      "beginn": "2026-11-21T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53496/",
-      "bild": null
-    },
-    {
-      "titel": "Konzert Winni Elflein Bluesband",
-      "ort": "Museum Ulm",
-      "beginn": "2026-11-21T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53742/",
-      "bild": null
-    },
-    {
-      "titel": "Eisdisco - Der coolste Samstagabend!",
-      "ort": "Eissportanlage des Donaubad, Neu-Ulm",
-      "beginn": "2026-11-21T19:00",
-      "kategorie": "disko",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53756/",
-      "bild": null
-    },
-    {
-      "titel": "Kipppunkte",
-      "ort": "Theater UlmGROSSES HAUS, GROSSES HAUS",
-      "beginn": "2026-11-21T19:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53687/",
-      "bild": null
-    },
-    {
-      "titel": "Blueskonzert Winni Elflein",
-      "ort": "Museum Ulm",
-      "beginn": "2026-11-21T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53880/",
-      "bild": null
-    },
-    {
-      "titel": "Thomas Huber",
-      "ort": "einstein Boulderhalle Ulm",
-      "beginn": "2026-11-21T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53249/",
-      "bild": null
-    },
-    {
-      "titel": "Teatro Open Stage",
-      "ort": "Haus der Nachhaltigkeit, Neu-Ulm",
-      "beginn": "2026-11-21T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51334/",
-      "bild": null
-    },
-    {
-      "titel": "Eure Mütter",
-      "ort": "ROXY UlmWerkhalle, Werkhalle",
-      "beginn": "2026-11-21T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/50598/",
-      "bild": null
-    },
-    {
-      "titel": "Caligula",
-      "ort": "theaterWerkstatt Ulm e.V.",
-      "beginn": "2026-11-21T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53049/",
-      "bild": null
-    },
-    {
-      "titel": "Omi Alarm",
-      "ort": "Theaterei Herrlingen, Blaustein",
-      "beginn": "2026-11-21T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/49671/",
-      "bild": null
-    },
-    {
-      "titel": "Helt Oncale",
-      "ort": "Zum fröhlichen Nix - Kleinkunst-Cafe, Blaubeuren",
-      "beginn": "2026-11-21T20:00",
-      "kategorie": "konzert",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53533/",
-      "bild": null
-    },
-    {
-      "titel": "Der „Pfefferle und sein Ernst“",
-      "ort": "Seeberger Genusswelt GmbH, Ulm",
-      "beginn": "2026-11-21T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52457/",
-      "bild": null
-    },
-    {
-      "titel": "SASSAFRASS // DIE JUNKES",
-      "ort": "Hemperium, Ulm",
-      "beginn": "2026-11-21T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53970/",
-      "bild": null
-    },
-    {
-      "titel": "Bleach To Black",
-      "ort": "Fiddler’s Green Irish Pub, Pfaffenhofen",
-      "beginn": "2026-11-21T20:30",
-      "kategorie": "konzert",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53170/",
-      "bild": null
-    },
-    {
-      "titel": "SPIN BACK TIMES | OLD SCHOOL",
-      "ort": "Cocomo Club Ulm",
-      "beginn": "2026-11-21T21:00",
-      "kategorie": "disko",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53456/",
-      "bild": null
-    },
-    {
-      "titel": "Eltern mit Baby Spaziergang – jeden Sonntag",
-      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
-      "beginn": "2026-11-22T09:30",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47802/",
-      "bild": null
-    },
-    {
-      "titel": "Gottesdienst",
-      "ort": "Connect Church Ulm",
-      "beginn": "2026-11-22T10:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47593/",
       "bild": null
     },
     {
@@ -431,6 +47,54 @@
       "beginn": "2026-11-22T10:00",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54034/",
+      "bild": null
+    },
+    {
+      "titel": "Ausstellung \"Hochschule für Gestaltung Ulm. Von der Stunde Null bis 1968\"",
+      "ort": "HfG-Archiv Ulm",
+      "beginn": "2026-11-22T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/48141/",
+      "bild": null
+    },
+    {
+      "titel": "Zwischen Berlin und Tbilissi. Junge Fotograf*innen schauen auf ihre Welt",
+      "ort": "Stadthaus Ulm",
+      "beginn": "2026-11-22T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52996/",
+      "bild": null
+    },
+    {
+      "titel": "Stadtgeschichtliche Dauerausstellung",
+      "ort": "Haus der Stadtgeschichte / Stadtarchiv Ulm",
+      "beginn": "2026-11-22T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47192/",
+      "bild": null
+    },
+    {
+      "titel": "Neue Ausstellung „Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bundesrepublik“",
+      "ort": "HfG-Archiv Ulm",
+      "beginn": "2026-11-22T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53777/",
+      "bild": null
+    },
+    {
+      "titel": "Die Einsteins - Museum einer Ulmer Familie",
+      "ort": "Museum „Die Einsteins“, Ulm",
+      "beginn": "2026-11-22T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51014/",
+      "bild": null
+    },
+    {
+      "titel": "Stadtführung mit Besichtigung des Münsters",
+      "ort": "Tourist-Information, Stadthaus, Ulm",
+      "beginn": "2026-11-22T11:30",
+      "kategorie": "kurs",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/38736/",
       "bild": null
     },
     {
@@ -458,6 +122,14 @@
       "bild": null
     },
     {
+      "titel": "Mobilität im Wandel",
+      "ort": "m25, Ulm",
+      "beginn": "2026-11-22T14:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53240/",
+      "bild": null
+    },
+    {
       "titel": "Lust auf einen Spaziergang?",
       "ort": "Haltestelle Botanischer Garten, Linie 2, Steig A, Ulm",
       "beginn": "2026-11-22T14:30",
@@ -474,6 +146,14 @@
       "bild": null
     },
     {
+      "titel": "ULMFASSBAR",
+      "ort": "Florian Zimmer Theater, Neu-Ulm",
+      "beginn": "2026-11-22T15:00",
+      "kategorie": "festival",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52889/",
+      "bild": null
+    },
+    {
       "titel": "Öffentliche Führung in der Sonderausstellung „Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bundesrepublik“",
       "ort": "HfG-Archiv Ulm",
       "beginn": "2026-11-22T15:00",
@@ -482,11 +162,43 @@
       "bild": null
     },
     {
+      "titel": "Gerda gackert für Gerechtigkeit",
+      "ort": "Theater Mücke, Ulm",
+      "beginn": "2026-11-22T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53596/",
+      "bild": null
+    },
+    {
+      "titel": "Aufregung im Königreich",
+      "ort": "Erstes Ulmer Kasperle Theater",
+      "beginn": "2026-11-22T15:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/3052/",
+      "bild": null
+    },
+    {
+      "titel": "Der originale Wintertreff im Löwen",
+      "ort": "Klosterhof Söflingen, Ulm",
+      "beginn": "2026-11-22T15:00",
+      "kategorie": "markt",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53938/",
+      "bild": null
+    },
+    {
       "titel": "Ball im Savoy",
       "ort": "Theater UlmGROSSES HAUS, GROSSES HAUS",
       "beginn": "2026-11-22T15:00",
       "kategorie": "kultur",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53690/",
+      "bild": null
+    },
+    {
+      "titel": "Hach, bin ich wieder ein Schelm",
+      "ort": "Theater Neu-Ulm",
+      "beginn": "2026-11-22T16:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53496/",
       "bild": null
     },
     {
@@ -503,6 +215,14 @@
       "beginn": "2026-11-22T17:00",
       "kategorie": "konzert",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53184/",
+      "bild": null
+    },
+    {
+      "titel": "Omi Alarm",
+      "ort": "Theaterei Herrlingen, Blaustein",
+      "beginn": "2026-11-22T17:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/49671/",
       "bild": null
     },
     {
@@ -562,6 +282,14 @@
       "bild": null
     },
     {
+      "titel": "Ulmer Weihnachtsmarkt vom 19.11.26 bis 22.12.26",
+      "ort": "Münsterplatz Ulm",
+      "beginn": "2026-11-23T10:00",
+      "kategorie": "markt",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53157/",
+      "bild": null
+    },
+    {
       "titel": "Quartierstreff Mitte/Ost",
       "ort": "Bürgerhaus MitteCafeteria (EG), Cafeteria (EG), Ulm",
       "beginn": "2026-11-23T13:30",
@@ -575,6 +303,14 @@
       "beginn": "2026-11-23T15:00",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53318/",
+      "bild": null
+    },
+    {
+      "titel": "Die Jurte auf dem Weihnachtsmarkt",
+      "ort": "Jurte auf dem Ulmer Weihnachtsmarkt",
+      "beginn": "2026-11-23T16:30",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47316/",
       "bild": null
     },
     {
@@ -647,6 +383,14 @@
       "beginn": "2026-11-24T09:30",
       "kategorie": "sport",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51459/",
+      "bild": null
+    },
+    {
+      "titel": "GRÜN kann ab und zu auch sehr skurril sein",
+      "ort": "MSZU - Müller Schießzentrum Ulm",
+      "beginn": "2026-11-24T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54072/",
       "bild": null
     },
     {
@@ -791,6 +535,22 @@
       "beginn": "2026-11-24T20:00",
       "kategorie": "sport",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/43525/",
+      "bild": null
+    },
+    {
+      "titel": "Ulmer Wochenmarkt | Münsterplatz",
+      "ort": "Münsterplatz Ulm",
+      "beginn": "2026-11-25T07:00",
+      "kategorie": "markt",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/41922/",
+      "bild": null
+    },
+    {
+      "titel": "Neu-Ulmer Wochenmarkt",
+      "ort": "Petrusplatz, Neu-Ulm",
+      "beginn": "2026-11-25T07:00",
+      "kategorie": "markt",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/1050/",
       "bild": null
     },
     {
@@ -1122,6 +882,14 @@
       "bild": null
     },
     {
+      "titel": "Kipppunkte",
+      "ort": "Theater UlmGROSSES HAUS, GROSSES HAUS",
+      "beginn": "2026-11-26T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53687/",
+      "bild": null
+    },
+    {
       "titel": "Teilzeit-Talk online",
       "ort": "online Angebot, Ulm",
       "beginn": "2026-11-26T20:30",
@@ -1354,6 +1122,14 @@
       "bild": null
     },
     {
+      "titel": "Caligula",
+      "ort": "theaterWerkstatt Ulm e.V.",
+      "beginn": "2026-11-27T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53049/",
+      "bild": null
+    },
+    {
       "titel": "Emanzenpanzer & the LoveBites",
       "ort": "Hemperium, Ulm",
       "beginn": "2026-11-27T20:00",
@@ -1418,6 +1194,14 @@
       "bild": null
     },
     {
+      "titel": "Kreatives Schreiben mit Spazieren – jeden Samstag",
+      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
+      "beginn": "2026-11-28T11:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51932/",
+      "bild": null
+    },
+    {
       "titel": "Einladung Eröffnungsfeier KreativEvents",
       "ort": "KreativEvents Studio., Ulm",
       "beginn": "2026-11-28T11:00",
@@ -1450,6 +1234,14 @@
       "bild": null
     },
     {
+      "titel": "Samstagsnachmittag - Spazieren und Leute treffen",
+      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
+      "beginn": "2026-11-28T15:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/50639/",
+      "bild": null
+    },
+    {
       "titel": "Theater Couturier: Weihnachten beim kleinen Hasen",
       "ort": "Zehntstadel Leipheim",
       "beginn": "2026-11-28T15:00",
@@ -1479,6 +1271,14 @@
       "beginn": "2026-11-28T15:30",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53802/",
+      "bild": null
+    },
+    {
+      "titel": "Foto Walk: spazieren und fotografieren – jeden Samstag",
+      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
+      "beginn": "2026-11-28T16:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47800/",
       "bild": null
     },
     {
@@ -1538,6 +1338,14 @@
       "bild": null
     },
     {
+      "titel": "Eisdisco - Der coolste Samstagabend!",
+      "ort": "Eissportanlage des Donaubad, Neu-Ulm",
+      "beginn": "2026-11-28T19:00",
+      "kategorie": "disko",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53756/",
+      "bild": null
+    },
+    {
       "titel": "Basketball 2. Regionalliga Baden-Württemberg",
       "ort": "Theodor-Pfizer-Halle, Ulm",
       "beginn": "2026-11-28T20:00",
@@ -1586,6 +1394,14 @@
       "bild": null
     },
     {
+      "titel": "Eltern mit Baby Spaziergang – jeden Sonntag",
+      "ort": "Treffpunkt: vor der Stadtbibliothek Ulm",
+      "beginn": "2026-11-29T09:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47802/",
+      "bild": null
+    },
+    {
       "titel": "Bhakti Wochenende",
       "ort": "Sri Neem Karoli Baba Mandir, Neu-Ulm",
       "beginn": "2026-11-29T10:00",
@@ -1599,6 +1415,14 @@
       "beginn": "2026-11-29T10:00",
       "kategorie": "kultur",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53101/",
+      "bild": null
+    },
+    {
+      "titel": "Gottesdienst",
+      "ort": "Connect Church Ulm",
+      "beginn": "2026-11-29T10:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/47593/",
       "bild": null
     },
     {
@@ -2135,6 +1959,150 @@
       "beginn": "2026-12-05T10:00",
       "kategorie": "sonstiges",
       "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/49985/",
+      "bild": null
+    },
+    {
+      "titel": "Action Painting",
+      "ort": "KreativEvents Studio., Ulm",
+      "beginn": "2026-12-05T13:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54125/",
+      "bild": null
+    },
+    {
+      "titel": "Instawalk zur Fotoausstellung »Außer Betrieb«",
+      "ort": "EinsteinHaus - Ulmer Volkshochschule",
+      "beginn": "2026-12-05T14:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53506/",
+      "bild": null
+    },
+    {
+      "titel": "Terrazzo Workshop",
+      "ort": "KreativEvents Studio., Ulm",
+      "beginn": "2026-12-05T14:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54114/",
+      "bild": null
+    },
+    {
+      "titel": "Nikolausfenster",
+      "ort": "Familienzentrum Neu-Ulm",
+      "beginn": "2026-12-05T14:30",
+      "kategorie": "festival",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54026/",
+      "bild": null
+    },
+    {
+      "titel": "DANCE MASTERS! Best of Irish Dance",
+      "ort": "Edwin-Scharff-Haus, Neu-Ulm",
+      "beginn": "2026-12-05T19:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/52737/",
+      "bild": null
+    },
+    {
+      "titel": "A Christmas Overture (Vol. 2)",
+      "ort": "KornhausKornhaussaal, Kornhaussaal, Ulm",
+      "beginn": "2026-12-05T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51797/",
+      "bild": null
+    },
+    {
+      "titel": "Swingin' Christmas",
+      "ort": "Freie Waldorfschule Römerstraße, Ulm",
+      "beginn": "2026-12-05T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53981/",
+      "bild": null
+    },
+    {
+      "titel": "Live im Hexenhaus e.V. Ulm: SWEEPING DEATH + ANTIPEEWEE + DEADLY SILENCE",
+      "ort": "Hexenhaus e.V., Ulm",
+      "beginn": "2026-12-05T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54066/",
+      "bild": null
+    },
+    {
+      "titel": "Low key orchestra.",
+      "ort": "Café Aegis, Ulm",
+      "beginn": "2026-12-05T19:30",
+      "kategorie": "konzert",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53281/",
+      "bild": null
+    },
+    {
+      "titel": "Choriosity x Anders",
+      "ort": "ROXY UlmWerkhalle, Werkhalle",
+      "beginn": "2026-12-05T19:30",
+      "kategorie": "konzert",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53878/",
+      "bild": null
+    },
+    {
+      "titel": "Moving Toppings",
+      "ort": "ROXY UlmStudio, Studio",
+      "beginn": "2026-12-05T20:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53248/",
+      "bild": null
+    },
+    {
+      "titel": "Wintergala Tanzball",
+      "ort": "Donauhalle, Ulm",
+      "beginn": "2026-12-05T20:00",
+      "kategorie": "festival",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53988/",
+      "bild": null
+    },
+    {
+      "titel": "True Crime",
+      "ort": "Tourist-Information, Stadthaus, Ulm",
+      "beginn": "2026-12-05T20:15",
+      "kategorie": "kurs",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/38834/",
+      "bild": null
+    },
+    {
+      "titel": "BATIKO",
+      "ort": "Fiddler’s Green Irish Pub, Pfaffenhofen",
+      "beginn": "2026-12-05T20:30",
+      "kategorie": "sonstiges",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53806/",
+      "bild": null
+    },
+    {
+      "titel": "Private Event",
+      "ort": "Cocomo Club Ulm",
+      "beginn": "2026-12-05T21:00",
+      "kategorie": "disko",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53461/",
+      "bild": null
+    },
+    {
+      "titel": "Santas Old School Hip Hop Night",
+      "ort": "Wiley Club, Neu-Ulm",
+      "beginn": "2026-12-05T21:30",
+      "kategorie": "festival",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/51291/",
+      "bild": null
+    },
+    {
+      "titel": "90's Kicks!",
+      "ort": "Studentencafé, Ulm",
+      "beginn": "2026-12-05T23:00",
+      "kategorie": "disko",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/54046/",
+      "bild": null
+    },
+    {
+      "titel": "Bilderbuchkino im Museum \"Die Einsteins\"",
+      "ort": "Museum „Die Einsteins“, Ulm",
+      "beginn": "2026-12-06T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/id/53102/",
       "bild": null
     }
   ]
