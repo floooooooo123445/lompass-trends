@@ -1,6 +1,6 @@
 {
   "stadt": "karlsruhe",
-  "stand": "2026-11-23",
+  "stand": "2026-11-24",
   "quellen": [
     {
       "herausgeber": "Stadt Karlsruhe",
@@ -10,115 +10,11 @@
   ],
   "termine": [
     {
-      "titel": "Stadtwerke Karlsruhe WINTERZEIT 2026/2027",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-23",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/stadtwerke_karlsruhe_winterzeit20262027n",
-      "bild": null
-    },
-    {
-      "titel": "Kinderland St. Stephan",
-      "ort": "Kirchplatz St. Stephan, Karlsruhe",
-      "beginn": "2026-11-23T11:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/kinderland_st_stephan",
-      "bild": null
-    },
-    {
-      "titel": "Karlsruher Christkindlesmarkt",
-      "ort": "Marktplatz Karlsruhe",
-      "beginn": "2026-11-23T11:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruher_christkindlesmarkt",
-      "bild": null
-    },
-    {
-      "titel": "VORLESEZEIT in der Waldstadt",
-      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Waldstadt",
-      "beginn": "2026-11-23T15:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_der_waldstadt-24",
-      "bild": null
-    },
-    {
-      "titel": "Vorlesezeit in Grötzingen",
-      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Grötzingen",
-      "beginn": "2026-11-23T16:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_grotzingen-2",
-      "bild": null
-    },
-    {
-      "titel": "Pilzberatung 2026",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-11-23T17:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/pilzberatung2026n-3",
-      "bild": null
-    },
-    {
-      "titel": "Zeitreise - Vom Urknall zum Menschen",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-23T19:00",
-      "kategorie": "sonstiges",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/zeitreise_vom_urknall_zum_menschen-100",
-      "bild": null
-    },
-    {
-      "titel": "PRIMA Abend Klavier",
-      "ort": "Hochschule für Musik, Velte-Saal, Karlsruhe",
-      "beginn": "2026-11-23T19:00",
-      "kategorie": "konzert",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/prima_abend_klavier-2",
-      "bild": null
-    },
-    {
-      "titel": "All das Schöne",
-      "ort": "Staatstheater, siehe Beschreibung, Karlsruhe",
-      "beginn": "2026-11-23T19:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/all_das_schone",
-      "bild": null
-    },
-    {
-      "titel": "ARNE SEMSROTT",
-      "ort": "Kulturzentrum Tollhaus, Karlsruhe",
-      "beginn": "2026-11-23T20:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/arne_semsrott",
-      "bild": null
-    },
-    {
       "titel": "Bücherflohmarkt",
       "ort": "Stadtbibliothek Karlsruhe, Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "beginn": "2026-11-24T10:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/bucherflohmarkt-4",
-      "bild": null
-    },
-    {
-      "titel": "Sprechstunde: Einfach digital!",
-      "ort": "Karlsruhe",
-      "beginn": "2026-11-24T10:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sprechstunde_einfach_digital-57",
-      "bild": null
-    },
-    {
-      "titel": "„Lies mal wieder ein Buch“",
-      "ort": "Stadtbibliothek Karlsruhe, Stadtteilbibliothek Grötzingen",
-      "beginn": "2026-11-24T14:00",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/lies_mal_wieder_ein_buch",
-      "bild": null
-    },
-    {
-      "titel": "Experimente (5–7 Jahre): Sehen und Hören",
-      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
-      "beginn": "2026-11-24T14:30",
-      "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/experimente_57_jahre_sehen_und_horen",
       "bild": null
     },
     {
@@ -710,7 +606,7 @@
       "ort": "Badisches Staatstheater, INSEL, Karlsruhe",
       "beginn": "2026-11-27T11:00",
       "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/familienalbumkarlsruhe-4",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/familienalbumkarlsruhe",
       "bild": null
     },
     {
@@ -822,7 +718,7 @@
       "ort": "Staatstheater, siehe Beschreibung, Karlsruhe",
       "beginn": "2026-11-27T19:00",
       "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-3",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere",
       "bild": null
     },
     {
@@ -942,7 +838,7 @@
       "ort": "Staatstheater, siehe Beschreibung, Karlsruhe",
       "beginn": "2026-11-27T21:00",
       "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-4",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-1",
       "bild": null
     },
     {
@@ -1470,7 +1366,7 @@
       "ort": "Staatstheater, siehe Beschreibung, Karlsruhe",
       "beginn": "2026-11-29T18:00",
       "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-5",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-2",
       "bild": null
     },
     {
@@ -1534,7 +1430,7 @@
       "ort": "Staatstheater, siehe Beschreibung, Karlsruhe",
       "beginn": "2026-11-29T20:00",
       "kategorie": "kultur",
-      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-6",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-3",
       "bild": null
     },
     {
@@ -2943,6 +2839,118 @@
       "beginn": "2026-12-07T11:00",
       "kategorie": "kultur",
       "quelle": "https://kalender.karlsruhe.de/db/termine/theater/der_zauberer_von_oz-6",
+      "bild": null
+    },
+    {
+      "titel": "Die Lebensweisen - eine Generation steuert auf die Rente zu",
+      "ort": "Kulturküche Karlsruhe",
+      "beginn": "2026-12-07T17:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/die_lebensweisen_eine_generation_steuert-4",
+      "bild": null
+    },
+    {
+      "titel": "Öffentliche Entzündung der 4. Chanukka-Kerze auf dem Marktplatz",
+      "ort": "Auf dem Marktplatz, Karlsruhe",
+      "beginn": "2026-12-07T18:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/offentliche_entzundung_der_4_chanukka-1",
+      "bild": null
+    },
+    {
+      "titel": "Nicht privat - Häusliche Gewalt geht uns alle an",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-07T18:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/nicht_privat_hausliche_gewalt_geht_uns_alle_an",
+      "bild": null
+    },
+    {
+      "titel": "Resilienz der Energieversorgung",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-07T18:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/wirtschaft/resilienz_der_energieversorgung",
+      "bild": null
+    },
+    {
+      "titel": "PRIMA Abend Klavier",
+      "ort": "Hochschule für Musik, Genuit-Saal, Karlsruhe",
+      "beginn": "2026-12-07T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/prima_abend_klavier-5",
+      "bild": null
+    },
+    {
+      "titel": "7. Alumni Konzert",
+      "ort": "Hochschule für Musik Karlsruhe, CampusOne, Wolfgang-Rihm-Forum",
+      "beginn": "2026-12-07T19:00",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/7_alumni_konzert",
+      "bild": null
+    },
+    {
+      "titel": "Singer Club Feierabendchor",
+      "ort": "Ziegler Saal Restaurant Akropolis, Karlsruhe",
+      "beginn": "2026-12-07T19:30",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/singer_club_feierabendchor-30",
+      "bild": null
+    },
+    {
+      "titel": "Kinderballett – Der Nussknacker",
+      "ort": "Konzerthaus / Kongresszentrum Karlsruhe",
+      "beginn": "2026-12-08",
+      "kategorie": "konzert",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/musik/kinderballett_der_nussknacker",
+      "bild": null
+    },
+    {
+      "titel": "Der Zauberer von Oz",
+      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
+      "beginn": "2026-12-08T09:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/der_zauberer_von_oz-7",
+      "bild": null
+    },
+    {
+      "titel": "Leggiamo i giornali",
+      "ort": "Centro = Schul- und Kulturzentrum der Deutsch-Italienischen Gesellschaft e.V. Karlsruhe",
+      "beginn": "2026-12-08T10:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/leggiamo_i_giornali",
+      "bild": null
+    },
+    {
+      "titel": "Sprechstunde: Einfach digital!",
+      "ort": "Karlsruhe",
+      "beginn": "2026-12-08T10:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/literatur/sprechstunde_einfach_digital-61",
+      "bild": null
+    },
+    {
+      "titel": "Der Zauberer von Oz",
+      "ort": "Badisches Staatstheater, Großes Haus, Karlsruhe",
+      "beginn": "2026-12-08T11:00",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/theater/der_zauberer_von_oz-8",
+      "bild": null
+    },
+    {
+      "titel": "Seniorenweihnachtsfeier",
+      "ort": "Festhalle Durlach, Karlsruhe",
+      "beginn": "2026-12-08T14:00",
+      "kategorie": "sonstiges",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/stadtleben/seniorenweihnachtsfeier-1",
+      "bild": null
+    },
+    {
+      "titel": "Experimente (5–7 Jahre): Licht",
+      "ort": "Staatliches Museum für Naturkunde Karlsruhe",
+      "beginn": "2026-12-08T14:30",
+      "kategorie": "kultur",
+      "quelle": "https://kalender.karlsruhe.de/db/termine/ausstellungen/experimente_57_jahre_licht",
       "bild": null
     }
   ]
